@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="utf-8">
+  <style>
+  
+	.states {
+	fill: #222;
+	}
+	
+	.states :hover {
+	fill: orange;
+	}
+  
+	body {
+		margin: 0;
+		background-color: lavender;
+		font-family: 'Roboto', sans-serif;
+		font-weight: 300;
+	}
+
+	#container {
+		width: 900px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 50px;
+		padding: 5px 50px 10px 50px;
+		background-color: white;
+		box-shadow: 1px 1px 1px 1px #fff;
+	}
+
+	img.displayed {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+	}
+
+	h1 {
+		font-weight: 700;
+		color: #4e5a64;
+		font-size: 48px;
+		margin-bottom: 10px;
+	}
+
+	h2 {
+		font-weight: 700;
+		color: #4e5a64;
+		font-size: 26px;
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+		}
+
+	p {
+		font-size: 16px;
+		margin: 15px 0 10px 0;
+	}
+
+	svg {
+		background-color: white;
+        margin: -50px -120px;
+	}
+	
+	div.tooltip {
+        color: #222;
+        background-color: #fff;
+        padding: .5em;
+        text-shadow: #f5f5f5 0 1px 0;
+        border-radius: 2px;
+        opacity: 0.9;
+        position: absolute;
+    }
+
+.bubble{fill:red; fill-opacity: .5;}
+.hover{stroke:#666; fill-opacity: .8;}
+  
+  </style>  
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.19/topojson.min.js">
+    </script>
+  </head>
+  <body>
+<div id="pie"></div>
+  </body>
+<script src="js/geographic.js"></script>
+<!--<script src="js/pieChart.js"></script>-->
+</html>

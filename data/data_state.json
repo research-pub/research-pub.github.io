@@ -1,0 +1,72 @@
+{"features": [{
+  "STATE_CODE":"1",
+  "STATE_NAME":"New South Wales",
+  "TWEET_NUMBER":1500,
+  "POS_NUMBER":800,
+  "NEG_NUMBER":400,
+  "NEU_NUMBER":700
+},
+{
+  "STATE_CODE":"2",
+  "STATE_NAME":"Victoria",
+  "TWEET_NUMBER":1800,
+  "POS_NUMBER":800,
+  "NEG_NUMBER":600,
+  "NEU_NUMBER":400
+},
+{
+  "STATE_CODE":"3",
+  "STATE_NAME":"Queensland",
+  "TWEET_NUMBER":1200,
+  "POS_NUMBER":600,
+  "NEG_NUMBER":400,
+  "NEU_NUMBER":200
+},
+{
+  "STATE_CODE":"4",
+  "STATE_NAME":"South Australia",
+  "TWEET_NUMBER":1000,
+  "POS_NUMBER":500,
+  "NEG_NUMBER":300,
+  "NEU_NUMBER":200
+},
+{
+  "STATE_CODE":"5",
+  "STATE_NAME":"Western Australia",
+  "TWEET_NUMBER":800,
+  "POS_NUMBER":400,
+  "NEG_NUMBER":200,
+  "NEU_NUMBER":200
+},
+{
+  "STATE_CODE":"6",
+  "STATE_NAME":"Tasmania",
+  "TWEET_NUMBER":100,
+  "POS_NUMBER":40,
+  "NEG_NUMBER":30,
+  "NEU_NUMBER":30
+},
+  {
+  "STATE_CODE":"7",
+  "STATE_NAME":"Northern Territory",
+  "TWEET_NUMBER":500,
+  "POS_NUMBER":300,
+  "NEG_NUMBER":150,
+  "NEU_NUMBER":50
+},
+{
+  "STATE_CODE":"8",
+  "STATE_NAME":"ACT",
+  "TWEET_NUMBER":10,
+  "POS_NUMBER":5,
+  "NEG_NUMBER":3,
+  "NEU_NUMBER":2
+},
+{
+  "STATE_CODE":"9",
+  "STATE_NAME":"Western Australia",
+  "TWEET_NUMBER":0,
+  "POS_NUMBER":0,
+  "NEG_NUMBER":0,
+  "NEU_NUMBER":0
+}]}
