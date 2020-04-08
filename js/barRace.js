@@ -25,7 +25,7 @@
     let title = svg.append('text')
      .attr('class', 'title')
      .attr('y', 24)
-     .html('Sentimen trends');
+     .html(panel_title);
 
     let subTitle = svg.append("text")
      .attr("class", "subTitle")

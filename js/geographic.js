@@ -78,8 +78,17 @@
 				}
 			}
 			return radius(tweet_number); //radius var with input (domain) and output (range)
-		})
+		});
 
       })
       });
-      d3.select(self.frameElement).style("height", height + "px");
+
+	  d3.select(self.frameElement).style("height", height + "px");
+	  // var zoom = d3.zoom()
+      // .scaleExtent([1, 8])
+      // .on('zoom', function() {
+      //     g.selectAll('path')
+      //      .attr('transform', d3.event.transform);
+		// });
+		// svg.call(zoom);
+
