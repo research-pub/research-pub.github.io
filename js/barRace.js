@@ -44,7 +44,7 @@
      let date = new Date('2020-03-25');
      var date_str = date.toISOString().slice(0,10);
 
-  d3.csv('data/brand_values.csv').then(function(data) {
+  d3.csv(data_source).then(function(data) {
     //if (error) throw error;
 
       console.log(data);
