@@ -2,11 +2,16 @@
   var top_n = 12;
     var height = 500;
     var width = 700;
+    d3.select("body").append("button")
+        .attr('id',"replay")
+        .text("Replay Trends")
+    d3.select("body").append("br")
 
    var svg = d3.select("body").append("svg")
       .attr("width", width)
       .attr("height", height);
     var tickDuration = 500;
+
 
     const margin = {
       top: 80,
@@ -250,6 +255,8 @@
      date.setDate(date.getDate() + 1)
      date_str = date.toISOString().slice(0,10);
    },tickDuration);
+
+
 
  });
 
