@@ -1,17 +1,18 @@
 //both female and male data
-var totals = [{
-     title: "Positive",
-     value: 286,
-     all: 1098
-     },
+var totals = [
      {
-     title: "Negative",
+     title: "Positive",
      value: 472,
      all: 1098
      },
      {
-     title: "Neural",
+     title: "Negative",
      value: 318,
+     all: 1098
+     },
+    {
+     title: "Neural",
+     value: 308,
      all: 1098
      }
 ];
@@ -92,6 +93,7 @@ var path = svg.selectAll('path')
      .append('path')
      .attr('d', arc)
      .attr('fill', function (d, i) {
+
           return color(d.data.title);
      })
      .attr('transform', 'translate(0, 0)')
@@ -133,19 +135,19 @@ var legend = svg.selectAll('.legend') //the legend and placement
                  return 'translate(' + horz + ',' + vert + ')';
             });
 
-legend.append('circle') //keys
-        .style('fill', color)
-        .style('stroke', color)
-        .attr('cx', 0)
-        .attr('cy', 0)
-        .attr('r', '.5rem');
+    legend.append('circle') //keys
+            .style('fill', color)
+            .style('stroke', color)
+            .attr('cx', 0)
+            .attr('cy', 0)
+            .attr('r', '.5rem');
 
-legend.append('text') //labels
-        .attr('x', legendRectSize + legendSpacing)
-        .attr('y', legendRectSize - legendSpacing)
-        .text(function (d) {
-             return d;
-        });
+    legend.append('text') //labels
+            .attr('x', legendRectSize + legendSpacing)
+            .attr('y', legendRectSize - legendSpacing)
+            .text(function (d) {
+                 return d;
+            });
 
 function change(data) {
     var pie = d3.pie()
