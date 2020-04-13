@@ -159,4 +159,22 @@
          "value": 2,
          "all": 10
         }]
+},
+{
+  "STATE_CODE":"9",
+  "STATE_NAME":"Western Australia",
+  "TWEETS": [{
+         "title": "Positive",
+         "value": 0,
+         "all": 1
+          },
+         {
+         "title": "Negative",
+         "value": 0,
+         "all": 1
+         },
+        {"title": "Neural",
+         "value": 0,
+         "all": 1
+        }]
 }]}

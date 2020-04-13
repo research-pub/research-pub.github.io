@@ -80,8 +80,7 @@ function createChart (svg, data) {
       .style('font-size', 'medium')
       .text(d => d)
 
-  const stack = d3.stack()
-      .keys(valueKeys)
+  const stack = d3.stack().keys(valueKeys)
 
   // updates both the year + the chart type (group or stacked)
   function updateChart (data, chartType='group') {
@@ -132,7 +131,9 @@ function createChart (svg, data) {
   }
 }
 
-d3.json(data_source, function(error, data){
+d3.json(data_source, function(error, data_json){
+
+  var data = data_json.features[0].date_values
 
   //start with the first year selected
   const chart = createChart(document.querySelector('svg'), data)

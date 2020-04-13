@@ -124,15 +124,17 @@
 
     var url_geo = 'https://gist.githubusercontent.com/GerardoFurtado/02aa65e5522104cb692e/raw/' +
         '8108fbd4103a827e67444381ff594f7df8450411/aust.json'
-    var data_state_file = 'data/data_state.json'
-    var data_source = 'data/bar_data.json'
+    var data_state_file = 'data/snt_pie_all.json'
+    var data_source = 'data/snt_bar_age.json'
     d3.queue()
         .defer(d3.json, url_geo)
         .defer(d3.json, data_state_file)
         .defer(d3.json, data_source)
         .await(
-	    function(error, australia,state_tweets, bar_data) {
+	    function(error, australia,state_tweets, barData) {
         if (error) throw error;
+
+        // var bar_data = barData.features[0].date_values
 
         svg.selectAll("path")
             .attr("class", "states")
@@ -150,6 +152,14 @@
                         var obj = fs[i]
                         if (obj.STATE_CODE == d.properties.STATE_CODE){
                             var tweets = obj.TWEETS;
+                            break
+                        }
+                    }
+                    var fs_bar = barData.features;
+                    for (var i = 0; i < fs_bar.length; i++) {
+                        var obj = fs_bar[i]
+                        if (obj.state_code == d.properties.STATE_CODE){
+                            var bar_data = obj.date_values;
                             break
                         }
                     }
@@ -172,10 +182,18 @@
 				tooltip.html("")
 			});
         var fs = state_tweets.features;
+        var fs_bar = barData.features;
         for (var i = 0; i < fs.length; i++) {
             var obj = fs[i]
             if (obj.STATE_CODE == 0){
                 var tweets = obj.TWEETS;
+                break
+            }
+        }
+        for (var i = 0; i < fs_bar.length; i++) {
+            var obj = fs_bar[i]
+            if (obj.state_code == 0){
+                var bar_data = obj.date_values;
                 break
             }
         }

@@ -12,7 +12,6 @@
       .attr("height", height);
     var tickDuration = 500;
 
-
     const margin = {
       top: 80,
       right: 0,
@@ -44,8 +43,12 @@
      let date = new Date('2020-03-25');
      var date_str = date.toISOString().slice(0,10);
 
-  d3.csv(data_source).then(function(data) {
+  // d3.csv(data_source).then(function(data) {
+  d3.json(data_source).then(function(data_json) {
     //if (error) throw error;
+
+      console.log(data_json);
+      var data = data_json.features[0].groups[0].group_value
 
       console.log(data);
 
@@ -176,8 +179,7 @@
           .attr('y', d => y(top_n+1)+5)
           .remove();
 
-       let labels = svg.selectAll('.label')
-          .data(yearSlice, d => d.name);
+       let labels = svg.selectAll('.label').data(yearSlice, d => d.name);
 
        labels
         .enter()
@@ -191,7 +193,6 @@
           .duration(tickDuration)
           .ease(d3.easeLinear)
           .attr('y', d => y(d.rank)+5+((y(1)-y(0))/2)+1);
-
 
    	   labels
           .transition()
@@ -208,11 +209,7 @@
             .attr('x', d => x(d.value)-8)
             .attr('y', d => y(top_n+1)+5)
             .remove();
-
-
-
        let valueLabels = svg.selectAll('.valueLabel').data(yearSlice, d => d.name);
-
        valueLabels
           .enter()
           .append('text')
@@ -237,8 +234,6 @@
                  this.textContent = d3.format(',')(i(t));
               };
             });
-
-
       valueLabels
         .exit()
         .transition()
@@ -255,9 +250,6 @@
      date.setDate(date.getDate() + 1)
      date_str = date.toISOString().slice(0,10);
    },tickDuration);
-
-
-
  });
 
  const halo = function(text, strokeWidth) {

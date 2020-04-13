@@ -1,0 +1,1307 @@
+{
+  "category": "Gender",
+  "features": [
+    {
+      "state_code": "0",
+      "state_name": "Whole Australia",
+      "groups": [
+        {
+          "group_name": "Male",
+          "group_value": [
+            {
+              "name": "Neutral",
+              "value": 142,
+              "year": 2020.9,
+              "lastValue": 140,
+              "rank": 3
+            },
+            {
+              "name": "Neutral",
+              "value": 140,
+              "year": 2020.8,
+              "lastValue": 137,
+              "rank": 3
+            },
+            {
+              "name": "Neutral",
+              "value": 137,
+              "year": 2020.7,
+              "lastValue": 135,
+              "rank": 3
+            },
+            {
+              "name": "Neutral",
+              "value": 135,
+              "year": 2020.6,
+              "lastValue": 132,
+              "rank": 4
+            },
+            {
+              "name": "Neutral",
+              "value": 132,
+              "year": 2020.5,
+              "lastValue": 130,
+              "rank": 4
+            },
+            {
+              "name": "Neutral",
+              "value": 130,
+              "year": 2020.4,
+              "lastValue": 127,
+              "rank": 4
+            },
+            {
+              "name": "Neutral",
+              "value": 127,
+              "year": 2020.3,
+              "lastValue": 125,
+              "rank": 4
+            },
+            {
+              "name": "Neutral",
+              "value": 125,
+              "year": 2020.2,
+              "lastValue": 122,
+              "rank": 4
+            },
+            {
+              "name": "Neutral",
+              "value": 122,
+              "year": 2020.1,
+              "lastValue": 120,
+              "rank": 5
+            },
+            {
+              "name": "Neutral",
+              "value": 120,
+              "year": 2020.0,
+              "lastValue": 120,
+              "rank": 5
+            },
+            {
+              "name": "Positive",
+              "value": 211,
+              "year": 2020.9,
+              "lastValue": 208,
+              "rank": 1
+            },
+            {
+              "name": "Positive",
+              "value": 208,
+              "year": 2020.8,
+              "lastValue": 205,
+              "rank": 1
+            },
+            {
+              "name": "Positive",
+              "value": 205,
+              "year": 2020.7,
+              "lastValue": 202,
+              "rank": 1
+            },
+            {
+              "name": "Positive",
+              "value": 202,
+              "year": 2020.6,
+              "lastValue": 199,
+              "rank": 1
+            },
+            {
+              "name": "Positive",
+              "value": 199,
+              "year": 2020.5,
+              "lastValue": 196,
+              "rank": 1
+            },
+            {
+              "name": "Positive",
+              "value": 196,
+              "year": 2020.4,
+              "lastValue": 193,
+              "rank": 1
+            },
+            {
+              "name": "Positive",
+              "value": 193,
+              "year": 2020.3,
+              "lastValue": 190,
+              "rank": 1
+            },
+            {
+              "name": "Positive",
+              "value": 190,
+              "year": 2020.2,
+              "lastValue": 187,
+              "rank": 1
+            },
+            {
+              "name": "Positive",
+              "value": 187,
+              "year": 2020.1,
+              "lastValue": 184,
+              "rank": 1
+            },
+            {
+              "name": "Positive",
+              "value": 184,
+              "year": 2020.0,
+              "lastValue": 184,
+              "rank": 1
+            },
+            {
+              "name": "Negative",
+              "value": 154,
+              "year": 2020.9,
+              "lastValue": 152,
+              "rank": 2
+            },
+            {
+              "name": "Negative",
+              "value": 152,
+              "year": 2020.8,
+              "lastValue": 151,
+              "rank": 2
+            },
+            {
+              "name": "Negative",
+              "value": 151,
+              "year": 2020.7,
+              "lastValue": 149,
+              "rank": 2
+            },
+            {
+              "name": "Negative",
+              "value": 149,
+              "year": 2020.6,
+              "lastValue": 148,
+              "rank": 2
+            },
+            {
+              "name": "Negative",
+              "value": 148,
+              "year": 2020.5,
+              "lastValue": 147,
+              "rank": 2
+            },
+            {
+              "name": "Negative",
+              "value": 147,
+              "year": 2020.4,
+              "lastValue": 145,
+              "rank": 2
+            },
+            {
+              "name": "Negative",
+              "value": 145,
+              "year": 2020.3,
+              "lastValue": 144,
+              "rank": 2
+            },
+            {
+              "name": "Negative",
+              "value": 144,
+              "year": 2020.2,
+              "lastValue": 143,
+              "rank": 2
+            },
+            {
+              "name": "Negative",
+              "value": 143,
+              "year": 2020.1,
+              "lastValue": 141,
+              "rank": 2
+            },
+            {
+              "name": "Negative",
+              "value": 141,
+              "year": 2020.0,
+              "lastValue": 141,
+              "rank": 2
+            }
+          ]
+        },
+        {
+          "group_name": "Female",
+          "group_value": [
+            {
+              "name": "Neutral",
+              "value": 142,
+              "year": 2020.9,
+              "lastValue": 140,
+              "rank": 3
+            },
+            {
+              "name": "Neutral",
+              "value": 140,
+              "year": 2020.8,
+              "lastValue": 137,
+              "rank": 3
+            },
+            {
+              "name": "Neutral",
+              "value": 137,
+              "year": 2020.7,
+              "lastValue": 135,
+              "rank": 3
+            },
+            {
+              "name": "Neutral",
+              "value": 135,
+              "year": 2020.6,
+              "lastValue": 132,
+              "rank": 4
+            },
+            {
+              "name": "Neutral",
+              "value": 132,
+              "year": 2020.5,
+              "lastValue": 130,
+              "rank": 4
+            },
+            {
+              "name": "Neutral",
+              "value": 130,
+              "year": 2020.4,
+              "lastValue": 127,
+              "rank": 4
+            },
+            {
+              "name": "Neutral",
+              "value": 127,
+              "year": 2020.3,
+              "lastValue": 125,
+              "rank": 4
+            },
+            {
+              "name": "Neutral",
+              "value": 125,
+              "year": 2020.2,
+              "lastValue": 122,
+              "rank": 4
+            },
+            {
+              "name": "Neutral",
+              "value": 122,
+              "year": 2020.1,
+              "lastValue": 120,
+              "rank": 5
+            },
+            {
+              "name": "Neutral",
+              "value": 120,
+              "year": 2020.0,
+              "lastValue": 120,
+              "rank": 5
+            },
+            {
+              "name": "Positive",
+              "value": 211,
+              "year": 2020.9,
+              "lastValue": 208,
+              "rank": 1
+            },
+            {
+              "name": "Positive",
+              "value": 208,
+              "year": 2020.8,
+              "lastValue": 205,
+              "rank": 1
+            },
+            {
+              "name": "Positive",
+              "value": 205,
+              "year": 2020.7,
+              "lastValue": 202,
+              "rank": 1
+            },
+            {
+              "name": "Positive",
+              "value": 202,
+              "year": 2020.6,
+              "lastValue": 199,
+              "rank": 1
+            },
+            {
+              "name": "Positive",
+              "value": 199,
+              "year": 2020.5,
+              "lastValue": 196,
+              "rank": 1
+            },
+            {
+              "name": "Positive",
+              "value": 196,
+              "year": 2020.4,
+              "lastValue": 193,
+              "rank": 1
+            },
+            {
+              "name": "Positive",
+              "value": 193,
+              "year": 2020.3,
+              "lastValue": 190,
+              "rank": 1
+            },
+            {
+              "name": "Positive",
+              "value": 190,
+              "year": 2020.2,
+              "lastValue": 187,
+              "rank": 1
+            },
+            {
+              "name": "Positive",
+              "value": 187,
+              "year": 2020.1,
+              "lastValue": 184,
+              "rank": 1
+            },
+            {
+              "name": "Positive",
+              "value": 184,
+              "year": 2020.0,
+              "lastValue": 184,
+              "rank": 1
+            },
+            {
+              "name": "Negative",
+              "value": 154,
+              "year": 2020.9,
+              "lastValue": 152,
+              "rank": 2
+            },
+            {
+              "name": "Negative",
+              "value": 152,
+              "year": 2020.8,
+              "lastValue": 151,
+              "rank": 2
+            },
+            {
+              "name": "Negative",
+              "value": 151,
+              "year": 2020.7,
+              "lastValue": 149,
+              "rank": 2
+            },
+            {
+              "name": "Negative",
+              "value": 149,
+              "year": 2020.6,
+              "lastValue": 148,
+              "rank": 2
+            },
+            {
+              "name": "Negative",
+              "value": 148,
+              "year": 2020.5,
+              "lastValue": 147,
+              "rank": 2
+            },
+            {
+              "name": "Negative",
+              "value": 147,
+              "year": 2020.4,
+              "lastValue": 145,
+              "rank": 2
+            },
+            {
+              "name": "Negative",
+              "value": 145,
+              "year": 2020.3,
+              "lastValue": 144,
+              "rank": 2
+            },
+            {
+              "name": "Negative",
+              "value": 144,
+              "year": 2020.2,
+              "lastValue": 143,
+              "rank": 2
+            },
+            {
+              "name": "Negative",
+              "value": 143,
+              "year": 2020.1,
+              "lastValue": 141,
+              "rank": 2
+            },
+            {
+              "name": "Negative",
+              "value": 141,
+              "year": 2020.0,
+              "lastValue": 141,
+              "rank": 2
+            }
+          ]
+        },
+        {
+          "group_name": "Other",
+          "group_value": [
+            {
+              "name": "Neutral",
+              "value": 142,
+              "year": 2020.9,
+              "lastValue": 140,
+              "rank": 3
+            },
+            {
+              "name": "Neutral",
+              "value": 140,
+              "year": 2020.8,
+              "lastValue": 137,
+              "rank": 3
+            },
+            {
+              "name": "Neutral",
+              "value": 137,
+              "year": 2020.7,
+              "lastValue": 135,
+              "rank": 3
+            },
+            {
+              "name": "Neutral",
+              "value": 135,
+              "year": 2020.6,
+              "lastValue": 132,
+              "rank": 4
+            },
+            {
+              "name": "Neutral",
+              "value": 132,
+              "year": 2020.5,
+              "lastValue": 130,
+              "rank": 4
+            },
+            {
+              "name": "Neutral",
+              "value": 130,
+              "year": 2020.4,
+              "lastValue": 127,
+              "rank": 4
+            },
+            {
+              "name": "Neutral",
+              "value": 127,
+              "year": 2020.3,
+              "lastValue": 125,
+              "rank": 4
+            },
+            {
+              "name": "Neutral",
+              "value": 125,
+              "year": 2020.2,
+              "lastValue": 122,
+              "rank": 4
+            },
+            {
+              "name": "Neutral",
+              "value": 122,
+              "year": 2020.1,
+              "lastValue": 120,
+              "rank": 5
+            },
+            {
+              "name": "Neutral",
+              "value": 120,
+              "year": 2020.0,
+              "lastValue": 120,
+              "rank": 5
+            },
+            {
+              "name": "Positive",
+              "value": 211,
+              "year": 2020.9,
+              "lastValue": 208,
+              "rank": 1
+            },
+            {
+              "name": "Positive",
+              "value": 208,
+              "year": 2020.8,
+              "lastValue": 205,
+              "rank": 1
+            },
+            {
+              "name": "Positive",
+              "value": 205,
+              "year": 2020.7,
+              "lastValue": 202,
+              "rank": 1
+            },
+            {
+              "name": "Positive",
+              "value": 202,
+              "year": 2020.6,
+              "lastValue": 199,
+              "rank": 1
+            },
+            {
+              "name": "Positive",
+              "value": 199,
+              "year": 2020.5,
+              "lastValue": 196,
+              "rank": 1
+            },
+            {
+              "name": "Positive",
+              "value": 196,
+              "year": 2020.4,
+              "lastValue": 193,
+              "rank": 1
+            },
+            {
+              "name": "Positive",
+              "value": 193,
+              "year": 2020.3,
+              "lastValue": 190,
+              "rank": 1
+            },
+            {
+              "name": "Positive",
+              "value": 190,
+              "year": 2020.2,
+              "lastValue": 187,
+              "rank": 1
+            },
+            {
+              "name": "Positive",
+              "value": 187,
+              "year": 2020.1,
+              "lastValue": 184,
+              "rank": 1
+            },
+            {
+              "name": "Positive",
+              "value": 184,
+              "year": 2020.0,
+              "lastValue": 184,
+              "rank": 1
+            },
+            {
+              "name": "Negative",
+              "value": 154,
+              "year": 2020.9,
+              "lastValue": 152,
+              "rank": 2
+            },
+            {
+              "name": "Negative",
+              "value": 152,
+              "year": 2020.8,
+              "lastValue": 151,
+              "rank": 2
+            },
+            {
+              "name": "Negative",
+              "value": 151,
+              "year": 2020.7,
+              "lastValue": 149,
+              "rank": 2
+            },
+            {
+              "name": "Negative",
+              "value": 149,
+              "year": 2020.6,
+              "lastValue": 148,
+              "rank": 2
+            },
+            {
+              "name": "Negative",
+              "value": 148,
+              "year": 2020.5,
+              "lastValue": 147,
+              "rank": 2
+            },
+            {
+              "name": "Negative",
+              "value": 147,
+              "year": 2020.4,
+              "lastValue": 145,
+              "rank": 2
+            },
+            {
+              "name": "Negative",
+              "value": 145,
+              "year": 2020.3,
+              "lastValue": 144,
+              "rank": 2
+            },
+            {
+              "name": "Negative",
+              "value": 144,
+              "year": 2020.2,
+              "lastValue": 143,
+              "rank": 2
+            },
+            {
+              "name": "Negative",
+              "value": 143,
+              "year": 2020.1,
+              "lastValue": 141,
+              "rank": 2
+            },
+            {
+              "name": "Negative",
+              "value": 141,
+              "year": 2020.0,
+              "lastValue": 141,
+              "rank": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "state_code": "1",
+      "state_name": "New South Wales",
+      "groups": [
+        {
+          "group_name": "Male",
+          "group_value": [
+            {
+              "name": "Neutral",
+              "value": 142,
+              "year": 2020.9,
+              "lastValue": 140,
+              "rank": 3
+            },
+            {
+              "name": "Neutral",
+              "value": 140,
+              "year": 2020.8,
+              "lastValue": 137,
+              "rank": 3
+            },
+            {
+              "name": "Neutral",
+              "value": 137,
+              "year": 2020.7,
+              "lastValue": 135,
+              "rank": 3
+            },
+            {
+              "name": "Neutral",
+              "value": 135,
+              "year": 2020.6,
+              "lastValue": 132,
+              "rank": 4
+            },
+            {
+              "name": "Neutral",
+              "value": 132,
+              "year": 2020.5,
+              "lastValue": 130,
+              "rank": 4
+            },
+            {
+              "name": "Neutral",
+              "value": 130,
+              "year": 2020.4,
+              "lastValue": 127,
+              "rank": 4
+            },
+            {
+              "name": "Neutral",
+              "value": 127,
+              "year": 2020.3,
+              "lastValue": 125,
+              "rank": 4
+            },
+            {
+              "name": "Neutral",
+              "value": 125,
+              "year": 2020.2,
+              "lastValue": 122,
+              "rank": 4
+            },
+            {
+              "name": "Neutral",
+              "value": 122,
+              "year": 2020.1,
+              "lastValue": 120,
+              "rank": 5
+            },
+            {
+              "name": "Neutral",
+              "value": 120,
+              "year": 2020.0,
+              "lastValue": 120,
+              "rank": 5
+            },
+            {
+              "name": "Positive",
+              "value": 211,
+              "year": 2020.9,
+              "lastValue": 208,
+              "rank": 1
+            },
+            {
+              "name": "Positive",
+              "value": 208,
+              "year": 2020.8,
+              "lastValue": 205,
+              "rank": 1
+            },
+            {
+              "name": "Positive",
+              "value": 205,
+              "year": 2020.7,
+              "lastValue": 202,
+              "rank": 1
+            },
+            {
+              "name": "Positive",
+              "value": 202,
+              "year": 2020.6,
+              "lastValue": 199,
+              "rank": 1
+            },
+            {
+              "name": "Positive",
+              "value": 199,
+              "year": 2020.5,
+              "lastValue": 196,
+              "rank": 1
+            },
+            {
+              "name": "Positive",
+              "value": 196,
+              "year": 2020.4,
+              "lastValue": 193,
+              "rank": 1
+            },
+            {
+              "name": "Positive",
+              "value": 193,
+              "year": 2020.3,
+              "lastValue": 190,
+              "rank": 1
+            },
+            {
+              "name": "Positive",
+              "value": 190,
+              "year": 2020.2,
+              "lastValue": 187,
+              "rank": 1
+            },
+            {
+              "name": "Positive",
+              "value": 187,
+              "year": 2020.1,
+              "lastValue": 184,
+              "rank": 1
+            },
+            {
+              "name": "Positive",
+              "value": 184,
+              "year": 2020.0,
+              "lastValue": 184,
+              "rank": 1
+            },
+            {
+              "name": "Negative",
+              "value": 154,
+              "year": 2020.9,
+              "lastValue": 152,
+              "rank": 2
+            },
+            {
+              "name": "Negative",
+              "value": 152,
+              "year": 2020.8,
+              "lastValue": 151,
+              "rank": 2
+            },
+            {
+              "name": "Negative",
+              "value": 151,
+              "year": 2020.7,
+              "lastValue": 149,
+              "rank": 2
+            },
+            {
+              "name": "Negative",
+              "value": 149,
+              "year": 2020.6,
+              "lastValue": 148,
+              "rank": 2
+            },
+            {
+              "name": "Negative",
+              "value": 148,
+              "year": 2020.5,
+              "lastValue": 147,
+              "rank": 2
+            },
+            {
+              "name": "Negative",
+              "value": 147,
+              "year": 2020.4,
+              "lastValue": 145,
+              "rank": 2
+            },
+            {
+              "name": "Negative",
+              "value": 145,
+              "year": 2020.3,
+              "lastValue": 144,
+              "rank": 2
+            },
+            {
+              "name": "Negative",
+              "value": 144,
+              "year": 2020.2,
+              "lastValue": 143,
+              "rank": 2
+            },
+            {
+              "name": "Negative",
+              "value": 143,
+              "year": 2020.1,
+              "lastValue": 141,
+              "rank": 2
+            },
+            {
+              "name": "Negative",
+              "value": 141,
+              "year": 2020.0,
+              "lastValue": 141,
+              "rank": 2
+            }
+          ]
+        },
+        {
+          "group_name": "Female",
+          "group_value": [
+            {
+              "name": "Neutral",
+              "value": 142,
+              "year": 2020.9,
+              "lastValue": 140,
+              "rank": 3
+            },
+            {
+              "name": "Neutral",
+              "value": 140,
+              "year": 2020.8,
+              "lastValue": 137,
+              "rank": 3
+            },
+            {
+              "name": "Neutral",
+              "value": 137,
+              "year": 2020.7,
+              "lastValue": 135,
+              "rank": 3
+            },
+            {
+              "name": "Neutral",
+              "value": 135,
+              "year": 2020.6,
+              "lastValue": 132,
+              "rank": 4
+            },
+            {
+              "name": "Neutral",
+              "value": 132,
+              "year": 2020.5,
+              "lastValue": 130,
+              "rank": 4
+            },
+            {
+              "name": "Neutral",
+              "value": 130,
+              "year": 2020.4,
+              "lastValue": 127,
+              "rank": 4
+            },
+            {
+              "name": "Neutral",
+              "value": 127,
+              "year": 2020.3,
+              "lastValue": 125,
+              "rank": 4
+            },
+            {
+              "name": "Neutral",
+              "value": 125,
+              "year": 2020.2,
+              "lastValue": 122,
+              "rank": 4
+            },
+            {
+              "name": "Neutral",
+              "value": 122,
+              "year": 2020.1,
+              "lastValue": 120,
+              "rank": 5
+            },
+            {
+              "name": "Neutral",
+              "value": 120,
+              "year": 2020.0,
+              "lastValue": 120,
+              "rank": 5
+            },
+            {
+              "name": "Positive",
+              "value": 211,
+              "year": 2020.9,
+              "lastValue": 208,
+              "rank": 1
+            },
+            {
+              "name": "Positive",
+              "value": 208,
+              "year": 2020.8,
+              "lastValue": 205,
+              "rank": 1
+            },
+            {
+              "name": "Positive",
+              "value": 205,
+              "year": 2020.7,
+              "lastValue": 202,
+              "rank": 1
+            },
+            {
+              "name": "Positive",
+              "value": 202,
+              "year": 2020.6,
+              "lastValue": 199,
+              "rank": 1
+            },
+            {
+              "name": "Positive",
+              "value": 199,
+              "year": 2020.5,
+              "lastValue": 196,
+              "rank": 1
+            },
+            {
+              "name": "Positive",
+              "value": 196,
+              "year": 2020.4,
+              "lastValue": 193,
+              "rank": 1
+            },
+            {
+              "name": "Positive",
+              "value": 193,
+              "year": 2020.3,
+              "lastValue": 190,
+              "rank": 1
+            },
+            {
+              "name": "Positive",
+              "value": 190,
+              "year": 2020.2,
+              "lastValue": 187,
+              "rank": 1
+            },
+            {
+              "name": "Positive",
+              "value": 187,
+              "year": 2020.1,
+              "lastValue": 184,
+              "rank": 1
+            },
+            {
+              "name": "Positive",
+              "value": 184,
+              "year": 2020.0,
+              "lastValue": 184,
+              "rank": 1
+            },
+            {
+              "name": "Negative",
+              "value": 154,
+              "year": 2020.9,
+              "lastValue": 152,
+              "rank": 2
+            },
+            {
+              "name": "Negative",
+              "value": 152,
+              "year": 2020.8,
+              "lastValue": 151,
+              "rank": 2
+            },
+            {
+              "name": "Negative",
+              "value": 151,
+              "year": 2020.7,
+              "lastValue": 149,
+              "rank": 2
+            },
+            {
+              "name": "Negative",
+              "value": 149,
+              "year": 2020.6,
+              "lastValue": 148,
+              "rank": 2
+            },
+            {
+              "name": "Negative",
+              "value": 148,
+              "year": 2020.5,
+              "lastValue": 147,
+              "rank": 2
+            },
+            {
+              "name": "Negative",
+              "value": 147,
+              "year": 2020.4,
+              "lastValue": 145,
+              "rank": 2
+            },
+            {
+              "name": "Negative",
+              "value": 145,
+              "year": 2020.3,
+              "lastValue": 144,
+              "rank": 2
+            },
+            {
+              "name": "Negative",
+              "value": 144,
+              "year": 2020.2,
+              "lastValue": 143,
+              "rank": 2
+            },
+            {
+              "name": "Negative",
+              "value": 143,
+              "year": 2020.1,
+              "lastValue": 141,
+              "rank": 2
+            },
+            {
+              "name": "Negative",
+              "value": 141,
+              "year": 2020.0,
+              "lastValue": 141,
+              "rank": 2
+            }
+          ]
+        },
+        {
+          "group_name": "Other",
+          "group_value": [
+            {
+              "name": "Neutral",
+              "value": 142,
+              "year": 2020.9,
+              "lastValue": 140,
+              "rank": 3
+            },
+            {
+              "name": "Neutral",
+              "value": 140,
+              "year": 2020.8,
+              "lastValue": 137,
+              "rank": 3
+            },
+            {
+              "name": "Neutral",
+              "value": 137,
+              "year": 2020.7,
+              "lastValue": 135,
+              "rank": 3
+            },
+            {
+              "name": "Neutral",
+              "value": 135,
+              "year": 2020.6,
+              "lastValue": 132,
+              "rank": 4
+            },
+            {
+              "name": "Neutral",
+              "value": 132,
+              "year": 2020.5,
+              "lastValue": 130,
+              "rank": 4
+            },
+            {
+              "name": "Neutral",
+              "value": 130,
+              "year": 2020.4,
+              "lastValue": 127,
+              "rank": 4
+            },
+            {
+              "name": "Neutral",
+              "value": 127,
+              "year": 2020.3,
+              "lastValue": 125,
+              "rank": 4
+            },
+            {
+              "name": "Neutral",
+              "value": 125,
+              "year": 2020.2,
+              "lastValue": 122,
+              "rank": 4
+            },
+            {
+              "name": "Neutral",
+              "value": 122,
+              "year": 2020.1,
+              "lastValue": 120,
+              "rank": 5
+            },
+            {
+              "name": "Neutral",
+              "value": 120,
+              "year": 2020.0,
+              "lastValue": 120,
+              "rank": 5
+            },
+            {
+              "name": "Positive",
+              "value": 211,
+              "year": 2020.9,
+              "lastValue": 208,
+              "rank": 1
+            },
+            {
+              "name": "Positive",
+              "value": 208,
+              "year": 2020.8,
+              "lastValue": 205,
+              "rank": 1
+            },
+            {
+              "name": "Positive",
+              "value": 205,
+              "year": 2020.7,
+              "lastValue": 202,
+              "rank": 1
+            },
+            {
+              "name": "Positive",
+              "value": 202,
+              "year": 2020.6,
+              "lastValue": 199,
+              "rank": 1
+            },
+            {
+              "name": "Positive",
+              "value": 199,
+              "year": 2020.5,
+              "lastValue": 196,
+              "rank": 1
+            },
+            {
+              "name": "Positive",
+              "value": 196,
+              "year": 2020.4,
+              "lastValue": 193,
+              "rank": 1
+            },
+            {
+              "name": "Positive",
+              "value": 193,
+              "year": 2020.3,
+              "lastValue": 190,
+              "rank": 1
+            },
+            {
+              "name": "Positive",
+              "value": 190,
+              "year": 2020.2,
+              "lastValue": 187,
+              "rank": 1
+            },
+            {
+              "name": "Positive",
+              "value": 187,
+              "year": 2020.1,
+              "lastValue": 184,
+              "rank": 1
+            },
+            {
+              "name": "Positive",
+              "value": 184,
+              "year": 2020.0,
+              "lastValue": 184,
+              "rank": 1
+            },
+            {
+              "name": "Negative",
+              "value": 154,
+              "year": 2020.9,
+              "lastValue": 152,
+              "rank": 2
+            },
+            {
+              "name": "Negative",
+              "value": 152,
+              "year": 2020.8,
+              "lastValue": 151,
+              "rank": 2
+            },
+            {
+              "name": "Negative",
+              "value": 151,
+              "year": 2020.7,
+              "lastValue": 149,
+              "rank": 2
+            },
+            {
+              "name": "Negative",
+              "value": 149,
+              "year": 2020.6,
+              "lastValue": 148,
+              "rank": 2
+            },
+            {
+              "name": "Negative",
+              "value": 148,
+              "year": 2020.5,
+              "lastValue": 147,
+              "rank": 2
+            },
+            {
+              "name": "Negative",
+              "value": 147,
+              "year": 2020.4,
+              "lastValue": 145,
+              "rank": 2
+            },
+            {
+              "name": "Negative",
+              "value": 145,
+              "year": 2020.3,
+              "lastValue": 144,
+              "rank": 2
+            },
+            {
+              "name": "Negative",
+              "value": 144,
+              "year": 2020.2,
+              "lastValue": 143,
+              "rank": 2
+            },
+            {
+              "name": "Negative",
+              "value": 143,
+              "year": 2020.1,
+              "lastValue": 141,
+              "rank": 2
+            },
+            {
+              "name": "Negative",
+              "value": 141,
+              "year": 2020.0,
+              "lastValue": 141,
+              "rank": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
