@@ -256,7 +256,8 @@ function draw_bar(data) {
 
   const chart = createChart(svg, data);
 
-// To obtain the first and last date from collected data, the day difference is the span, the new date is the first date
+ // To obtain the first and last date from collected data, the day difference is the span,
+    // the new date is the first date
   const tParser = d3.timeParse("%d/%m/%Y")
   let dates_ls = Object.keys(data)
   let first_date = tParser(dates_ls[0]),
@@ -269,11 +270,14 @@ function draw_bar(data) {
           last_date = current_date
   }
   let span = d3.timeDay.count(first_date, last_date)
-
+    console.log(first_date)
+    console.log(last_date)
+    console.log(span)
+    // first_date
   var dataTime = d3.range(0, span+1).map(function(d) {
     return new Date(first_date.getFullYear() , first_date.getMonth(), first_date.getDate() + d);
   });
-  var sliderTime = d3
+  let sliderTime = d3
     .sliderBottom()
     .min(d3.min(dataTime))
     .max(d3.max(dataTime))
@@ -287,7 +291,8 @@ function draw_bar(data) {
       draw_pie(data[d3.timeFormat('%d/%m/%Y')(val)])
     });
 
-  var gTime = d3
+  d3.select('div#slider-time').html("")
+  let gTime = d3
     .select('div#slider-time')
     .append('svg')
     .attr('width',300)
@@ -295,6 +300,35 @@ function draw_bar(data) {
     .append('g')
     .attr('transform', 'translate(30,30)');
   gTime.call(sliderTime);
+
+  // append the input controls
+  // d3.select('.controls').html("")
+  // const fieldset1 = d3.select('.controls').append('fieldset')
+  // fieldset1.append('legend').text('Date')
+  //
+  // Object.keys(data).forEach((year, index )=>{
+  //
+  //   const label = fieldset1.append('label')
+  //
+  //   label
+  //   .append('input')
+  //   .attr('type', 'radio')
+  //   .attr('name', 'year')
+  //   .attr('value', year)
+  //   .attr('checked', function(){
+  //     if (index === 0) return true
+  //     return null
+  //   })
+  //
+  //   label.append('span')
+  //       .text(year)
+  //
+  //   label.on('click', function(){
+  //     chart.updateChart(data[year]);
+  //     draw_pie(data[year])
+  //   })
+  // })
+
 
   //start with the first year selected
   chart.updateChart(data[Object.keys(data)[0]])

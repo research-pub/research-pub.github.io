@@ -125,6 +125,20 @@
                   "Positive": 100,
                   "Negative": 70,
                   "Neural": 50
+                },
+                "stas_values": {
+                  "num_tweets_pos": 100,
+                  "num_retweets_pos": 202,
+                  "num_likes_pos": 140,
+                  "num_replies_pos": 30,
+                  "num_tweets_neg": 70,
+                  "num_retweets_neg": 20,
+                  "num_likes_neg": 100,
+                  "num_replies_neg": 20,
+                  "num_tweets_neu": 50,
+                  "num_retweets_neu": 30,
+                  "num_likes_neu": 70,
+                  "num_replies_neu": 40
                 }
               }, {
                 "name": "Middle",
@@ -132,6 +146,20 @@
                   "Positive": 110,
                   "Negative": 120,
                   "Neural": 60
+                },
+                "stas_values": {
+                  "num_tweets_pos": 110,
+                  "num_retweets_pos": 202,
+                  "num_likes_pos": 140,
+                  "num_replies_pos": 30,
+                  "num_tweets_neg": 120,
+                  "num_retweets_neg": 20,
+                  "num_likes_neg": 100,
+                  "num_replies_neg": 20,
+                  "num_tweets_neu": 60,
+                  "num_retweets_neu": 30,
+                  "num_likes_neu": 70,
+                  "num_replies_neu": 40
                 }
               }, {
                 "name": "Older",
@@ -139,6 +167,20 @@
                   "Positive": 90,
                   "Negative": 60,
                   "Neural": 30
+                },
+                "stas_values": {
+                  "num_tweets_pos": 90,
+                  "num_retweets_pos": 202,
+                  "num_likes_pos": 140,
+                  "num_replies_pos": 30,
+                  "num_tweets_neg": 60,
+                  "num_retweets_neg": 20,
+                  "num_likes_neg": 100,
+                  "num_replies_neg": 20,
+                  "num_tweets_neu": 30,
+                  "num_retweets_neu": 30,
+                  "num_likes_neu": 70,
+                  "num_replies_neu": 40
                 }
               }],
               "03/04/2020": [{
@@ -197,6 +239,20 @@
                   "Positive": 100,
                   "Negative": 70,
                   "Neural": 50
+                },
+                "stas_values": {
+                  "num_tweets_pos": 100,
+                  "num_retweets_pos": 202,
+                  "num_likes_pos": 140,
+                  "num_replies_pos": 30,
+                  "num_tweets_neg": 70,
+                  "num_retweets_neg": 20,
+                  "num_likes_neg": 100,
+                  "num_replies_neg": 20,
+                  "num_tweets_neu": 50,
+                  "num_retweets_neu": 30,
+                  "num_likes_neu": 70,
+                  "num_replies_neu": 40
                 }
               }, {
                 "name": "Middle",
@@ -204,6 +260,20 @@
                   "Positive": 110,
                   "Negative": 120,
                   "Neural": 60
+                },
+                "stas_values": {
+                  "num_tweets_pos": 110,
+                  "num_retweets_pos": 202,
+                  "num_likes_pos": 140,
+                  "num_replies_pos": 30,
+                  "num_tweets_neg": 120,
+                  "num_retweets_neg": 20,
+                  "num_likes_neg": 100,
+                  "num_replies_neg": 20,
+                  "num_tweets_neu": 60,
+                  "num_retweets_neu": 30,
+                  "num_likes_neu": 70,
+                  "num_replies_neu": 40
                 }
               }, {
                 "name": "Older",
@@ -211,6 +281,20 @@
                   "Positive": 90,
                   "Negative": 60,
                   "Neural": 30
+                },
+                "stas_values": {
+                  "num_tweets_pos": 90,
+                  "num_retweets_pos": 202,
+                  "num_likes_pos": 140,
+                  "num_replies_pos": 30,
+                  "num_tweets_neg": 60,
+                  "num_retweets_neg": 20,
+                  "num_likes_neg": 100,
+                  "num_replies_neg": 20,
+                  "num_tweets_neu": 30,
+                  "num_retweets_neu": 30,
+                  "num_likes_neu": 70,
+                  "num_replies_neu": 40
                 }
               }],
               "03/04/2020": [{
@@ -269,6 +353,20 @@
                   "Positive": 100,
                   "Negative": 70,
                   "Neural": 50
+                },
+                "stas_values": {
+                  "num_tweets_pos": 100,
+                  "num_retweets_pos": 202,
+                  "num_likes_pos": 140,
+                  "num_replies_pos": 30,
+                  "num_tweets_neg": 70,
+                  "num_retweets_neg": 20,
+                  "num_likes_neg": 100,
+                  "num_replies_neg": 20,
+                  "num_tweets_neu": 50,
+                  "num_retweets_neu": 30,
+                  "num_likes_neu": 70,
+                  "num_replies_neu": 40
                 }
               }, {
                 "name": "Middle",
@@ -276,6 +374,20 @@
                   "Positive": 110,
                   "Negative": 120,
                   "Neural": 60
+                },
+                "stas_values": {
+                  "num_tweets_pos": 110,
+                  "num_retweets_pos": 202,
+                  "num_likes_pos": 140,
+                  "num_replies_pos": 30,
+                  "num_tweets_neg": 120,
+                  "num_retweets_neg": 20,
+                  "num_likes_neg": 100,
+                  "num_replies_neg": 20,
+                  "num_tweets_neu": 60,
+                  "num_retweets_neu": 30,
+                  "num_likes_neu": 70,
+                  "num_replies_neu": 40
                 }
               }, {
                 "name": "Older",
@@ -283,6 +395,20 @@
                   "Positive": 90,
                   "Negative": 60,
                   "Neural": 30
+                },
+                "stas_values": {
+                  "num_tweets_pos": 90,
+                  "num_retweets_pos": 202,
+                  "num_likes_pos": 140,
+                  "num_replies_pos": 30,
+                  "num_tweets_neg": 60,
+                  "num_retweets_neg": 20,
+                  "num_likes_neg": 100,
+                  "num_replies_neg": 20,
+                  "num_tweets_neu": 30,
+                  "num_retweets_neu": 30,
+                  "num_likes_neu": 70,
+                  "num_replies_neu": 40
                 }
               }],
               "03/04/2020": [{
@@ -341,6 +467,20 @@
                   "Positive": 100,
                   "Negative": 70,
                   "Neural": 50
+                },
+                "stas_values": {
+                  "num_tweets_pos": 100,
+                  "num_retweets_pos": 202,
+                  "num_likes_pos": 140,
+                  "num_replies_pos": 30,
+                  "num_tweets_neg": 70,
+                  "num_retweets_neg": 20,
+                  "num_likes_neg": 100,
+                  "num_replies_neg": 20,
+                  "num_tweets_neu": 50,
+                  "num_retweets_neu": 30,
+                  "num_likes_neu": 70,
+                  "num_replies_neu": 40
                 }
               }, {
                 "name": "Middle",
@@ -348,6 +488,20 @@
                   "Positive": 110,
                   "Negative": 120,
                   "Neural": 60
+                },
+                "stas_values": {
+                  "num_tweets_pos": 110,
+                  "num_retweets_pos": 202,
+                  "num_likes_pos": 140,
+                  "num_replies_pos": 30,
+                  "num_tweets_neg": 120,
+                  "num_retweets_neg": 20,
+                  "num_likes_neg": 100,
+                  "num_replies_neg": 20,
+                  "num_tweets_neu": 60,
+                  "num_retweets_neu": 30,
+                  "num_likes_neu": 70,
+                  "num_replies_neu": 40
                 }
               }, {
                 "name": "Older",
@@ -355,6 +509,20 @@
                   "Positive": 90,
                   "Negative": 60,
                   "Neural": 30
+                },
+                "stas_values": {
+                  "num_tweets_pos": 90,
+                  "num_retweets_pos": 202,
+                  "num_likes_pos": 140,
+                  "num_replies_pos": 30,
+                  "num_tweets_neg": 60,
+                  "num_retweets_neg": 20,
+                  "num_likes_neg": 100,
+                  "num_replies_neg": 20,
+                  "num_tweets_neu": 30,
+                  "num_retweets_neu": 30,
+                  "num_likes_neu": 70,
+                  "num_replies_neu": 40
                 }
               }],
               "03/04/2020": [{
@@ -413,6 +581,20 @@
                   "Positive": 100,
                   "Negative": 70,
                   "Neural": 50
+                },
+                "stas_values": {
+                  "num_tweets_pos": 100,
+                  "num_retweets_pos": 202,
+                  "num_likes_pos": 140,
+                  "num_replies_pos": 30,
+                  "num_tweets_neg": 70,
+                  "num_retweets_neg": 20,
+                  "num_likes_neg": 100,
+                  "num_replies_neg": 20,
+                  "num_tweets_neu": 50,
+                  "num_retweets_neu": 30,
+                  "num_likes_neu": 70,
+                  "num_replies_neu": 40
                 }
               }, {
                 "name": "Middle",
@@ -420,6 +602,20 @@
                   "Positive": 110,
                   "Negative": 120,
                   "Neural": 60
+                },
+                "stas_values": {
+                  "num_tweets_pos": 110,
+                  "num_retweets_pos": 202,
+                  "num_likes_pos": 140,
+                  "num_replies_pos": 30,
+                  "num_tweets_neg": 120,
+                  "num_retweets_neg": 20,
+                  "num_likes_neg": 100,
+                  "num_replies_neg": 20,
+                  "num_tweets_neu": 60,
+                  "num_retweets_neu": 30,
+                  "num_likes_neu": 70,
+                  "num_replies_neu": 40
                 }
               }, {
                 "name": "Older",
@@ -427,6 +623,20 @@
                   "Positive": 90,
                   "Negative": 60,
                   "Neural": 30
+                },
+                "stas_values": {
+                  "num_tweets_pos": 90,
+                  "num_retweets_pos": 202,
+                  "num_likes_pos": 140,
+                  "num_replies_pos": 30,
+                  "num_tweets_neg": 60,
+                  "num_retweets_neg": 20,
+                  "num_likes_neg": 100,
+                  "num_replies_neg": 20,
+                  "num_tweets_neu": 30,
+                  "num_retweets_neu": 30,
+                  "num_likes_neu": 70,
+                  "num_replies_neu": 40
                 }
               }],
               "03/04/2020": [{
@@ -485,6 +695,20 @@
                   "Positive": 100,
                   "Negative": 70,
                   "Neural": 50
+                },
+                "stas_values": {
+                  "num_tweets_pos": 100,
+                  "num_retweets_pos": 202,
+                  "num_likes_pos": 140,
+                  "num_replies_pos": 30,
+                  "num_tweets_neg": 70,
+                  "num_retweets_neg": 20,
+                  "num_likes_neg": 100,
+                  "num_replies_neg": 20,
+                  "num_tweets_neu": 50,
+                  "num_retweets_neu": 30,
+                  "num_likes_neu": 70,
+                  "num_replies_neu": 40
                 }
               }, {
                 "name": "Middle",
@@ -492,6 +716,20 @@
                   "Positive": 110,
                   "Negative": 120,
                   "Neural": 60
+                },
+                "stas_values": {
+                  "num_tweets_pos": 110,
+                  "num_retweets_pos": 202,
+                  "num_likes_pos": 140,
+                  "num_replies_pos": 30,
+                  "num_tweets_neg": 120,
+                  "num_retweets_neg": 20,
+                  "num_likes_neg": 100,
+                  "num_replies_neg": 20,
+                  "num_tweets_neu": 60,
+                  "num_retweets_neu": 30,
+                  "num_likes_neu": 70,
+                  "num_replies_neu": 40
                 }
               }, {
                 "name": "Older",
@@ -499,6 +737,20 @@
                   "Positive": 90,
                   "Negative": 60,
                   "Neural": 30
+                },
+                "stas_values": {
+                  "num_tweets_pos": 90,
+                  "num_retweets_pos": 202,
+                  "num_likes_pos": 140,
+                  "num_replies_pos": 30,
+                  "num_tweets_neg": 60,
+                  "num_retweets_neg": 20,
+                  "num_likes_neg": 100,
+                  "num_replies_neg": 20,
+                  "num_tweets_neu": 30,
+                  "num_retweets_neu": 30,
+                  "num_likes_neu": 70,
+                  "num_replies_neu": 40
                 }
               }],
               "03/04/2020": [{
@@ -557,6 +809,20 @@
                   "Positive": 100,
                   "Negative": 70,
                   "Neural": 50
+                },
+                "stas_values": {
+                  "num_tweets_pos": 100,
+                  "num_retweets_pos": 202,
+                  "num_likes_pos": 140,
+                  "num_replies_pos": 30,
+                  "num_tweets_neg": 70,
+                  "num_retweets_neg": 20,
+                  "num_likes_neg": 100,
+                  "num_replies_neg": 20,
+                  "num_tweets_neu": 50,
+                  "num_retweets_neu": 30,
+                  "num_likes_neu": 70,
+                  "num_replies_neu": 40
                 }
               }, {
                 "name": "Middle",
@@ -564,6 +830,20 @@
                   "Positive": 110,
                   "Negative": 120,
                   "Neural": 60
+                },
+                "stas_values": {
+                  "num_tweets_pos": 110,
+                  "num_retweets_pos": 202,
+                  "num_likes_pos": 140,
+                  "num_replies_pos": 30,
+                  "num_tweets_neg": 120,
+                  "num_retweets_neg": 20,
+                  "num_likes_neg": 100,
+                  "num_replies_neg": 20,
+                  "num_tweets_neu": 60,
+                  "num_retweets_neu": 30,
+                  "num_likes_neu": 70,
+                  "num_replies_neu": 40
                 }
               }, {
                 "name": "Older",
@@ -571,6 +851,20 @@
                   "Positive": 90,
                   "Negative": 60,
                   "Neural": 30
+                },
+                "stas_values": {
+                  "num_tweets_pos": 90,
+                  "num_retweets_pos": 202,
+                  "num_likes_pos": 140,
+                  "num_replies_pos": 30,
+                  "num_tweets_neg": 60,
+                  "num_retweets_neg": 20,
+                  "num_likes_neg": 100,
+                  "num_replies_neg": 20,
+                  "num_tweets_neu": 30,
+                  "num_retweets_neu": 30,
+                  "num_likes_neu": 70,
+                  "num_replies_neu": 40
                 }
               }],
               "03/04/2020": [{
@@ -629,6 +923,20 @@
                   "Positive": 100,
                   "Negative": 70,
                   "Neural": 50
+                },
+                "stas_values": {
+                  "num_tweets_pos": 100,
+                  "num_retweets_pos": 202,
+                  "num_likes_pos": 140,
+                  "num_replies_pos": 30,
+                  "num_tweets_neg": 70,
+                  "num_retweets_neg": 20,
+                  "num_likes_neg": 100,
+                  "num_replies_neg": 20,
+                  "num_tweets_neu": 50,
+                  "num_retweets_neu": 30,
+                  "num_likes_neu": 70,
+                  "num_replies_neu": 40
                 }
               }, {
                 "name": "Middle",
@@ -636,6 +944,20 @@
                   "Positive": 110,
                   "Negative": 120,
                   "Neural": 60
+                },
+                "stas_values": {
+                  "num_tweets_pos": 110,
+                  "num_retweets_pos": 202,
+                  "num_likes_pos": 140,
+                  "num_replies_pos": 30,
+                  "num_tweets_neg": 120,
+                  "num_retweets_neg": 20,
+                  "num_likes_neg": 100,
+                  "num_replies_neg": 20,
+                  "num_tweets_neu": 60,
+                  "num_retweets_neu": 30,
+                  "num_likes_neu": 70,
+                  "num_replies_neu": 40
                 }
               }, {
                 "name": "Older",
@@ -643,6 +965,20 @@
                   "Positive": 90,
                   "Negative": 60,
                   "Neural": 30
+                },
+                "stas_values": {
+                  "num_tweets_pos": 90,
+                  "num_retweets_pos": 202,
+                  "num_likes_pos": 140,
+                  "num_replies_pos": 30,
+                  "num_tweets_neg": 60,
+                  "num_retweets_neg": 20,
+                  "num_likes_neg": 100,
+                  "num_replies_neg": 20,
+                  "num_tweets_neu": 30,
+                  "num_retweets_neu": 30,
+                  "num_likes_neu": 70,
+                  "num_replies_neu": 40
                 }
               }],
               "03/04/2020": [{
