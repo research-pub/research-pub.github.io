@@ -123,8 +123,8 @@
                 "name": "Young",
                 "values": {
                   "Positive": 100,
-                  "Negative": 70,
-                  "Neural": 50
+                  "Negative": 120,
+                  "Neural": 80
                 },
                 "stas_values": {
                   "num_tweets_pos": 100,
@@ -144,7 +144,7 @@
                 "name": "Middle",
                 "values": {
                   "Positive": 110,
-                  "Negative": 120,
+                  "Negative": 150,
                   "Neural": 60
                 },
                 "stas_values": {
@@ -166,7 +166,7 @@
                 "values": {
                   "Positive": 90,
                   "Negative": 60,
-                  "Neural": 30
+                  "Neural": 50
                 },
                 "stas_values": {
                   "num_tweets_pos": 90,
@@ -236,9 +236,9 @@
               "02/04/2020": [{
                 "name": "Young",
                 "values": {
-                  "Positive": 100,
-                  "Negative": 70,
-                  "Neural": 50
+                  "Positive": 120,
+                  "Negative": 10,
+                  "Neural": 80
                 },
                 "stas_values": {
                   "num_tweets_pos": 100,
@@ -258,8 +258,8 @@
                 "name": "Middle",
                 "values": {
                   "Positive": 110,
-                  "Negative": 120,
-                  "Neural": 60
+                  "Negative": 90,
+                  "Neural": 80
                 },
                 "stas_values": {
                   "num_tweets_pos": 110,
@@ -279,8 +279,8 @@
                 "name": "Older",
                 "values": {
                   "Positive": 90,
-                  "Negative": 60,
-                  "Neural": 30
+                  "Negative": 80,
+                  "Neural": 100
                 },
                 "stas_values": {
                   "num_tweets_pos": 90,
@@ -350,9 +350,9 @@
               "02/04/2020": [{
                 "name": "Young",
                 "values": {
-                  "Positive": 100,
-                  "Negative": 70,
-                  "Neural": 50
+                  "Positive": 109,
+                  "Negative": 89,
+                  "Neural": 70
                 },
                 "stas_values": {
                   "num_tweets_pos": 100,
@@ -371,8 +371,8 @@
               }, {
                 "name": "Middle",
                 "values": {
-                  "Positive": 110,
-                  "Negative": 120,
+                  "Positive": 160,
+                  "Negative": 90,
                   "Neural": 60
                 },
                 "stas_values": {
@@ -464,9 +464,9 @@
               "02/04/2020": [{
                 "name": "Young",
                 "values": {
-                  "Positive": 100,
+                  "Positive": 180,
                   "Negative": 70,
-                  "Neural": 50
+                  "Neural": 80
                 },
                 "stas_values": {
                   "num_tweets_pos": 100,
@@ -485,9 +485,9 @@
               }, {
                 "name": "Middle",
                 "values": {
-                  "Positive": 110,
-                  "Negative": 120,
-                  "Neural": 60
+                  "Positive": 180,
+                  "Negative": 200,
+                  "Neural": 180
                 },
                 "stas_values": {
                   "num_tweets_pos": 110,
@@ -506,9 +506,9 @@
               }, {
                 "name": "Older",
                 "values": {
-                  "Positive": 90,
-                  "Negative": 60,
-                  "Neural": 30
+                  "Positive": 190,
+                  "Negative": 150,
+                  "Neural": 130
                 },
                 "stas_values": {
                   "num_tweets_pos": 90,
@@ -528,9 +528,9 @@
               "03/04/2020": [{
                 "name": "Young",
                 "values": {
-                  "Positive": 150,
-                  "Negative": 80,
-                  "Neural": 70
+                  "Positive": 190,
+                  "Negative": 180,
+                  "Neural": 170
                 }
               }, {
                 "name": "Middle",
@@ -578,9 +578,9 @@
               "02/04/2020": [{
                 "name": "Young",
                 "values": {
-                  "Positive": 100,
-                  "Negative": 70,
-                  "Neural": 50
+                  "Positive": 180,
+                  "Negative": 150,
+                  "Neural": 120
                 },
                 "stas_values": {
                   "num_tweets_pos": 100,
@@ -599,9 +599,9 @@
               }, {
                 "name": "Middle",
                 "values": {
-                  "Positive": 110,
+                  "Positive": 140,
                   "Negative": 120,
-                  "Neural": 60
+                  "Neural": 160
                 },
                 "stas_values": {
                   "num_tweets_pos": 110,
@@ -692,9 +692,9 @@
               "02/04/2020": [{
                 "name": "Young",
                 "values": {
-                  "Positive": 100,
-                  "Negative": 70,
-                  "Neural": 50
+                  "Positive": 120,
+                  "Negative": 170,
+                  "Neural": 150
                 },
                 "stas_values": {
                   "num_tweets_pos": 100,
@@ -713,9 +713,9 @@
               }, {
                 "name": "Middle",
                 "values": {
-                  "Positive": 110,
+                  "Positive": 130,
                   "Negative": 120,
-                  "Neural": 60
+                  "Neural": 160
                 },
                 "stas_values": {
                   "num_tweets_pos": 110,
@@ -734,9 +734,9 @@
               }, {
                 "name": "Older",
                 "values": {
-                  "Positive": 90,
-                  "Negative": 60,
-                  "Neural": 30
+                  "Positive": 190,
+                  "Negative": 160,
+                  "Neural": 130
                 },
                 "stas_values": {
                   "num_tweets_pos": 90,
@@ -806,9 +806,9 @@
               "02/04/2020": [{
                 "name": "Young",
                 "values": {
-                  "Positive": 100,
-                  "Negative": 70,
-                  "Neural": 50
+                  "Positive": 140,
+                  "Negative": 170,
+                  "Neural": 100
                 },
                 "stas_values": {
                   "num_tweets_pos": 100,
@@ -827,9 +827,9 @@
               }, {
                 "name": "Middle",
                 "values": {
-                  "Positive": 110,
-                  "Negative": 120,
-                  "Neural": 60
+                  "Positive": 120,
+                  "Negative": 140,
+                  "Neural": 160
                 },
                 "stas_values": {
                   "num_tweets_pos": 110,
@@ -848,9 +848,9 @@
               }, {
                 "name": "Older",
                 "values": {
-                  "Positive": 90,
-                  "Negative": 60,
-                  "Neural": 30
+                  "Positive": 190,
+                  "Negative": 160,
+                  "Neural": 130
                 },
                 "stas_values": {
                   "num_tweets_pos": 90,
@@ -920,8 +920,8 @@
               "02/04/2020": [{
                 "name": "Young",
                 "values": {
-                  "Positive": 100,
-                  "Negative": 70,
+                  "Positive": 40,
+                  "Negative": 30,
                   "Neural": 50
                 },
                 "stas_values": {
@@ -941,8 +941,8 @@
               }, {
                 "name": "Middle",
                 "values": {
-                  "Positive": 110,
-                  "Negative": 120,
+                  "Positive": 60,
+                  "Negative": 80,
                   "Neural": 60
                 },
                 "stas_values": {
@@ -962,8 +962,8 @@
               }, {
                 "name": "Older",
                 "values": {
-                  "Positive": 90,
-                  "Negative": 60,
+                  "Positive": 40,
+                  "Negative": 50,
                   "Neural": 30
                 },
                 "stas_values": {

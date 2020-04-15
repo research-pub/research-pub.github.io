@@ -270,9 +270,9 @@ function draw_bar(data) {
           last_date = current_date
   }
   let span = d3.timeDay.count(first_date, last_date)
-    console.log(first_date)
-    console.log(last_date)
-    console.log(span)
+    // console.log(first_date)
+    // console.log(last_date)
+    // console.log(span)
     // first_date
   var dataTime = d3.range(0, span+1).map(function(d) {
     return new Date(first_date.getFullYear() , first_date.getMonth(), first_date.getDate() + d);
