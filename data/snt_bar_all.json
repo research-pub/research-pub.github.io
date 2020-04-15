@@ -6,31 +6,67 @@
       "state_name": "Whole Australia",
       "date_values": {
               "02/04/2020": {
-                  "Positive": 100,
-                  "num_tweets_pos": 100,
-                  "num_retweets_pos": 202,
-                  "num_likes_pos": 140,
-                  "num_replies_pos": 30,
-                  "Negative": 70,
-                  "num_tweets_neg": 70,
-                  "num_retweets_neg": 20,
-                  "num_likes_neg": 100,
-                  "num_replies_neg": 20,
-                  "Neural": 50,
-                  "num_tweets_neu": 50,
-                  "num_retweets_neu": 30,
-                  "num_likes_neu": 70,
-                  "num_replies_neu": 40
+                  "values": {
+                      "Positive": 100,
+                      "Negative": 70,
+                      "Neural": 50
+                  },
+                  "stas_values": {
+                      "num_tweets_pos": 100,
+                      "num_retweets_pos": 202,
+                      "num_likes_pos": 140,
+                      "num_replies_pos": 30,
+                      "num_tweets_neg": 70,
+                      "num_retweets_neg": 20,
+                      "num_likes_neg": 100,
+                      "num_replies_neg": 20,
+                      "num_tweets_neu": 50,
+                      "num_retweets_neu": 30,
+                      "num_likes_neu": 70,
+                      "num_replies_neu": 40
+                  }
                 },
               "03/04/2020": {
-                  "Positive": 150,
-                  "Negative": 80,
-                  "Neural": 70
+                  "values": {
+                      "Positive": 110,
+                      "Negative": 120,
+                      "Neural": 60
+                  },
+                  "stas_values": {
+                      "num_tweets_pos": 110,
+                      "num_retweets_pos": 202,
+                      "num_likes_pos": 140,
+                      "num_replies_pos": 30,
+                      "num_tweets_neg": 120,
+                      "num_retweets_neg": 20,
+                      "num_likes_neg": 100,
+                      "num_replies_neg": 20,
+                      "num_tweets_neu": 60,
+                      "num_retweets_neu": 30,
+                      "num_likes_neu": 70,
+                      "num_replies_neu": 40
+                  }
               },
               "04/04/2020": {
-                  "Positive": 160,
-                  "Negative": 180,
-                  "Neural": 70
+                  "values": {
+                      "Positive": 90,
+                      "Negative": 60,
+                      "Neural": 30
+                  },
+                  "stas_values": {
+                      "num_tweets_pos": 90,
+                      "num_retweets_pos": 202,
+                      "num_likes_pos": 140,
+                      "num_replies_pos": 30,
+                      "num_tweets_neg": 60,
+                      "num_retweets_neg": 20,
+                      "num_likes_neg": 100,
+                      "num_replies_neg": 20,
+                      "num_tweets_neu": 30,
+                      "num_retweets_neu": 30,
+                      "num_likes_neu": 70,
+                      "num_replies_neu": 40
+                  }
               }
             }
     },
@@ -39,19 +75,67 @@
       "state_name": "New South Wales",
       "date_values": {
               "02/04/2020": {
-                  "Positive": 100,
-                  "Negative": 70,
-                  "Neural": 50
-              },
+                  "values": {
+                      "Positive": 100,
+                      "Negative": 70,
+                      "Neural": 50
+                  },
+                  "stas_values": {
+                      "num_tweets_pos": 100,
+                      "num_retweets_pos": 202,
+                      "num_likes_pos": 140,
+                      "num_replies_pos": 30,
+                      "num_tweets_neg": 70,
+                      "num_retweets_neg": 20,
+                      "num_likes_neg": 100,
+                      "num_replies_neg": 20,
+                      "num_tweets_neu": 50,
+                      "num_retweets_neu": 30,
+                      "num_likes_neu": 70,
+                      "num_replies_neu": 40
+                  }
+                },
               "03/04/2020": {
-                  "Positive": 150,
-                  "Negative": 80,
-                  "Neural": 70
+                  "values": {
+                      "Positive": 110,
+                      "Negative": 120,
+                      "Neural": 60
+                  },
+                  "stas_values": {
+                      "num_tweets_pos": 110,
+                      "num_retweets_pos": 202,
+                      "num_likes_pos": 140,
+                      "num_replies_pos": 30,
+                      "num_tweets_neg": 120,
+                      "num_retweets_neg": 20,
+                      "num_likes_neg": 100,
+                      "num_replies_neg": 20,
+                      "num_tweets_neu": 60,
+                      "num_retweets_neu": 30,
+                      "num_likes_neu": 70,
+                      "num_replies_neu": 40
+                  }
               },
               "04/04/2020": {
-                  "Positive": 160,
-                  "Negative": 180,
-                  "Neural": 70
+                  "values": {
+                      "Positive": 90,
+                      "Negative": 60,
+                      "Neural": 30
+                  },
+                  "stas_values": {
+                      "num_tweets_pos": 90,
+                      "num_retweets_pos": 202,
+                      "num_likes_pos": 140,
+                      "num_replies_pos": 30,
+                      "num_tweets_neg": 60,
+                      "num_retweets_neg": 20,
+                      "num_likes_neg": 100,
+                      "num_replies_neg": 20,
+                      "num_tweets_neu": 30,
+                      "num_retweets_neu": 30,
+                      "num_likes_neu": 70,
+                      "num_replies_neu": 40
+                  }
               }
             }
     },
@@ -60,19 +144,67 @@
       "state_name": "Victoria",
       "date_values": {
               "02/04/2020": {
-                  "Positive": 100,
-                  "Negative": 70,
-                  "Neural": 50
-              },
+                  "values": {
+                      "Positive": 100,
+                      "Negative": 70,
+                      "Neural": 50
+                  },
+                  "stas_values": {
+                      "num_tweets_pos": 100,
+                      "num_retweets_pos": 202,
+                      "num_likes_pos": 140,
+                      "num_replies_pos": 30,
+                      "num_tweets_neg": 70,
+                      "num_retweets_neg": 20,
+                      "num_likes_neg": 100,
+                      "num_replies_neg": 20,
+                      "num_tweets_neu": 50,
+                      "num_retweets_neu": 30,
+                      "num_likes_neu": 70,
+                      "num_replies_neu": 40
+                  }
+                },
               "03/04/2020": {
-                  "Positive": 150,
-                  "Negative": 80,
-                  "Neural": 70
+                  "values": {
+                      "Positive": 110,
+                      "Negative": 120,
+                      "Neural": 60
+                  },
+                  "stas_values": {
+                      "num_tweets_pos": 110,
+                      "num_retweets_pos": 202,
+                      "num_likes_pos": 140,
+                      "num_replies_pos": 30,
+                      "num_tweets_neg": 120,
+                      "num_retweets_neg": 20,
+                      "num_likes_neg": 100,
+                      "num_replies_neg": 20,
+                      "num_tweets_neu": 60,
+                      "num_retweets_neu": 30,
+                      "num_likes_neu": 70,
+                      "num_replies_neu": 40
+                  }
               },
               "04/04/2020": {
-                  "Positive": 160,
-                  "Negative": 180,
-                  "Neural": 70
+                  "values": {
+                      "Positive": 90,
+                      "Negative": 60,
+                      "Neural": 30
+                  },
+                  "stas_values": {
+                      "num_tweets_pos": 90,
+                      "num_retweets_pos": 202,
+                      "num_likes_pos": 140,
+                      "num_replies_pos": 30,
+                      "num_tweets_neg": 60,
+                      "num_retweets_neg": 20,
+                      "num_likes_neg": 100,
+                      "num_replies_neg": 20,
+                      "num_tweets_neu": 30,
+                      "num_retweets_neu": 30,
+                      "num_likes_neu": 70,
+                      "num_replies_neu": 40
+                  }
               }
             }
     },
@@ -81,19 +213,67 @@
       "state_name": "Queensland",
       "date_values": {
               "02/04/2020": {
-                  "Positive": 100,
-                  "Negative": 70,
-                  "Neural": 50
-              },
+                  "values": {
+                      "Positive": 100,
+                      "Negative": 70,
+                      "Neural": 50
+                  },
+                  "stas_values": {
+                      "num_tweets_pos": 100,
+                      "num_retweets_pos": 202,
+                      "num_likes_pos": 140,
+                      "num_replies_pos": 30,
+                      "num_tweets_neg": 70,
+                      "num_retweets_neg": 20,
+                      "num_likes_neg": 100,
+                      "num_replies_neg": 20,
+                      "num_tweets_neu": 50,
+                      "num_retweets_neu": 30,
+                      "num_likes_neu": 70,
+                      "num_replies_neu": 40
+                  }
+                },
               "03/04/2020": {
-                  "Positive": 150,
-                  "Negative": 80,
-                  "Neural": 70
+                  "values": {
+                      "Positive": 110,
+                      "Negative": 120,
+                      "Neural": 60
+                  },
+                  "stas_values": {
+                      "num_tweets_pos": 110,
+                      "num_retweets_pos": 202,
+                      "num_likes_pos": 140,
+                      "num_replies_pos": 30,
+                      "num_tweets_neg": 120,
+                      "num_retweets_neg": 20,
+                      "num_likes_neg": 100,
+                      "num_replies_neg": 20,
+                      "num_tweets_neu": 60,
+                      "num_retweets_neu": 30,
+                      "num_likes_neu": 70,
+                      "num_replies_neu": 40
+                  }
               },
               "04/04/2020": {
-                  "Positive": 160,
-                  "Negative": 180,
-                  "Neural": 70
+                  "values": {
+                      "Positive": 90,
+                      "Negative": 60,
+                      "Neural": 30
+                  },
+                  "stas_values": {
+                      "num_tweets_pos": 90,
+                      "num_retweets_pos": 202,
+                      "num_likes_pos": 140,
+                      "num_replies_pos": 30,
+                      "num_tweets_neg": 60,
+                      "num_retweets_neg": 20,
+                      "num_likes_neg": 100,
+                      "num_replies_neg": 20,
+                      "num_tweets_neu": 30,
+                      "num_retweets_neu": 30,
+                      "num_likes_neu": 70,
+                      "num_replies_neu": 40
+                  }
               }
             }
     },
@@ -102,19 +282,67 @@
       "state_name": "South Australia",
       "date_values": {
               "02/04/2020": {
-                  "Positive": 100,
-                  "Negative": 70,
-                  "Neural": 50
-              },
+                  "values": {
+                      "Positive": 100,
+                      "Negative": 70,
+                      "Neural": 50
+                  },
+                  "stas_values": {
+                      "num_tweets_pos": 100,
+                      "num_retweets_pos": 202,
+                      "num_likes_pos": 140,
+                      "num_replies_pos": 30,
+                      "num_tweets_neg": 70,
+                      "num_retweets_neg": 20,
+                      "num_likes_neg": 100,
+                      "num_replies_neg": 20,
+                      "num_tweets_neu": 50,
+                      "num_retweets_neu": 30,
+                      "num_likes_neu": 70,
+                      "num_replies_neu": 40
+                  }
+                },
               "03/04/2020": {
-                  "Positive": 150,
-                  "Negative": 80,
-                  "Neural": 70
+                  "values": {
+                      "Positive": 110,
+                      "Negative": 120,
+                      "Neural": 60
+                  },
+                  "stas_values": {
+                      "num_tweets_pos": 110,
+                      "num_retweets_pos": 202,
+                      "num_likes_pos": 140,
+                      "num_replies_pos": 30,
+                      "num_tweets_neg": 120,
+                      "num_retweets_neg": 20,
+                      "num_likes_neg": 100,
+                      "num_replies_neg": 20,
+                      "num_tweets_neu": 60,
+                      "num_retweets_neu": 30,
+                      "num_likes_neu": 70,
+                      "num_replies_neu": 40
+                  }
               },
               "04/04/2020": {
-                  "Positive": 160,
-                  "Negative": 180,
-                  "Neural": 70
+                  "values": {
+                      "Positive": 90,
+                      "Negative": 60,
+                      "Neural": 30
+                  },
+                  "stas_values": {
+                      "num_tweets_pos": 90,
+                      "num_retweets_pos": 202,
+                      "num_likes_pos": 140,
+                      "num_replies_pos": 30,
+                      "num_tweets_neg": 60,
+                      "num_retweets_neg": 20,
+                      "num_likes_neg": 100,
+                      "num_replies_neg": 20,
+                      "num_tweets_neu": 30,
+                      "num_retweets_neu": 30,
+                      "num_likes_neu": 70,
+                      "num_replies_neu": 40
+                  }
               }
             }
     },
@@ -123,19 +351,67 @@
       "state_name": "Western Australia",
       "date_values": {
               "02/04/2020": {
-                  "Positive": 100,
-                  "Negative": 70,
-                  "Neural": 50
-              },
+                  "values": {
+                      "Positive": 100,
+                      "Negative": 70,
+                      "Neural": 50
+                  },
+                  "stas_values": {
+                      "num_tweets_pos": 100,
+                      "num_retweets_pos": 202,
+                      "num_likes_pos": 140,
+                      "num_replies_pos": 30,
+                      "num_tweets_neg": 70,
+                      "num_retweets_neg": 20,
+                      "num_likes_neg": 100,
+                      "num_replies_neg": 20,
+                      "num_tweets_neu": 50,
+                      "num_retweets_neu": 30,
+                      "num_likes_neu": 70,
+                      "num_replies_neu": 40
+                  }
+                },
               "03/04/2020": {
-                  "Positive": 150,
-                  "Negative": 80,
-                  "Neural": 70
+                  "values": {
+                      "Positive": 110,
+                      "Negative": 120,
+                      "Neural": 60
+                  },
+                  "stas_values": {
+                      "num_tweets_pos": 110,
+                      "num_retweets_pos": 202,
+                      "num_likes_pos": 140,
+                      "num_replies_pos": 30,
+                      "num_tweets_neg": 120,
+                      "num_retweets_neg": 20,
+                      "num_likes_neg": 100,
+                      "num_replies_neg": 20,
+                      "num_tweets_neu": 60,
+                      "num_retweets_neu": 30,
+                      "num_likes_neu": 70,
+                      "num_replies_neu": 40
+                  }
               },
               "04/04/2020": {
-                  "Positive": 160,
-                  "Negative": 180,
-                  "Neural": 70
+                  "values": {
+                      "Positive": 90,
+                      "Negative": 60,
+                      "Neural": 30
+                  },
+                  "stas_values": {
+                      "num_tweets_pos": 90,
+                      "num_retweets_pos": 202,
+                      "num_likes_pos": 140,
+                      "num_replies_pos": 30,
+                      "num_tweets_neg": 60,
+                      "num_retweets_neg": 20,
+                      "num_likes_neg": 100,
+                      "num_replies_neg": 20,
+                      "num_tweets_neu": 30,
+                      "num_retweets_neu": 30,
+                      "num_likes_neu": 70,
+                      "num_replies_neu": 40
+                  }
               }
             }
     },
@@ -144,19 +420,67 @@
       "state_name": "Tasmania",
       "date_values": {
               "02/04/2020": {
-                  "Positive": 100,
-                  "Negative": 70,
-                  "Neural": 50
-              },
+                  "values": {
+                      "Positive": 100,
+                      "Negative": 70,
+                      "Neural": 50
+                  },
+                  "stas_values": {
+                      "num_tweets_pos": 100,
+                      "num_retweets_pos": 202,
+                      "num_likes_pos": 140,
+                      "num_replies_pos": 30,
+                      "num_tweets_neg": 70,
+                      "num_retweets_neg": 20,
+                      "num_likes_neg": 100,
+                      "num_replies_neg": 20,
+                      "num_tweets_neu": 50,
+                      "num_retweets_neu": 30,
+                      "num_likes_neu": 70,
+                      "num_replies_neu": 40
+                  }
+                },
               "03/04/2020": {
-                  "Positive": 150,
-                  "Negative": 80,
-                  "Neural": 70
+                  "values": {
+                      "Positive": 110,
+                      "Negative": 120,
+                      "Neural": 60
+                  },
+                  "stas_values": {
+                      "num_tweets_pos": 110,
+                      "num_retweets_pos": 202,
+                      "num_likes_pos": 140,
+                      "num_replies_pos": 30,
+                      "num_tweets_neg": 120,
+                      "num_retweets_neg": 20,
+                      "num_likes_neg": 100,
+                      "num_replies_neg": 20,
+                      "num_tweets_neu": 60,
+                      "num_retweets_neu": 30,
+                      "num_likes_neu": 70,
+                      "num_replies_neu": 40
+                  }
               },
               "04/04/2020": {
-                  "Positive": 160,
-                  "Negative": 180,
-                  "Neural": 70
+                  "values": {
+                      "Positive": 90,
+                      "Negative": 60,
+                      "Neural": 30
+                  },
+                  "stas_values": {
+                      "num_tweets_pos": 90,
+                      "num_retweets_pos": 202,
+                      "num_likes_pos": 140,
+                      "num_replies_pos": 30,
+                      "num_tweets_neg": 60,
+                      "num_retweets_neg": 20,
+                      "num_likes_neg": 100,
+                      "num_replies_neg": 20,
+                      "num_tweets_neu": 30,
+                      "num_retweets_neu": 30,
+                      "num_likes_neu": 70,
+                      "num_replies_neu": 40
+                  }
               }
             }
     },
@@ -165,19 +489,67 @@
       "state_name": "Northern Territory",
       "date_values": {
               "02/04/2020": {
-                  "Positive": 100,
-                  "Negative": 70,
-                  "Neural": 50
-              },
+                  "values": {
+                      "Positive": 100,
+                      "Negative": 70,
+                      "Neural": 50
+                  },
+                  "stas_values": {
+                      "num_tweets_pos": 100,
+                      "num_retweets_pos": 202,
+                      "num_likes_pos": 140,
+                      "num_replies_pos": 30,
+                      "num_tweets_neg": 70,
+                      "num_retweets_neg": 20,
+                      "num_likes_neg": 100,
+                      "num_replies_neg": 20,
+                      "num_tweets_neu": 50,
+                      "num_retweets_neu": 30,
+                      "num_likes_neu": 70,
+                      "num_replies_neu": 40
+                  }
+                },
               "03/04/2020": {
-                  "Positive": 150,
-                  "Negative": 80,
-                  "Neural": 70
+                  "values": {
+                      "Positive": 110,
+                      "Negative": 120,
+                      "Neural": 60
+                  },
+                  "stas_values": {
+                      "num_tweets_pos": 110,
+                      "num_retweets_pos": 202,
+                      "num_likes_pos": 140,
+                      "num_replies_pos": 30,
+                      "num_tweets_neg": 120,
+                      "num_retweets_neg": 20,
+                      "num_likes_neg": 100,
+                      "num_replies_neg": 20,
+                      "num_tweets_neu": 60,
+                      "num_retweets_neu": 30,
+                      "num_likes_neu": 70,
+                      "num_replies_neu": 40
+                  }
               },
               "04/04/2020": {
-                  "Positive": 160,
-                  "Negative": 180,
-                  "Neural": 70
+                  "values": {
+                      "Positive": 90,
+                      "Negative": 60,
+                      "Neural": 30
+                  },
+                  "stas_values": {
+                      "num_tweets_pos": 90,
+                      "num_retweets_pos": 202,
+                      "num_likes_pos": 140,
+                      "num_replies_pos": 30,
+                      "num_tweets_neg": 60,
+                      "num_retweets_neg": 20,
+                      "num_likes_neg": 100,
+                      "num_replies_neg": 20,
+                      "num_tweets_neu": 30,
+                      "num_retweets_neu": 30,
+                      "num_likes_neu": 70,
+                      "num_replies_neu": 40
+                  }
               }
             }
     },
@@ -186,19 +558,67 @@
       "state_name": "ACT",
       "date_values": {
               "02/04/2020": {
-                  "Positive": 100,
-                  "Negative": 70,
-                  "Neural": 50
-              },
+                  "values": {
+                      "Positive": 100,
+                      "Negative": 70,
+                      "Neural": 50
+                  },
+                  "stas_values": {
+                      "num_tweets_pos": 100,
+                      "num_retweets_pos": 202,
+                      "num_likes_pos": 140,
+                      "num_replies_pos": 30,
+                      "num_tweets_neg": 70,
+                      "num_retweets_neg": 20,
+                      "num_likes_neg": 100,
+                      "num_replies_neg": 20,
+                      "num_tweets_neu": 50,
+                      "num_retweets_neu": 30,
+                      "num_likes_neu": 70,
+                      "num_replies_neu": 40
+                  }
+                },
               "03/04/2020": {
-                  "Positive": 150,
-                  "Negative": 80,
-                  "Neural": 70
+                  "values": {
+                      "Positive": 110,
+                      "Negative": 120,
+                      "Neural": 60
+                  },
+                  "stas_values": {
+                      "num_tweets_pos": 110,
+                      "num_retweets_pos": 202,
+                      "num_likes_pos": 140,
+                      "num_replies_pos": 30,
+                      "num_tweets_neg": 120,
+                      "num_retweets_neg": 20,
+                      "num_likes_neg": 100,
+                      "num_replies_neg": 20,
+                      "num_tweets_neu": 60,
+                      "num_retweets_neu": 30,
+                      "num_likes_neu": 70,
+                      "num_replies_neu": 40
+                  }
               },
               "04/04/2020": {
-                  "Positive": 160,
-                  "Negative": 180,
-                  "Neural": 70
+                  "values": {
+                      "Positive": 90,
+                      "Negative": 60,
+                      "Neural": 30
+                  },
+                  "stas_values": {
+                      "num_tweets_pos": 90,
+                      "num_retweets_pos": 202,
+                      "num_likes_pos": 140,
+                      "num_replies_pos": 30,
+                      "num_tweets_neg": 60,
+                      "num_retweets_neg": 20,
+                      "num_likes_neg": 100,
+                      "num_replies_neg": 20,
+                      "num_tweets_neu": 30,
+                      "num_retweets_neu": 30,
+                      "num_likes_neu": 70,
+                      "num_replies_neu": 40
+                  }
               }
             }
     }

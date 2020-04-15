@@ -1,6 +1,5 @@
-
 function draw_pie(data) {
-    console.log(data)
+    // console.log(data)
     var width = 240;
     var height = 220;
     var radius_set = 180;
@@ -16,11 +15,6 @@ function draw_pie(data) {
          .append('g')
          .attr('transform', 'translate(' + (width / 2) + ',' + (height / 2) + ')');
 
-     // var svg = d3.select('svg')
-     //     .append('g')
-     //     .attr('transform', 'translate(' + (width / 2) + ',' + (height / 2) + ')');
-
-
     var arc = d3.arc()
          .innerRadius(radius - donutWidth)
          .outerRadius(radius);
@@ -34,14 +28,31 @@ function draw_pie(data) {
     var div = d3.select("body").append("div")
          .attr("class", "tooltip-donut")
          .style("opacity", 0);
-    // div.html("")
+
+
+   // check each subset of data for possible sections, since not all subsets have every possible section.
+  let nameKeys = data.map(obj =>obj.name)
+  // get total number of each category (Male, Female or Other)
+  let values = data.map(obj =>Object.values(obj.values).reduce((a, b) => a + b, 0))
+  // get total number of a state in a day
+  let total = values.reduce((a, b) => a + b, 0)
+  let new_data = []
+    for (let i = 0; i < nameKeys.length; i++) {
+        let item = {}
+        item.title = nameKeys[i]
+        item.value = values[i]
+        item.all = total
+        new_data.push(item)
+    }
+
+    // console.log(new_data)
 
     var arcOver = d3.arc()
          .innerRadius(radius - donutWidth)
          .outerRadius(radius+10);
 
     var path = svg.selectAll('path')
-         .data(pie(data))
+         .data(pie(new_data))
          .enter()
          .append('path')
          .attr('d', arc)
@@ -100,7 +111,6 @@ function draw_pie(data) {
                 .text(function (d) {
                      return d;
                 });
-
 }
 
 
@@ -108,10 +118,9 @@ function createChart (svg, data) {
 
   // const colors = ['#98abc5', '#8a89a6', '#7b6888', '#6b486b', '#a05d56', '#d0743c', '#ff8c00']
   const colors = ['#98abc5', '#6b486b', '#ff8c00']
-  // svg = d3.select(svg)
   const margin = {top: 20, right: 20, bottom: 30, left: 40}
-  const width = 350 - margin.left - margin.right
-  const height = 150 - margin.top - margin.bottom
+  const width = 450 - margin.left - margin.right
+  const height = 210 - margin.top - margin.bottom
   const g = svg.append('g').attr('transform', 'translate(' + margin.left + ',' + margin.top + ')')
 
   var x0 = d3.scaleBand()
@@ -129,7 +138,7 @@ function createChart (svg, data) {
 
   // check each subset of data for possible sections, since not all subsets have every possible section.
   let nameKeys = data[Object.keys(data)[0]].map(obj =>obj.name)
-  let valueKeys =   ["Positive", "Negative", "Neural"]
+  let valueKeys = Object.keys(data[Object.keys(data)[0]][0].values)
 
   x0.domain(nameKeys)
   x1.domain(valueKeys).rangeRound([0, x0.bandwidth()])
@@ -188,7 +197,7 @@ function createChart (svg, data) {
       .keys(valueKeys)
 
   // updates both the year + the chart type (group or stacked)
-  function updateChart (data, chartType='group') {
+  function updateChart (data) {
 
       //find max value of a section
       const maxValue = d3.max(data.map((d) => Object.values(d.values)).reduce((a, b) => a.concat(b), []))
@@ -230,17 +239,15 @@ function createChart (svg, data) {
       .attr('height', d => height - y(d.value))
 
   }
-
   return {
     updateChart
   }
 }
 
 function draw_bar(data) {
-    //start with the first year selected
-  // const chart = createChart(document.querySelector('svg'), data)
-  var width = 300
-  var height = 100
+
+  var width = 350
+  var height = 150
   d3.select('#bar').html("")
   var svg = d3.select('#bar')
       .append('svg')
@@ -249,56 +256,47 @@ function draw_bar(data) {
 
   const chart = createChart(svg, data);
 
-  // append the input controls
-  d3.select('.controls').html("")
-  const fieldset1 = d3.select('.controls').append('fieldset')
-  fieldset1.append('legend').text('Date')
+// To obtain the first and last date from collected data, the day difference is the span, the new date is the first date
+  const tParser = d3.timeParse("%d/%m/%Y")
+  let dates_ls = Object.keys(data)
+  let first_date = tParser(dates_ls[0]),
+      last_date  = tParser(dates_ls[0]);
+  for (let i = 0; i < dates_ls.length; i++) {
+      let current_date = tParser(dates_ls[i])
+      if (first_date > current_date)
+          first_date = tParser(dates_ls[i])
+      if (last_date < current_date)
+          last_date = current_date
+  }
+  let span = d3.timeDay.count(first_date, last_date)
 
-  Object.keys(data).forEach((year, index )=>{
+  var dataTime = d3.range(0, span+1).map(function(d) {
+    return new Date(first_date.getFullYear() , first_date.getMonth(), first_date.getDate() + d);
+  });
+  var sliderTime = d3
+    .sliderBottom()
+    .min(d3.min(dataTime))
+    .max(d3.max(dataTime))
+    .step(1000 * 60 * 60 * 24)
+    .width(700)
+    .tickFormat(d3.timeFormat('%d/%m'))
+    .tickValues(dataTime)
+    .default(new Date(2020, 3, 2))
+    .on('onchange', val => {
+      chart.updateChart(data[d3.timeFormat('%d/%m/%Y')(val)])
+      draw_pie(data[d3.timeFormat('%d/%m/%Y')(val)])
+    });
 
-    const label = fieldset1.append('label')
+  var gTime = d3
+    .select('div#slider-time')
+    .append('svg')
+    .attr('width',300)
+    .attr('height', 100)
+    .append('g')
+    .attr('transform', 'translate(30,30)');
+  gTime.call(sliderTime);
 
-    label
-    .append('input')
-    .attr('type', 'radio')
-    .attr('name', 'year')
-    .attr('value', year)
-    .attr('checked', function(){
-      if (index === 0) return true
-      return null
-    })
-
-    label.append('span')
-    .text(year)
-
-    label.on('click', function(){
-      chart.updateChart(data[year], document.querySelector('input[name="graphType"]:checked').value)
-    })
-  })
-
-  const fieldset2 = d3.select('.controls').append('fieldset')
-  const types =  ['group', 'stack']
-  // fieldset2.append('legend').text('Graph Layout')
-
-  types.forEach((graphType, index)=>{
-    const label = fieldset2.append('label')
-    label.append('input')
-    .attr('type', 'radio')
-    .attr('hidden', 'True')
-    .attr('name', 'graphType')
-    .attr('value', graphType)
-    .attr('checked', function(){
-      if (index === 0) return true
-      return null
-    })
-    .on('click', ()=>{
-      chart.updateChart(data[document.querySelector('input[name="year"]:checked').value], graphType)
-    })
-
-    // label.append('span')
-    // .text(graphType)
-
-  })
-  // render initial chart
+  //start with the first year selected
   chart.updateChart(data[Object.keys(data)[0]])
+  draw_pie(data[Object.keys(data)[0]])
 }

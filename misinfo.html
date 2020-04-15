@@ -131,9 +131,20 @@
 .txtNew h4 {margin:0;line-height:normal;letter-spacing:normal;}
 .txtNew h5 {margin:0;line-height:normal;letter-spacing:normal;}
 .txtNew h6 {margin:0;line-height:normal;letter-spacing:normal;}
-.txtNew a {color:inherit;}</style><style type="text/css" data-styleid="mc1">.mc1:not([data-mobile-responsive]) .mc1inlineContent,.mc1:not([data-mobile-responsive]) .mc1container {position:absolute;top:0;right:0;bottom:0;left:0;}</style><style type="text/css" data-styleid="htco1">.htco1iFrameHolder {width:100%;height:100%;}
-.htco1iFrameHolder > iframe {position:absolute; width: 755px; height:560px; top: auto; left: calc((100% - 755px) * 0.5); border-width: 0px;}
-.htco1[data-state="noContent"] {background-color:#A5A5A5;}</style><style type="text/css" data-styleid="hl1">.hl1 {box-sizing:border-box;border-top:1px solid rgba(0, 0, 0, 1);height:0;}</style><style type="text/css" data-styleid="AutoWidthAnchorSkin">.AutoWidthAnchorSkin {pointer-events:none !important;}</style><style type="text/css" data-styleid="style-k7j1ph35">.style-k7j1ph35menuContainer {display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;flex-direction:column;-webkit-box-pack:justify;-webkit-justify-content:space-between;justify-content:space-between;width:100%;height:100%;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+.txtNew a {color:inherit;}</style>
+	<style type="text/css" data-styleid="mc1">.mc1:not([data-mobile-responsive]) .mc1inlineContent,.mc1:not([data-mobile-responsive]) .mc1container {position:absolute;top:0;right:0;bottom:0;left:0;}
+	</style>
+	<style type="text/css" data-styleid="htco1">
+		.htco1iFrameHolder {width:100%;height:100%;}
+		.htco1iFrameHolder > iframe {position:absolute; width: 755px; height:560px; top: auto; left: calc((100% - 755px) * 0.5); border-width: 0px;}
+		.htco1[data-state="noContent"] {background-color:#A5A5A5;}
+
+		.htco1iFrameHolder_geo {width:100%;height:100%;}
+		.htco1iFrameHolder_geo > iframe {
+			position:absolute; width: 755px; height:640px;
+			top: auto; left: calc((100% - 755px) * 0.5); border-width: 0px;}
+	</style>
+	<style type="text/css" data-styleid="hl1">.hl1 {box-sizing:border-box;border-top:1px solid rgba(0, 0, 0, 1);height:0;}</style><style type="text/css" data-styleid="AutoWidthAnchorSkin">.AutoWidthAnchorSkin {pointer-events:none !important;}</style><style type="text/css" data-styleid="style-k7j1ph35">.style-k7j1ph35menuContainer {display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;flex-direction:column;-webkit-box-pack:justify;-webkit-justify-content:space-between;justify-content:space-between;width:100%;height:100%;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
 .style-k7j1ph35menuContainer .style-k7j1ph35_item {position:relative;}
 .style-k7j1ph35menuContainer .style-k7j1ph35_item .style-k7j1ph35_link {display:-webkit-box;display:-webkit-flex;display:flex;text-decoration:none;width:100%;cursor:default;-webkit-box-align:center;-webkit-align-items:center;align-items:center;pointer-events:none;}
 .style-k7j1ph35menuContainer .style-k7j1ph35_item .style-k7j1ph35_link .style-k7j1ph35_text-wrapper {position:relative;white-space:nowrap;text-align:right;line-height:100%;visibility:hidden;opacity:0;left:10px;font:normal normal 700 16px/1.4em avenir-lt-w01_35-light1475496,sans-serif;    color:rgba(0, 0, 0, 1);width:calc(100% - 15px);-webkit-transition:all 0.3s cubic-bezier(0.23, 1, 0.32, 1);transition:all 0.3s cubic-bezier(0.23, 1, 0.32, 1);}
@@ -503,8 +514,10 @@
 					</p>
 				</div>
 
-				<wix-iframe data-state="hasContent" id="geomap" class="htco1" style="width: 755px; height: 726px;"><div id="comp-k7fz14wkjiFrameHolder" class="htco1iFrameHolder">
-					<iframe width="100%" height="100%" frameBorder="0"  name="htmlComp-iframe" scrolling="no" style="overflow:hidden;" src="./geo_map_v4.html"></iframe></div>
+				<wix-iframe data-state="hasContent" id="geomap" class="htco1" style="width: 755px; height: 726px;">
+					<div id="comp-k7fz14wkjiFrameHolder" class="htco1iFrameHolder_geo">
+					<iframe width="100%" height="100%" frameBorder="0"  name="htmlComp-iframe"
+							scrolling="no" style="overflow:hidden;" src="mis_geo_map.html"></iframe></div>
 				</wix-iframe>
 
 				<div data-packed="true" class="txtNew" id="comp-k7gdcr93" style="width: 659px; pointer-events: none;">

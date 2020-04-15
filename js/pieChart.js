@@ -1,55 +1,9 @@
 //both female and male data
-var totals = [
-     {
-     title: "Positive",
-     value: 472,
-     all: 1098
-     },
-     {
-     title: "Negative",
-     value: 318,
-     all: 1098
-     },
-    {
-     title: "Neural",
-     value: 308,
-     all: 1098
-     }
-];
-//female
-var femaleData = [{
-     title: "Positive",
-     value: 25,
-     all: 100
-     },
-     {
-     title: "Negative",
-     value: 44,
-     all: 100
-     },
-     {
-     title: "Neural",
-     value: 28,
-     all: 100
-     }
-];
-//male
-var maleData = [{
-     title: "Positive",
-     value: 27,
-     all: 100
-     },
-     {
-     title: "Negative",
-     value: 42,
-     all: 100
-     },
-     {
-     title: "Neural",
-     value: 30,
-     all: 100
-     }
-];
+var temp = {
+     Positive: 472,
+     Negative: 318
+     };
+
 
 var width = 500;
 var height = 500;
@@ -58,9 +12,19 @@ var radius = radius_set / 2;
 var donutWidth = 75; //This is the size of the hole in the middle
 
 var color = d3.scaleOrdinal().range(['#98abc5', '#6b486b', '#ff8c00']);
-// const colors = ['#98abc5', '#6b486b', '#ff8c00']
 
-// var color = d3.scaleOrdinal().range(["#5EC9A9", "#AFE4B8", "#539CC6", "#323595", "#C2D5EB"]);
+// changing data format from key/value to list
+let titleValues = Object.values(temp)
+let valueKeys = Object.keys(temp)
+let total = titleValues.reduce((a, b) => a + b, 0)
+let new_data = []
+for (let i = 0; i < valueKeys.length; i++) {
+    let item = {}
+    item.title = valueKeys[i]
+    item.value = titleValues[i]
+    item.all = total
+    new_data.push(item)
+}
 
 var svg = d3.select('#pie')
      .append('svg')
@@ -88,7 +52,7 @@ var arcOver = d3.arc()
      .outerRadius(radius+10);
 
 var path = svg.selectAll('path')
-     .data(pie(totals))
+     .data(pie(new_data))
      .enter()
      .append('path')
      .attr('d', arc)

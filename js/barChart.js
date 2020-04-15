@@ -22,10 +22,16 @@ function createChart (svg, data) {
 
   var z = d3.scaleOrdinal()
     .range(colors)
+console.log(data)
+  console.log(Object.keys(data)[0])
+  console.log(Object.keys(data[Object.keys(data)[0]][0].values))
+  console.log(Object.values(data[Object.keys(data)[0]][0].values))
+
 
   // check each subset of data for possible sections, since not all subsets have every possible section.
   let nameKeys = data[Object.keys(data)[0]].map(obj =>obj.name)
-  let valueKeys =   ["Positive", "Negative", "Neural"]
+  let valueKeys = Object.keys(data[Object.keys(data)[0]][0].values)
+
 
   x0.domain(nameKeys)
   x1.domain(valueKeys).rangeRound([0, x0.bandwidth()])
