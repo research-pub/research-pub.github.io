@@ -20,8 +20,7 @@ function createChart (svg, data) {
   var y = d3.scaleLinear()
     .rangeRound([height, 0])
 
-  var z = d3.scaleOrdinal()
-    .range(colors)
+  var z = d3.scaleOrdinal().range(colors)
 console.log(data)
   console.log(Object.keys(data)[0])
   console.log(Object.keys(data[Object.keys(data)[0]][0].values))
@@ -87,7 +86,8 @@ console.log(data)
       .text(d => d)
 
   function updateChart (data) {
-
+      var tooltip = d3.select('body').append('div')
+        .attr('class', 'hidden tooltip');
       //find max value of a section
       const maxValue = d3.max(data.map((d) => Object.values(d.values)).reduce((a, b) => a.concat(b), []))
       y.domain([0, maxValue]).nice()
@@ -115,17 +115,31 @@ console.log(data)
       bars
       .enter()
       .append('rect')
-      .attr('fill', function (d) {
-        return z(d.key)
-      })
-      // start y at height (0) so animation in looks like bars are growing upwards
+      .attr('fill', function (d) {return z(d.key)})
       .attr('y', height)
+      .on('mouseover', function(d, i) {
+            d3.select(this).attr("fill", "red");
+            var mouse = d3.mouse(svg.node()).map(function(d) {
+                        return parseInt(d);
+                    });
+            tooltip.classed('hidden', false)
+                .attr('style', 'left:' + (mouse[0] + 15) +
+                        'px; top:' + (mouse[1] - 35) + 'px')
+                .html(d.value);
+        })
+      .on("mouseout", function(d, i) {
+          d3.select(this).attr("fill", function (d) {return z(d.key)});
+          tooltip.classed('hidden', true)
+          tooltip.html("")
+        })
       .merge(bars)
       .transition()
       .attr('width', x1.bandwidth())
       .attr('x', function (d) { return x1(d.key) })
       .attr('y', d => y(d.value))
       .attr('height', d => height - y(d.value))
+
+
 
   }
 
