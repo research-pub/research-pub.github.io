@@ -1,7 +1,8 @@
 //both female and male data
 var temp = {
      Positive: 472,
-     Negative: 318
+     Negative: 318,
+     Neutral: 412
      };
 
 
@@ -57,7 +58,6 @@ var path = svg.selectAll('path')
      .append('path')
      .attr('d', arc)
      .attr('fill', function (d, i) {
-
           return color(d.data.title);
      })
      .attr('transform', 'translate(0, 0)')

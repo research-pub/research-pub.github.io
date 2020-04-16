@@ -11,7 +11,7 @@
          "value": 750,
          "all": 2000
          },
-        {"title": "Neural",
+        {"title": "Neutral",
          "value": 350,
          "all": 1500
         }]
@@ -29,7 +29,7 @@
          "value": 400,
          "all": 1500
          },
-        {"title": "Neural",
+        {"title": "Neutral",
          "value": 300,
          "all": 1500
         }]
@@ -47,7 +47,7 @@
          "value": 600,
          "all": 1800
          },
-        {"title": "Neural",
+        {"title": "Neutral",
          "value": 400,
          "all": 1800
         }]
@@ -65,7 +65,7 @@
          "value": 400,
          "all": 1200
          },
-        {"title": "Neural",
+        {"title": "Neutral",
          "value": 200,
          "all": 1200
         }]
@@ -83,7 +83,7 @@
          "value": 300,
          "all": 1000
          },
-        {"title": "Neural",
+        {"title": "Neutral",
          "value": 200,
          "all": 1000
         }]
@@ -101,7 +101,7 @@
          "value": 200,
          "all": 800
          },
-        {"title": "Neural",
+        {"title": "Neutral",
          "value": 200,
          "all": 800
         }]
@@ -119,7 +119,7 @@
          "value": 30,
          "all": 100
          },
-        {"title": "Neural",
+        {"title": "Neutral",
          "value": 30,
          "all": 100
         }]
@@ -137,7 +137,7 @@
          "value": 150,
          "all": 500
          },
-        {"title": "Neural",
+        {"title": "Neutral",
          "value": 50,
          "all": 500
         }]
@@ -155,7 +155,7 @@
          "value": 3,
          "all": 10
          },
-        {"title": "Neural",
+        {"title": "Neutral",
          "value": 2,
          "all": 10
         }]
@@ -173,7 +173,7 @@
          "value": 0,
          "all": 1
          },
-        {"title": "Neural",
+        {"title": "Neutral",
          "value": 0,
          "all": 1
         }]

@@ -161,7 +161,7 @@
 
 /*htco1*/
 .htco1iFrameHolder {width:100%;height:100%;}
-.htco1iFrameHolder > iframe {position:absolute; width: 755px; height:560px; top: auto; left: calc((100% - 755px) * 0.5); border-width: 0px;}
+.htco1iFrameHolder > iframe {position:absolute; width: 755px; height:600px; top: auto; left: calc((100% - 755px) * 0.5); border-width: 0px;}
 .htco1[data-state="noContent"] {background-color:#A5A5A5;}
 
 .htco1iFrameHolder_geo {width:100%;height:100%;}
@@ -449,4 +449,39 @@
 
 #comp-ius5csutinlineContent-gridContainer > [id$="-rotated-wrapper"] > * {
     pointer-events: auto;
+}
+
+.moveable_w {
+    position: relative;
+    min-width: 1px;
+    width: 675px;
+    height:30px;
+    position: relative;
+    margin: 0px 0px 29px calc((100% - 980px) * 0.5);
+    left: 120px;
+    grid-area: 2 / 1 / 3 / 2;
+    justify-self: start;
+    align-self: start;
+}
+.headline {
+    /*font: 500 39px Ubuntu;*/
+    color: #434343;
+    text-align: left;
+    line-height: 40px;
+    border-bottom: 5px solid #e8e8e8;
+    padding-bottom: 10px;
+}
+.bodytext .innertext, .ig-container {
+    -webkit-font-smoothing: antialiased;
+}
+.moveable {
+    margin-bottom: 30px!important;
+}
+.moveable {
+    outline: 0;
+}
+.innertext {
+    line-height: 1em;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }

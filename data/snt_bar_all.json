@@ -9,7 +9,7 @@
                   "values": {
                       "Positive": 100,
                       "Negative": 70,
-                      "Neural": 50
+                      "Neutral": 50
                   },
                   "stas_values": {
                       "num_tweets_pos": 100,
@@ -30,7 +30,7 @@
                   "values": {
                       "Positive": 110,
                       "Negative": 120,
-                      "Neural": 60
+                      "Neutral": 60
                   },
                   "stas_values": {
                       "num_tweets_pos": 110,
@@ -51,7 +51,7 @@
                   "values": {
                       "Positive": 90,
                       "Negative": 60,
-                      "Neural": 30
+                      "Neutral": 30
                   },
                   "stas_values": {
                       "num_tweets_pos": 90,
@@ -78,7 +78,7 @@
                   "values": {
                       "Positive": 100,
                       "Negative": 70,
-                      "Neural": 50
+                      "Neutral": 50
                   },
                   "stas_values": {
                       "num_tweets_pos": 100,
@@ -99,7 +99,7 @@
                   "values": {
                       "Positive": 110,
                       "Negative": 120,
-                      "Neural": 60
+                      "Neutral": 60
                   },
                   "stas_values": {
                       "num_tweets_pos": 110,
@@ -120,7 +120,7 @@
                   "values": {
                       "Positive": 90,
                       "Negative": 60,
-                      "Neural": 30
+                      "Neutral": 30
                   },
                   "stas_values": {
                       "num_tweets_pos": 90,
@@ -147,7 +147,7 @@
                   "values": {
                       "Positive": 100,
                       "Negative": 70,
-                      "Neural": 50
+                      "Neutral": 50
                   },
                   "stas_values": {
                       "num_tweets_pos": 100,
@@ -168,7 +168,7 @@
                   "values": {
                       "Positive": 110,
                       "Negative": 120,
-                      "Neural": 60
+                      "Neutral": 60
                   },
                   "stas_values": {
                       "num_tweets_pos": 110,
@@ -189,7 +189,7 @@
                   "values": {
                       "Positive": 90,
                       "Negative": 60,
-                      "Neural": 30
+                      "Neutral": 30
                   },
                   "stas_values": {
                       "num_tweets_pos": 90,
@@ -216,7 +216,7 @@
                   "values": {
                       "Positive": 100,
                       "Negative": 70,
-                      "Neural": 50
+                      "Neutral": 50
                   },
                   "stas_values": {
                       "num_tweets_pos": 100,
@@ -237,7 +237,7 @@
                   "values": {
                       "Positive": 110,
                       "Negative": 120,
-                      "Neural": 60
+                      "Neutral": 60
                   },
                   "stas_values": {
                       "num_tweets_pos": 110,
@@ -258,7 +258,7 @@
                   "values": {
                       "Positive": 90,
                       "Negative": 60,
-                      "Neural": 30
+                      "Neutral": 30
                   },
                   "stas_values": {
                       "num_tweets_pos": 90,
@@ -285,7 +285,7 @@
                   "values": {
                       "Positive": 100,
                       "Negative": 70,
-                      "Neural": 50
+                      "Neutral": 50
                   },
                   "stas_values": {
                       "num_tweets_pos": 100,
@@ -306,7 +306,7 @@
                   "values": {
                       "Positive": 110,
                       "Negative": 120,
-                      "Neural": 60
+                      "Neutral": 60
                   },
                   "stas_values": {
                       "num_tweets_pos": 110,
@@ -327,7 +327,7 @@
                   "values": {
                       "Positive": 90,
                       "Negative": 60,
-                      "Neural": 30
+                      "Neutral": 30
                   },
                   "stas_values": {
                       "num_tweets_pos": 90,
@@ -354,7 +354,7 @@
                   "values": {
                       "Positive": 100,
                       "Negative": 70,
-                      "Neural": 50
+                      "Neutral": 50
                   },
                   "stas_values": {
                       "num_tweets_pos": 100,
@@ -375,7 +375,7 @@
                   "values": {
                       "Positive": 110,
                       "Negative": 120,
-                      "Neural": 60
+                      "Neutral": 60
                   },
                   "stas_values": {
                       "num_tweets_pos": 110,
@@ -396,7 +396,7 @@
                   "values": {
                       "Positive": 90,
                       "Negative": 60,
-                      "Neural": 30
+                      "Neutral": 30
                   },
                   "stas_values": {
                       "num_tweets_pos": 90,
@@ -423,7 +423,7 @@
                   "values": {
                       "Positive": 100,
                       "Negative": 70,
-                      "Neural": 50
+                      "Neutral": 50
                   },
                   "stas_values": {
                       "num_tweets_pos": 100,
@@ -444,7 +444,7 @@
                   "values": {
                       "Positive": 110,
                       "Negative": 120,
-                      "Neural": 60
+                      "Neutral": 60
                   },
                   "stas_values": {
                       "num_tweets_pos": 110,
@@ -465,7 +465,7 @@
                   "values": {
                       "Positive": 90,
                       "Negative": 60,
-                      "Neural": 30
+                      "Neutral": 30
                   },
                   "stas_values": {
                       "num_tweets_pos": 90,
@@ -492,7 +492,7 @@
                   "values": {
                       "Positive": 100,
                       "Negative": 70,
-                      "Neural": 50
+                      "Neutral": 50
                   },
                   "stas_values": {
                       "num_tweets_pos": 100,
@@ -513,7 +513,7 @@
                   "values": {
                       "Positive": 110,
                       "Negative": 120,
-                      "Neural": 60
+                      "Neutral": 60
                   },
                   "stas_values": {
                       "num_tweets_pos": 110,
@@ -534,7 +534,7 @@
                   "values": {
                       "Positive": 90,
                       "Negative": 60,
-                      "Neural": 30
+                      "Neutral": 30
                   },
                   "stas_values": {
                       "num_tweets_pos": 90,
@@ -561,7 +561,7 @@
                   "values": {
                       "Positive": 100,
                       "Negative": 70,
-                      "Neural": 50
+                      "Neutral": 50
                   },
                   "stas_values": {
                       "num_tweets_pos": 100,
@@ -582,7 +582,7 @@
                   "values": {
                       "Positive": 110,
                       "Negative": 120,
-                      "Neural": 60
+                      "Neutral": 60
                   },
                   "stas_values": {
                       "num_tweets_pos": 110,
@@ -603,7 +603,7 @@
                   "values": {
                       "Positive": 90,
                       "Negative": 60,
-                      "Neural": 30
+                      "Neutral": 30
                   },
                   "stas_values": {
                       "num_tweets_pos": 90,

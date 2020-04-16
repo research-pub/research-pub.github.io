@@ -2,8 +2,8 @@
 
 function createChart (svg, data) {
 
-  // const colors = ['#98abc5', '#8a89a6', '#7b6888', '#6b486b', '#a05d56', '#d0743c', '#ff8c00']
-  const colors = ['#98abc5', '#6b486b', '#ff8c00']
+  const colors = ['#98abc5', '#6b486b', '#ff8c00', '#98abc5', '#8a89a6', '#7b6888', '#6b486b', '#a05d56', '#d0743c', '#ff8c00']
+  // const colors = ['#98abc5', '#6b486b', '#ff8c00']
   svg = d3.select(svg)
   const margin = {top: 20, right: 20, bottom: 30, left: 40}
   const width = 700 - margin.left - margin.right
@@ -86,10 +86,7 @@ console.log(data)
       .style('font-size', 'medium')
       .text(d => d)
 
-  const stack = d3.stack().keys(valueKeys)
-
-  // updates both the year + the chart type (group or stacked)
-  function updateChart (data, chartType='group') {
+  function updateChart (data) {
 
       //find max value of a section
       const maxValue = d3.max(data.map((d) => Object.values(d.values)).reduce((a, b) => a.concat(b), []))
@@ -161,37 +158,11 @@ d3.json(data_source, function(error, data_json){
       if (index === 0) return true
       return null
     })
-
     label.append('span')
     .text(year)
-
     label.on('click', function(){
-      chart.updateChart(data[year], document.querySelector('input[name="graphType"]:checked').value)
+      chart.updateChart(data[year])
     })
-  })
-
-  const fieldset2 = d3.select('.controls').append('fieldset')
-  const types =  ['group', 'stack']
-  // fieldset2.append('legend').text('Graph Layout')
-
-  types.forEach((graphType, index)=>{
-    const label = fieldset2.append('label')
-    label.append('input')
-    .attr('type', 'radio')
-    .attr('hidden', 'True')
-    .attr('name', 'graphType')
-    .attr('value', graphType)
-    .attr('checked', function(){
-      if (index === 0) return true
-      return null
-    })
-    .on('click', ()=>{
-      chart.updateChart(data[document.querySelector('input[name="year"]:checked').value], graphType)
-    })
-
-    // label.append('span')
-    // .text(graphType)
-
   })
   // render initial chart
   chart.updateChart(data[Object.keys(data)[0]])

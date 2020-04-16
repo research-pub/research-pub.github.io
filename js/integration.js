@@ -193,9 +193,6 @@ function createChart (svg, data) {
       .style('font-size', 'medium')
       .text(d => d)
 
-  const stack = d3.stack()
-      .keys(valueKeys)
-
   // updates both the year + the chart type (group or stacked)
   function updateChart (data) {
 
@@ -256,50 +253,51 @@ function draw_bar(data) {
 
   const chart = createChart(svg, data);
 
+  // TODO to uncomment to show time slide bar
  // To obtain the first and last date from collected data, the day difference is the span,
     // the new date is the first date
-  const tParser = d3.timeParse("%d/%m/%Y")
-  let dates_ls = Object.keys(data)
-  let first_date = tParser(dates_ls[0]),
-      last_date  = tParser(dates_ls[0]);
-  for (let i = 0; i < dates_ls.length; i++) {
-      let current_date = tParser(dates_ls[i])
-      if (first_date > current_date)
-          first_date = tParser(dates_ls[i])
-      if (last_date < current_date)
-          last_date = current_date
-  }
-  let span = d3.timeDay.count(first_date, last_date)
-    // console.log(first_date)
-    // console.log(last_date)
-    // console.log(span)
-    // first_date
-  var dataTime = d3.range(0, span+1).map(function(d) {
-    return new Date(first_date.getFullYear() , first_date.getMonth(), first_date.getDate() + d);
-  });
-  let sliderTime = d3
-    .sliderBottom()
-    .min(d3.min(dataTime))
-    .max(d3.max(dataTime))
-    .step(1000 * 60 * 60 * 24)
-    .width(700)
-    .tickFormat(d3.timeFormat('%d/%m'))
-    .tickValues(dataTime)
-    .default(new Date(2020, 3, 2))
-    .on('onchange', val => {
-      chart.updateChart(data[d3.timeFormat('%d/%m/%Y')(val)])
-      draw_pie(data[d3.timeFormat('%d/%m/%Y')(val)])
-    });
-
-  d3.select('div#slider-time').html("")
-  let gTime = d3
-    .select('div#slider-time')
-    .append('svg')
-    .attr('width',300)
-    .attr('height', 100)
-    .append('g')
-    .attr('transform', 'translate(30,30)');
-  gTime.call(sliderTime);
+  // const tParser = d3.timeParse("%d/%m/%Y")
+  // let dates_ls = Object.keys(data)
+  // let first_date = tParser(dates_ls[0]),
+  //     last_date  = tParser(dates_ls[0]);
+  // for (let i = 0; i < dates_ls.length; i++) {
+  //     let current_date = tParser(dates_ls[i])
+  //     if (first_date > current_date)
+  //         first_date = tParser(dates_ls[i])
+  //     if (last_date < current_date)
+  //         last_date = current_date
+  // }
+  // let span = d3.timeDay.count(first_date, last_date)
+  //   // console.log(first_date)
+  //   // console.log(last_date)
+  //   // console.log(span)
+  //   // first_date
+  // var dataTime = d3.range(0, span+1).map(function(d) {
+  //   return new Date(first_date.getFullYear() , first_date.getMonth(), first_date.getDate() + d);
+  // });
+  // let sliderTime = d3
+  //   .sliderBottom()
+  //   .min(d3.min(dataTime))
+  //   .max(d3.max(dataTime))
+  //   .step(1000 * 60 * 60 * 24)
+  //   .width(700)
+  //   .tickFormat(d3.timeFormat('%d/%m'))
+  //   .tickValues(dataTime)
+  //   .default(new Date(2020, 3, 2))
+  //   .on('onchange', val => {
+  //     chart.updateChart(data[d3.timeFormat('%d/%m/%Y')(val)])
+  //     draw_pie(data[d3.timeFormat('%d/%m/%Y')(val)])
+  //   });
+  //
+  // d3.select('div#slider-time').html("")
+  // let gTime = d3
+  //   .select('div#slider-time')
+  //   .append('svg')
+  //   .attr('width',300)
+  //   .attr('height', 100)
+  //   .append('g')
+  //   .attr('transform', 'translate(30,30)');
+  // gTime.call(sliderTime);
 
   // append the input controls
   // d3.select('.controls').html("")

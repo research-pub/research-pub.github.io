@@ -6,7 +6,7 @@
       "state_name": "Whole Australia",
       "date_values": {
               "02/04/2020": [{
-                "name": "Young",
+                "name": "Male",
                 "values": {
                   "Positive": 100,
                   "Negative": 70,
@@ -27,7 +27,7 @@
                   "num_replies_neu": 40
                 }
               }, {
-                "name": "Middle",
+                "name": "Female",
                 "values": {
                   "Positive": 110,
                   "Negative": 120,
@@ -48,7 +48,7 @@
                   "num_replies_neu": 40
                 }
               }, {
-                "name": "Older",
+                "name": "Unknown",
                 "values": {
                   "Positive": 90,
                   "Negative": 60,
@@ -70,21 +70,21 @@
                 }
               }],
               "03/04/2020": [{
-                "name": "Young",
+                "name": "Male",
                 "values": {
                   "Positive": 150,
                   "Negative": 80,
                   "Neutral": 70
                 }
               }, {
-                "name": "Middle",
+                "name": "Female",
                 "values": {
                   "Positive": 210,
                   "Negative": 220,
                   "Neutral": 160
                 }
               }, {
-                "name": "Older",
+                "name": "Unknown",
                 "values": {
                   "Positive": 200,
                   "Negative": 160,
@@ -92,21 +92,21 @@
                 }
               }],
               "04/04/2020": [{
-                "name": "Young",
+                "name": "Male",
                 "values": {
                   "Positive": 150,
                   "Negative": 80,
                   "Neutral": 90
                 }
               }, {
-                "name": "Middle",
+                "name": "Female",
                 "values": {
                   "Positive": 160,
                   "Negative": 180,
                   "Neutral": 70
                 }
               }, {
-                "name": "Older",
+                "name": "Unknown",
                 "values": {
                   "Positive": 120,
                   "Negative": 80,
@@ -121,7 +121,7 @@
       "date_values": {
               "02/04/2020": [
                 {
-                "name": "Young",
+                "name": "Male",
                 "values": {
                   "Positive": 100,
                   "Negative": 120,
@@ -143,7 +143,7 @@
                 }
               },
                 {
-                "name": "Middle",
+                "name": "Female",
                 "values": {
                   "Positive": 110,
                   "Negative": 150,
@@ -165,7 +165,7 @@
                 }
               },
                 {
-                "name": "Older",
+                "name": "Unknown",
                 "values": {
                   "Positive": 90,
                   "Negative": 60,
@@ -188,7 +188,7 @@
               }],
               "03/04/2020": [
                 {
-                "name": "Young",
+                "name": "Male",
                 "values": {
                   "Positive": 150,
                   "Negative": 80,
@@ -196,7 +196,7 @@
                 }
               },
                 {
-                "name": "Middle",
+                "name": "Female",
                 "values": {
                   "Positive": 210,
                   "Negative": 220,
@@ -204,7 +204,7 @@
                 }
               },
                 {
-                "name": "Older",
+                "name": "Unknown",
                 "values": {
                   "Positive": 200,
                   "Negative": 160,
@@ -213,7 +213,7 @@
               }],
               "04/04/2020": [
                 {
-                "name": "Young",
+                "name": "Male",
                 "values": {
                   "Positive": 150,
                   "Negative": 80,
@@ -221,7 +221,7 @@
                 }
               },
                 {
-                "name": "Middle",
+                "name": "Female",
                 "values": {
                   "Positive": 160,
                   "Negative": 180,
@@ -229,7 +229,7 @@
                 }
               },
                 {
-                "name": "Older",
+                "name": "Unknown",
                 "values": {
                   "Positive": 120,
                   "Negative": 80,
@@ -244,7 +244,7 @@
       "date_values": {
               "02/04/2020": [
                 {
-                "name": "Young",
+                "name": "Male",
                 "values": {
                   "Positive": 120,
                   "Negative": 10,
@@ -266,7 +266,7 @@
                 }
               },
                 {
-                "name": "Middle",
+                "name": "Female",
                 "values": {
                   "Positive": 110,
                   "Negative": 90,
@@ -288,7 +288,7 @@
                 }
               },
                 {
-                "name": "Older",
+                "name": "Unknown",
                 "values": {
                   "Positive": 90,
                   "Negative": 80,
@@ -311,7 +311,7 @@
               }],
               "03/04/2020": [
                 {
-                "name": "Young",
+                "name": "Male",
                 "values": {
                   "Positive": 150,
                   "Negative": 80,
@@ -319,7 +319,7 @@
                 }
               },
                 {
-                "name": "Middle",
+                "name": "Female",
                 "values": {
                   "Positive": 210,
                   "Negative": 220,
@@ -327,7 +327,7 @@
                 }
               },
                 {
-                "name": "Older",
+                "name": "Unknown",
                 "values": {
                   "Positive": 200,
                   "Negative": 160,
@@ -336,7 +336,7 @@
               }],
               "04/04/2020": [
                 {
-                "name": "Young",
+                "name": "Male",
                 "values": {
                   "Positive": 150,
                   "Negative": 80,
@@ -344,7 +344,7 @@
                 }
               },
                 {
-                "name": "Middle",
+                "name": "Female",
                 "values": {
                   "Positive": 160,
                   "Negative": 180,
@@ -352,7 +352,7 @@
                 }
               },
                 {
-                "name": "Older",
+                "name": "Unknown",
                 "values": {
                   "Positive": 120,
                   "Negative": 80,
@@ -367,7 +367,7 @@
       "date_values": {
               "02/04/2020": [
                 {
-                "name": "Young",
+                "name": "Male",
                 "values": {
                   "Positive": 109,
                   "Negative": 89,
@@ -389,7 +389,7 @@
                 }
               },
                 {
-                "name": "Middle",
+                "name": "Female",
                 "values": {
                   "Positive": 160,
                   "Negative": 90,
@@ -411,7 +411,7 @@
                 }
               },
                 {
-                "name": "Older",
+                "name": "Unknown",
                 "values": {
                   "Positive": 90,
                   "Negative": 60,
@@ -435,7 +435,7 @@
               ],
               "03/04/2020": [
                 {
-                "name": "Young",
+                "name": "Male",
                 "values": {
                   "Positive": 150,
                   "Negative": 80,
@@ -443,7 +443,7 @@
                 }
               },
                 {
-                "name": "Middle",
+                "name": "Female",
                 "values": {
                   "Positive": 210,
                   "Negative": 220,
@@ -451,7 +451,7 @@
                 }
               },
                 {
-                "name": "Older",
+                "name": "Unknown",
                 "values": {
                   "Positive": 200,
                   "Negative": 160,
@@ -461,7 +461,7 @@
               ],
               "04/04/2020": [
                 {
-                "name": "Young",
+                "name": "Male",
                 "values": {
                   "Positive": 150,
                   "Negative": 80,
@@ -469,7 +469,7 @@
                 }
               },
                 {
-                "name": "Middle",
+                "name": "Female",
                 "values": {
                   "Positive": 160,
                   "Negative": 180,
@@ -477,7 +477,7 @@
                 }
               },
                 {
-                "name": "Older",
+                "name": "Unknown",
                 "values": {
                   "Positive": 120,
                   "Negative": 80,
@@ -493,7 +493,7 @@
       "date_values": {
               "02/04/2020": [
                 {
-                "name": "Young",
+                "name": "Male",
                 "values": {
                   "Positive": 180,
                   "Negative": 70,
@@ -515,7 +515,7 @@
                 }
               },
                 {
-                "name": "Middle",
+                "name": "Female",
                 "values": {
                   "Positive": 180,
                   "Negative": 200,
@@ -537,7 +537,7 @@
                 }
               },
                 {
-                "name": "Older",
+                "name": "Unknown",
                 "values": {
                   "Positive": 190,
                   "Negative": 150,
@@ -561,7 +561,7 @@
               ],
               "03/04/2020": [
                 {
-                "name": "Young",
+                "name": "Male",
                 "values": {
                   "Positive": 190,
                   "Negative": 180,
@@ -569,7 +569,7 @@
                 }
               },
                 {
-                "name": "Middle",
+                "name": "Female",
                 "values": {
                   "Positive": 210,
                   "Negative": 220,
@@ -577,7 +577,7 @@
                 }
               },
                 {
-                "name": "Older",
+                "name": "Unknown",
                 "values": {
                   "Positive": 200,
                   "Negative": 160,
@@ -587,7 +587,7 @@
               ],
               "04/04/2020": [
                 {
-                "name": "Young",
+                "name": "Male",
                 "values": {
                   "Positive": 150,
                   "Negative": 80,
@@ -595,7 +595,7 @@
                 }
               },
                 {
-                "name": "Middle",
+                "name": "Female",
                 "values": {
                   "Positive": 160,
                   "Negative": 180,
@@ -603,7 +603,7 @@
                 }
               },
                 {
-                "name": "Older",
+                "name": "Unknown",
                 "values": {
                   "Positive": 120,
                   "Negative": 80,
@@ -619,7 +619,7 @@
       "date_values": {
               "02/04/2020": [
                 {
-                "name": "Young",
+                "name": "Male",
                 "values": {
                   "Positive": 180,
                   "Negative": 150,
@@ -641,7 +641,7 @@
                 }
               },
                 {
-                "name": "Middle",
+                "name": "Female",
                 "values": {
                   "Positive": 140,
                   "Negative": 120,
@@ -663,7 +663,7 @@
                 }
               },
                 {
-                "name": "Older",
+                "name": "Unknown",
                 "values": {
                   "Positive": 90,
                   "Negative": 60,
@@ -687,7 +687,7 @@
               ],
               "03/04/2020": [
                 {
-                "name": "Young",
+                "name": "Male",
                 "values": {
                   "Positive": 150,
                   "Negative": 80,
@@ -695,7 +695,7 @@
                 }
               },
                 {
-                "name": "Middle",
+                "name": "Female",
                 "values": {
                   "Positive": 210,
                   "Negative": 220,
@@ -703,7 +703,7 @@
                 }
               },
                 {
-                "name": "Older",
+                "name": "Unknown",
                 "values": {
                   "Positive": 200,
                   "Negative": 160,
@@ -713,7 +713,7 @@
               ],
               "04/04/2020": [
                 {
-                "name": "Young",
+                "name": "Male",
                 "values": {
                   "Positive": 150,
                   "Negative": 80,
@@ -721,7 +721,7 @@
                 }
               },
                 {
-                "name": "Middle",
+                "name": "Female",
                 "values": {
                   "Positive": 160,
                   "Negative": 180,
@@ -729,7 +729,7 @@
                 }
               },
                 {
-                "name": "Older",
+                "name": "Unknown",
                 "values": {
                   "Positive": 120,
                   "Negative": 80,
@@ -745,7 +745,7 @@
       "date_values": {
               "02/04/2020": [
                 {
-                "name": "Young",
+                "name": "Male",
                 "values": {
                   "Positive": 120,
                   "Negative": 170,
@@ -767,7 +767,7 @@
                 }
               },
                 {
-                "name": "Middle",
+                "name": "Female",
                 "values": {
                   "Positive": 130,
                   "Negative": 120,
@@ -789,7 +789,7 @@
                 }
               },
                 {
-                "name": "Older",
+                "name": "Unknown",
                 "values": {
                   "Positive": 190,
                   "Negative": 160,
@@ -813,7 +813,7 @@
               ],
               "03/04/2020": [
                 {
-                "name": "Young",
+                "name": "Male",
                 "values": {
                   "Positive": 150,
                   "Negative": 80,
@@ -821,7 +821,7 @@
                 }
               },
                 {
-                "name": "Middle",
+                "name": "Female",
                 "values": {
                   "Positive": 210,
                   "Negative": 220,
@@ -829,7 +829,7 @@
                 }
               },
                 {
-                "name": "Older",
+                "name": "Unknown",
                 "values": {
                   "Positive": 200,
                   "Negative": 160,
@@ -839,7 +839,7 @@
               ],
               "04/04/2020": [
                 {
-                "name": "Young",
+                "name": "Male",
                 "values": {
                   "Positive": 150,
                   "Negative": 80,
@@ -847,7 +847,7 @@
                 }
               },
                 {
-                "name": "Middle",
+                "name": "Female",
                 "values": {
                   "Positive": 160,
                   "Negative": 180,
@@ -855,7 +855,7 @@
                 }
               },
                 {
-                "name": "Older",
+                "name": "Unknown",
                 "values": {
                   "Positive": 120,
                   "Negative": 80,
@@ -871,7 +871,7 @@
       "date_values": {
               "02/04/2020": [
                 {
-                "name": "Young",
+                "name": "Male",
                 "values": {
                   "Positive": 140,
                   "Negative": 170,
@@ -893,7 +893,7 @@
                 }
               },
                 {
-                "name": "Middle",
+                "name": "Female",
                 "values": {
                   "Positive": 120,
                   "Negative": 140,
@@ -915,7 +915,7 @@
                 }
               },
                 {
-                "name": "Older",
+                "name": "Unknown",
                 "values": {
                   "Positive": 190,
                   "Negative": 160,
@@ -939,7 +939,7 @@
               ],
               "03/04/2020": [
                 {
-                "name": "Young",
+                "name": "Male",
                 "values": {
                   "Positive": 150,
                   "Negative": 80,
@@ -947,7 +947,7 @@
                 }
               },
                 {
-                "name": "Middle",
+                "name": "Female",
                 "values": {
                   "Positive": 210,
                   "Negative": 220,
@@ -955,7 +955,7 @@
                 }
               },
                 {
-                "name": "Older",
+                "name": "Unknown",
                 "values": {
                   "Positive": 200,
                   "Negative": 160,
@@ -965,7 +965,7 @@
               ],
               "04/04/2020": [
                 {
-                "name": "Young",
+                "name": "Male",
                 "values": {
                   "Positive": 150,
                   "Negative": 80,
@@ -973,7 +973,7 @@
                 }
               },
                 {
-                "name": "Middle",
+                "name": "Female",
                 "values": {
                   "Positive": 160,
                   "Negative": 180,
@@ -981,7 +981,7 @@
                 }
               },
                 {
-                "name": "Older",
+                "name": "Unknown",
                 "values": {
                   "Positive": 120,
                   "Negative": 80,
@@ -997,7 +997,7 @@
       "date_values": {
               "02/04/2020": [
                 {
-                "name": "Young",
+                "name": "Male",
                 "values": {
                   "Positive": 40,
                   "Negative": 30,
@@ -1019,7 +1019,7 @@
                 }
               },
                 {
-                "name": "Middle",
+                "name": "Female",
                 "values": {
                   "Positive": 60,
                   "Negative": 80,
@@ -1041,7 +1041,7 @@
                 }
               },
                 {
-                "name": "Older",
+                "name": "Unknown",
                 "values": {
                   "Positive": 40,
                   "Negative": 50,
@@ -1065,7 +1065,7 @@
               ],
               "03/04/2020": [
                 {
-                "name": "Young",
+                "name": "Male",
                 "values": {
                   "Positive": 150,
                   "Negative": 80,
@@ -1073,7 +1073,7 @@
                 }
               },
                 {
-                "name": "Middle",
+                "name": "Female",
                 "values": {
                   "Positive": 210,
                   "Negative": 220,
@@ -1081,7 +1081,7 @@
                 }
               },
                 {
-                "name": "Older",
+                "name": "Unknown",
                 "values": {
                   "Positive": 200,
                   "Negative": 160,
@@ -1091,7 +1091,7 @@
               ],
               "04/04/2020": [
                 {
-                "name": "Young",
+                "name": "Male",
                 "values": {
                   "Positive": 150,
                   "Negative": 80,
@@ -1099,7 +1099,7 @@
                 }
               },
                 {
-                "name": "Middle",
+                "name": "Female",
                 "values": {
                   "Positive": 160,
                   "Negative": 180,
@@ -1107,7 +1107,7 @@
                 }
               },
                 {
-                "name": "Older",
+                "name": "Unknown",
                 "values": {
                   "Positive": 120,
                   "Negative": 80,
