@@ -195,6 +195,8 @@ function createChart (svg, data) {
 
   // updates both the year + the chart type (group or stacked)
   function updateChart (data) {
+      var tooltip_bar = d3.select('body').append('div')
+        .attr('class', 'hidden tooltip-bar');
 
       //find max value of a section
       const maxValue = d3.max(data.map((d) => Object.values(d.values)).reduce((a, b) => a.concat(b), []))
@@ -228,6 +230,21 @@ function createChart (svg, data) {
       })
       // start y at height (0) so animation in looks like bars are growing upwards
       .attr('y', height)
+      .on('mouseover', function(d, i) {
+            d3.select(this).attr("fill", "red");
+            var mouse = d3.mouse(svg.node()).map(function(d) {
+                        return parseInt(d);
+                    });
+            tooltip_bar.classed('hidden', false)
+                .attr('style', 'left:' + (mouse[0] + 240) +
+                        'px; top:' + (mouse[1] + 300) + 'px')
+                .html(d.value);
+        })
+      .on("mouseout", function(d, i) {
+          d3.select(this).attr("fill", function (d) {return z(d.key)});
+          tooltip_bar.classed('hidden', true)
+          tooltip_bar.html("")
+        })
       .merge(bars)
       .transition()
       .attr('width', x1.bandwidth())
