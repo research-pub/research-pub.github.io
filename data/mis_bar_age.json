@@ -8,8 +8,8 @@
               "02/04/2020": [{
                 "name": "Young",
                 "values": {
-                  "Believed": 100,
-                  "Against": 70
+                  "Believed": 200,
+                  "Against": 170
                 },
                 "stas_values": {
                   "num_tweets_blv": 100,
@@ -24,7 +24,7 @@
               }, {
                 "name": "Middle",
                 "values": {
-                  "Believed": 110,
+                  "Believed": 150,
                   "Against": 120
                 },
                 "stas_values": {
@@ -40,8 +40,8 @@
               }, {
                 "name": "Older",
                 "values": {
-                  "Believed": 90,
-                  "Against": 60
+                  "Believed": 100,
+                  "Against": 70
                 },
                 "stas_values": {
                   "num_tweets_blv": 90,
@@ -101,19 +101,19 @@
               "02/04/2020": [{
                 "name": "Young",
                 "values": {
-                  "Believed": 100,
-                  "Against": 70
+                  "Believed": 90,
+                  "Against": 80
                 }
               }, {
                 "name": "Middle",
                 "values": {
-                  "Believed": 110,
-                  "Against": 120
+                  "Believed": 50,
+                  "Against": 30
                 }
               }, {
                 "name": "Older",
                 "values": {
-                  "Believed": 90,
+                  "Believed": 80,
                   "Against": 60
                 }
               }],
@@ -164,19 +164,19 @@
               "02/04/2020": [{
                 "name": "Young",
                 "values": {
-                  "Believed": 100,
+                  "Believed": 50,
                   "Against": 70
                 }
               }, {
                 "name": "Middle",
                 "values": {
-                  "Believed": 110,
+                  "Believed": 80,
                   "Against": 120
                 }
               }, {
                 "name": "Older",
                 "values": {
-                  "Believed": 90,
+                  "Believed": 70,
                   "Against": 60
                 }
               }],
@@ -227,20 +227,20 @@
               "02/04/2020": [{
                 "name": "Young",
                 "values": {
-                  "Believed": 100,
-                  "Against": 70
+                  "Believed": 50,
+                  "Against": 40
                 }
               }, {
                 "name": "Middle",
                 "values": {
-                  "Believed": 110,
-                  "Against": 120
+                  "Believed": 60,
+                  "Against": 20
                 }
               }, {
                 "name": "Older",
                 "values": {
-                  "Believed": 90,
-                  "Against": 60
+                  "Believed": 70,
+                  "Against": 80
                 }
               }],
               "03/04/2020": [{
@@ -353,20 +353,20 @@
               "02/04/2020": [{
                 "name": "Young",
                 "values": {
-                  "Believed": 100,
-                  "Against": 70
+                  "Believed": 20,
+                  "Against": 10
                 }
               }, {
                 "name": "Middle",
                 "values": {
-                  "Believed": 110,
-                  "Against": 120
+                  "Believed": 40,
+                  "Against": 30
                 }
               }, {
                 "name": "Older",
                 "values": {
-                  "Believed": 90,
-                  "Against": 60
+                  "Believed": 60,
+                  "Against": 50
                 }
               }],
               "03/04/2020": [{
@@ -416,19 +416,19 @@
               "02/04/2020": [{
                 "name": "Young",
                 "values": {
-                  "Believed": 100,
+                  "Believed": 40,
                   "Against": 70
                 }
               }, {
                 "name": "Middle",
                 "values": {
-                  "Believed": 110,
+                  "Believed": 80,
                   "Against": 120
                 }
               }, {
                 "name": "Older",
                 "values": {
-                  "Believed": 90,
+                  "Believed": 70,
                   "Against": 60
                 }
               }],
@@ -479,20 +479,20 @@
               "02/04/2020": [{
                 "name": "Young",
                 "values": {
-                  "Believed": 100,
-                  "Against": 70
+                  "Believed": 10,
+                  "Against": 7
                 }
               }, {
                 "name": "Middle",
                 "values": {
-                  "Believed": 110,
-                  "Against": 120
+                  "Believed": 11,
+                  "Against": 12
                 }
               }, {
                 "name": "Older",
                 "values": {
-                  "Believed": 90,
-                  "Against": 60
+                  "Believed": 9,
+                  "Against": 6
                 }
               }],
               "03/04/2020": [{
@@ -542,20 +542,20 @@
               "02/04/2020": [{
                 "name": "Young",
                 "values": {
-                  "Believed": 100,
-                  "Against": 70
+                  "Believed": 20,
+                  "Against": 17
                 }
               }, {
                 "name": "Middle",
                 "values": {
-                  "Believed": 110,
-                  "Against": 120
+                  "Believed": 11,
+                  "Against": 20
                 }
               }, {
                 "name": "Older",
                 "values": {
-                  "Believed": 90,
-                  "Against": 60
+                  "Believed": 8,
+                  "Against": 6
                 }
               }],
               "03/04/2020": [{

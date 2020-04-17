@@ -8,7 +8,7 @@
               "02/04/2020": [{
                 "name": "Male",
                 "values": {
-                  "Believed": 100,
+                  "Believed": 180,
                   "Against": 70
                 },
                 "stas_values": {
@@ -41,7 +41,7 @@
                 "name": "Unknown",
                 "values": {
                   "Believed": 90,
-                  "Against": 60
+                  "Against": 100
                 },
                 "stas_values": {
                   "num_tweets_blv": 90,
@@ -101,14 +101,14 @@
               "02/04/2020": [{
                 "name": "Male",
                 "values": {
-                  "Believed": 100,
+                  "Believed": 150,
                   "Against": 70
                 }
               }, {
                 "name": "Female",
                 "values": {
                   "Believed": 110,
-                  "Against": 120
+                  "Against": 80
                 }
               }, {
                 "name": "Unknown",
@@ -165,19 +165,19 @@
                 "name": "Male",
                 "values": {
                   "Believed": 100,
-                  "Against": 70
+                  "Against": 80
                 }
               }, {
                 "name": "Female",
                 "values": {
                   "Believed": 110,
-                  "Against": 120
+                  "Against": 100
                 }
               }, {
                 "name": "Unknown",
                 "values": {
                   "Believed": 90,
-                  "Against": 60
+                  "Against": 70
                 }
               }],
               "03/04/2020": [{
@@ -227,14 +227,14 @@
               "02/04/2020": [{
                 "name": "Male",
                 "values": {
-                  "Believed": 100,
+                  "Believed": 90,
                   "Against": 70
                 }
               }, {
                 "name": "Female",
                 "values": {
                   "Believed": 110,
-                  "Against": 120
+                  "Against": 100
                 }
               }, {
                 "name": "Unknown",
@@ -290,14 +290,14 @@
               "02/04/2020": [{
                 "name": "Male",
                 "values": {
-                  "Believed": 100,
+                  "Believed": 10,
                   "Against": 70
                 }
               }, {
                 "name": "Female",
                 "values": {
                   "Believed": 110,
-                  "Against": 120
+                  "Against": 10
                 }
               }, {
                 "name": "Unknown",
@@ -365,7 +365,7 @@
               }, {
                 "name": "Unknown",
                 "values": {
-                  "Believed": 90,
+                  "Believed": 190,
                   "Against": 60
                 }
               }],
@@ -417,7 +417,7 @@
                 "name": "Male",
                 "values": {
                   "Believed": 100,
-                  "Against": 70
+                  "Against": 170
                 }
               }, {
                 "name": "Female",
@@ -492,7 +492,7 @@
                 "name": "Unknown",
                 "values": {
                   "Believed": 90,
-                  "Against": 60
+                  "Against": 160
                 }
               }],
               "03/04/2020": [{
@@ -554,7 +554,7 @@
               }, {
                 "name": "Unknown",
                 "values": {
-                  "Believed": 90,
+                  "Believed": 190,
                   "Against": 60
                 }
               }],
