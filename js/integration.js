@@ -6,7 +6,7 @@ function draw_pie(data) {
     var radius = radius_set / 2;
     var donutWidth = 30; //This is the size of the hole in the middle
 
-    var color = d3.scaleOrdinal().range(['#98abc5', '#6b486b', '#ff8c00']);
+    var color = d3.scaleOrdinal().range(['#2e1dc5', '#6b1415', '#ff25d3']);
     d3.select('#pie').html("");
     var svg = d3.select('#pie')
          .append('svg')

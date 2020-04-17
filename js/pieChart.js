@@ -12,7 +12,8 @@ var radius_set = 360;
 var radius = radius_set / 2;
 var donutWidth = 75; //This is the size of the hole in the middle
 
-var color = d3.scaleOrdinal().range(['#98abc5', '#6b486b', '#ff8c00']);
+// var color = d3.scaleOrdinal().range(['#98abc5', '#6b486b', '#ff8c00']);
+var color = d3.scaleOrdinal().range(['#2e1dc5', '#6b1415', '#ff25d3']);
 
 // changing data format from key/value to list
 let titleValues = Object.values(temp)
