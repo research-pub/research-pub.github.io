@@ -61,8 +61,8 @@ d3.queue()
                         }
                         draw_bar(bar_data)
                         d3.select('#state_title').html("")
-                        for(let i =0; i < dropdown_options.length; i++){
-                            let obj = dropdown_options[i]
+                        for(let i =0; i < options.length; i++){
+                            let obj = options[i]
                             if (obj.value == selected_dataset){
                                     var text = obj.text;
                                     break
@@ -94,8 +94,8 @@ d3.queue()
             // draw_pie(bar_data)
             draw_bar(bar_data)
             d3.select('#state_title').html("")
-            for(let i =0; i < dropdown_options.length; i++){
-                        let obj = dropdown_options[i]
+            for(let i =0; i < options.length; i++){
+                        let obj = options[i]
                         if (obj.value == selected_dataset){
                                 var text = obj.text;
                                 break
@@ -132,8 +132,8 @@ function updateMap(selected_dataset) {
                     draw_bar(bar_data)
                     d3.select('#state_title').html("")
 
-                    for(let i =0; i < dropdown_options.length; i++){
-                        let obj = dropdown_options[i]
+                    for(let i =0; i < options.length; i++){
+                        let obj = options[i]
                         if (obj.value == selected_dataset){
                                 var text = obj.text;
                                 break
@@ -165,8 +165,8 @@ function updateMap(selected_dataset) {
         // draw_pie(bar_data)
         draw_bar(bar_data)
         d3.select('#state_title').html("")
-        for(let i =0; i < dropdown_options.length; i++){
-                    let obj = dropdown_options[i]
+        for(let i =0; i < options.length; i++){
+                    let obj = options[i]
                     if (obj.value == selected_dataset){
                             var text = obj.text;
                             break

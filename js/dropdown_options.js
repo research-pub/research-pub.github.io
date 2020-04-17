@@ -6,10 +6,23 @@ let dropdown_options =
           text: "Sentiment Distribution over Gender Group" }
   ]
 
+let dropdown_mis =
+    [
+        { value: "snt_age",
+          text: "Misinformation Distribution over Age Group" },
+        { value: "snt_gender",
+          text: "Misinformation Distribution over Gender Group" }
+  ]
+
+if (dropdown == "dropdown_mis")
+    options = dropdown_mis
+else
+    options = dropdown_options
+
 // populate drop-down
 d3.select("#dropdown")
     .selectAll("option")
-    .data(dropdown_options)
+    .data(options)
     .enter()
     .append("option")
     .attr("value", function(option) { return option.value; })
