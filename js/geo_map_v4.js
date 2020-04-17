@@ -74,6 +74,9 @@ d3.queue()
                         var mouse = d3.mouse(svg.node()).map(function(d) {
                             return parseInt(d);
                         });
+                        tooltip.transition()
+                           .duration(50)
+                           .style("opacity", 1);
                         tooltip.classed('hidden', false)
                             .attr('style', 'left:' + (mouse[0] + 15) +
                                     'px; top:' + (mouse[1] - 35) + 'px')
@@ -82,6 +85,9 @@ d3.queue()
                 .on('mouseout', function() {
                     tooltip.classed('hidden', true)
                     tooltip.html("")
+                    tooltip.transition()
+                   .duration(50)
+                   .style("opacity", 0);
                 });
             var fs_bar = barData.features;
             for (var i = 0; i < fs_bar.length; i++) {
@@ -145,6 +151,9 @@ function updateMap(selected_dataset) {
                     var mouse = d3.mouse(svg.node()).map(function(d) {
                         return parseInt(d);
                     });
+                    tooltip.transition()
+                   .duration(50)
+                   .style("opacity", 1);
                     tooltip.classed('hidden', false)
                         .attr('style', 'left:' + (mouse[0] + 15) +
                                 'px; top:' + (mouse[1] - 35) + 'px')
@@ -153,6 +162,9 @@ function updateMap(selected_dataset) {
             .on('mouseout', function() {
                 tooltip.classed('hidden', true)
                 tooltip.html("")
+                tooltip.transition()
+                   .duration(50)
+                   .style("opacity", 0);
             });
         var fs_bar = barData.features;
         for (var i = 0; i < fs_bar.length; i++) {

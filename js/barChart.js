@@ -122,6 +122,9 @@ console.log(data)
             var mouse = d3.mouse(svg.node()).map(function(d) {
                         return parseInt(d);
                     });
+            tooltip.transition()
+                   .duration(10)
+                   .style("opacity", 1);
             tooltip.classed('hidden', false)
                 .attr('style', 'left:' + (mouse[0] + 15) +
                         'px; top:' + (mouse[1] - 35) + 'px')
@@ -131,6 +134,12 @@ console.log(data)
           d3.select(this).attr("fill", function (d) {return z(d.key)});
           tooltip.classed('hidden', true)
           tooltip.html("")
+          d3.select(this).transition()
+                   .duration(10)
+                   .attr('opacity', '1');
+          tooltip.transition()
+                   .duration(10)
+                   .style("opacity", 0);
         })
       .merge(bars)
       .transition()

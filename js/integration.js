@@ -232,18 +232,29 @@ function createChart (svg, data) {
       .attr('y', height)
       .on('mouseover', function(d, i) {
             d3.select(this).attr("fill", "red");
+            tooltip_bar.transition()
+                   .duration(10)
+                   .style("opacity", 1);
             var mouse = d3.mouse(svg.node()).map(function(d) {
                         return parseInt(d);
                     });
             tooltip_bar.classed('hidden', false)
-                .attr('style', 'left:' + (mouse[0] + 240) +
-                        'px; top:' + (mouse[1] + 300) + 'px')
-                .html(d.value);
+                .attr('style', 'left:' + (mouse[0] + 250) +
+                        'px; top:' + (mouse[1] + 340) + 'px')
+                .html(d.value)
+                // .style("left", (d3.event.pageX + 1) + "px")
+                // .style("top", (d3.event.pageY - 15) + "px");;
         })
       .on("mouseout", function(d, i) {
           d3.select(this).attr("fill", function (d) {return z(d.key)});
           tooltip_bar.classed('hidden', true)
           tooltip_bar.html("")
+          d3.select(this).transition()
+                   .duration(10)
+                   .attr('opacity', '1');
+          tooltip_bar.transition()
+                   .duration(10)
+                   .style("opacity", 0);
         })
       .merge(bars)
       .transition()
