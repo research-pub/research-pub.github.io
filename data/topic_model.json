@@ -1,0 +1,30 @@
+{
+  "topics": {
+    "topic1": ["trump", "year"] ,
+    "topic2": ["vote", "rise"]
+  } ,
+  "tweets_info": {
+    "trump": [
+      {
+        "user_id": "Slinguist",
+        "time": "Apr 11 2020, 11:41am",
+        "text": "@KeatonPatti @iansmadrig Australian: Can I get my stimulus $? Australia: Depends: were you employed full-time or part-time or as Casual for 12+ months on 1 March & does yr employer still exist? If no,go to Centrelink & apply for JobSeeker. If yes, wait for parlmnt to reconvene & pass program into law.."
+      } ,
+     {"user_id": "Slinguist",
+        "time": "Apr 11 2020, 11:41am",
+        "text": "@KeatonPatti @iansmadrig Australian: Can I get my stimulus $? Australia: Depends: were you employed full-time or part-time or as Casual for 12+ months on 1 March & does yr employer still exist? If no,go to Centrelink & apply for JobSeeker. If yes, wait for parlmnt to reconvene & pass program into law.."
+      }
+    ] ,
+    "year": [
+      {
+        "user_id": "Slinguist",
+        "time": "Apr 11 2020, 11:41am",
+        "text": "@KeatonPatti @iansmadrig Australian: Can I get my stimulus $? Australia: Depends: were you employed full-time or part-time or as Casual for 12+ months on 1 March & does yr employer still exist? If no,go to Centrelink & apply for JobSeeker. If yes, wait for parlmnt to reconvene & pass program into law.."
+      } ,
+     {"user_id": "Slinguist",
+        "time": "Apr 11 2020, 11:41am",
+        "text": "@KeatonPatti @iansmadrig Australian: Can I get my stimulus $? Australia: Depends: were you employed full-time or part-time or as Casual for 12+ months on 1 March & does yr employer still exist? If no,go to Centrelink & apply for JobSeeker. If yes, wait for parlmnt to reconvene & pass program into law.."
+      }
+    ]
+  }
+}

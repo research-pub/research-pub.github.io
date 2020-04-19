@@ -20,7 +20,8 @@
     };
 
     let barPadding = (height-(margin.bottom+margin.top))/(top_n*5);
-
+    const colors = ['#98abc5', '#6b486b', '#ff8c00', '#98abc5', '#8a89a6', '#7b6888', '#6b486b', '#a05d56', '#d0743c', '#ff8c00']
+    let color = d3.scaleOrdinal().range(colors)
     let title = svg.append('text')
      .attr('class', 'title')
      .attr('y', 24)
@@ -31,14 +32,6 @@
      .attr("y", 55)
      .html("Tweet Number");
 
-    let caption = svg.append('text')
-     .attr('class', 'caption')
-     .attr('x', width)
-     .attr('y', height-5)
-     .style('text-anchor', 'end')
-     // .html('Source: Interbrand')
-    ;
-
      let year = 2020;
      let date = new Date('2020-03-25');
      var date_str = date.toISOString().slice(0,10);
@@ -46,8 +39,7 @@
   // d3.csv(data_source).then(function(data) {
   d3.json(data_source).then(function(data_json) {
     //if (error) throw error;
-
-      console.log(data_json);
+      // console.log(data_json);
       var data = data_json.features[0].groups[0].group_value
 
       console.log(data);
@@ -57,7 +49,7 @@
         d.lastValue = +d.lastValue,
         d.value = isNaN(d.value) ? 0 : d.value,
         d.year = +d.year,
-        d.colour = d3.hsl(Math.random()*360,0.75,0.75)
+        d.colour = color(d.name)
       });
 
      console.log(data);
