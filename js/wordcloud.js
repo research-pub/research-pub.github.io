@@ -77,7 +77,6 @@ function WordCloud(options) {
   function handleMouseOver(d) {
       // console.log(d)
       // console.log(data['sample_title'][d.key])
-      $( "#dialog" ).attr('title', "Tweets related to "+d.key)
     var group = focus.append('g')
         .attr('id', 'story-titles');
     var base = d.y - d.size;
@@ -109,11 +108,12 @@ function WordCloud(options) {
   function handleMouseClick(d) {
 
     var group = d3.select('#dialog');
-     var base = d.y - d.size;
+    var base = d.y - d.size;
+      $( "#ui-id-1" ).html("Tweets related to '"+d.key+"'");
     $( "#dialog" ).empty()
     group.selectAll('text')
          .data(data['sample_title'][d.key])
-         .enter().append('tr')
+         .enter().append('p')
          .attr('x', d.x)
          .attr('y', function(title, i) {
            return (base - i*14);
