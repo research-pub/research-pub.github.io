@@ -20,13 +20,19 @@ d3.json(json_file, function(error, myData) {
 
     // // You could also have made the new array with a map function!
     // //using colors and fonts from the UNICEF Style Guide
-    var table = d3.select("#table").append("table");
-    var header = table.append("thead").append("tr");
+    var table = d3.select("#table")
+        .append("table")
+        .attr('class', 'table table-bordered table-sm');
+    var header = table
+        .append("thead")
+        .attr('class', 'thead-dark')
+        .append("tr");
     header
         .selectAll("th")
-        .data(["", "1", "2","3", "4","5", "6","7", "8","9", "10"])
+        .data(["Topics", "1", "2","3", "4","5", "6","7", "8","9", "10"])
         .enter()
         .append("th")
+        .attr('scope', 'col')
         .text(function(d) { return d; });
     var tablebody = table.append("tbody");
     rows = tablebody
@@ -35,14 +41,17 @@ d3.json(json_file, function(error, myData) {
             .enter()
             .append("tr");
     // We built the rows using the nested array - now each row has its own array.
-    cells = rows.selectAll("td")
+    rows.selectAll("th")
         // each row has data associated; we get it and enter it for the cells.
-        .data(function(d) {
-            console.log(d);
-            return d;
-        })
+        .data(function(d) { return [d[0]];})
         .enter()
-        .append("td")
+        .append("th").attr('scope', 'col')
+        .text(function(d) {return d;});
+    rows.selectAll("td")
+        // each row has data associated; we get it and enter it for the cells.
+        .data(function(d) { return d.slice(1, d.length);})
+        .enter()
+        .append("td").attr('class', 'col-md-1')
         .text(function(d) {return d;})
         .on('click', handleMouseClick);
 });
