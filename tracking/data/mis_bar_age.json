@@ -1,0 +1,603 @@
+{
+  "category": "Age",
+  "features": [
+    {
+      "state_code": "0",
+      "state_name": "Whole Australia",
+      "date_values": {
+              "02/04/2020": [{
+                "name": "Young",
+                "values": {
+                  "Believed": 200,
+                  "Against": 170
+                },
+                "stas_values": {
+                  "num_tweets_blv": 100,
+                  "num_retweets_blv": 202,
+                  "num_likes_blv": 140,
+                  "num_replies_blv": 30,
+                  "num_tweets_agt": 70,
+                  "num_retweets_agt": 20,
+                  "num_likes_agt": 100,
+                  "num_replies_agt": 20
+                }
+              }, {
+                "name": "Middle",
+                "values": {
+                  "Believed": 150,
+                  "Against": 120
+                },
+                "stas_values": {
+                  "num_tweets_blv": 110,
+                  "num_retweets_blv": 202,
+                  "num_likes_blv": 140,
+                  "num_replies_blv": 30,
+                  "num_tweets_agt": 120,
+                  "num_retweets_agt": 20,
+                  "num_likes_agt": 100,
+                  "num_replies_agt": 20
+                }
+              }, {
+                "name": "Older",
+                "values": {
+                  "Believed": 100,
+                  "Against": 70
+                },
+                "stas_values": {
+                  "num_tweets_blv": 90,
+                  "num_retweets_blv": 202,
+                  "num_likes_blv": 140,
+                  "num_replies_blv": 30,
+                  "num_tweets_agt": 60,
+                  "num_retweets_agt": 20,
+                  "num_likes_agt": 100,
+                  "num_replies_agt": 20
+                }
+              }],
+              "03/04/2020": [{
+                "name": "Young",
+                "values": {
+                  "Believed": 150,
+                  "Against": 80
+                }
+              }, {
+                "name": "Middle",
+                "values": {
+                  "Believed": 210,
+                  "Against": 220
+                }
+              }, {
+                "name": "Older",
+                "values": {
+                  "Believed": 200,
+                  "Against": 160
+                }
+              }],
+              "04/04/2020": [{
+                "name": "Young",
+                "values": {
+                  "Believed": 150,
+                  "Against": 80
+                }
+              }, {
+                "name": "Middle",
+                "values": {
+                  "Believed": 160,
+                  "Against": 180
+                }
+              }, {
+                "name": "Older",
+                "values": {
+                  "Believed": 120,
+                  "Against": 80
+                }
+              }]
+            }
+    },
+    {
+      "state_code": "1",
+      "state_name": "New South Wales",
+      "date_values": {
+              "02/04/2020": [{
+                "name": "Young",
+                "values": {
+                  "Believed": 90,
+                  "Against": 80
+                }
+              }, {
+                "name": "Middle",
+                "values": {
+                  "Believed": 50,
+                  "Against": 30
+                }
+              }, {
+                "name": "Older",
+                "values": {
+                  "Believed": 80,
+                  "Against": 60
+                }
+              }],
+              "03/04/2020": [{
+                "name": "Young",
+                "values": {
+                  "Believed": 150,
+                  "Against": 80
+                }
+              }, {
+                "name": "Middle",
+                "values": {
+                  "Believed": 210,
+                  "Against": 220
+                }
+              }, {
+                "name": "Older",
+                "values": {
+                  "Believed": 200,
+                  "Against": 160
+                }
+              }],
+              "04/04/2020": [{
+                "name": "Young",
+                "values": {
+                  "Believed": 150,
+                  "Against": 80
+                }
+              }, {
+                "name": "Middle",
+                "values": {
+                  "Believed": 160,
+                  "Against": 180
+                }
+              }, {
+                "name": "Older",
+                "values": {
+                  "Believed": 120,
+                  "Against": 80
+                }
+              }]
+            }
+    },
+    {
+      "state_code": "2",
+      "state_name": "Victoria",
+      "date_values": {
+              "02/04/2020": [{
+                "name": "Young",
+                "values": {
+                  "Believed": 50,
+                  "Against": 70
+                }
+              }, {
+                "name": "Middle",
+                "values": {
+                  "Believed": 80,
+                  "Against": 120
+                }
+              }, {
+                "name": "Older",
+                "values": {
+                  "Believed": 70,
+                  "Against": 60
+                }
+              }],
+              "03/04/2020": [{
+                "name": "Young",
+                "values": {
+                  "Believed": 150,
+                  "Against": 80
+                }
+              }, {
+                "name": "Middle",
+                "values": {
+                  "Believed": 210,
+                  "Against": 220
+                }
+              }, {
+                "name": "Older",
+                "values": {
+                  "Believed": 200,
+                  "Against": 160
+                }
+              }],
+              "04/04/2020": [{
+                "name": "Young",
+                "values": {
+                  "Believed": 150,
+                  "Against": 80
+                }
+              }, {
+                "name": "Middle",
+                "values": {
+                  "Believed": 160,
+                  "Against": 180
+                }
+              }, {
+                "name": "Older",
+                "values": {
+                  "Believed": 120,
+                  "Against": 80
+                }
+              }]
+            }
+    },
+    {
+      "state_code": "3",
+      "state_name": "Queensland",
+      "date_values": {
+              "02/04/2020": [{
+                "name": "Young",
+                "values": {
+                  "Believed": 50,
+                  "Against": 40
+                }
+              }, {
+                "name": "Middle",
+                "values": {
+                  "Believed": 60,
+                  "Against": 20
+                }
+              }, {
+                "name": "Older",
+                "values": {
+                  "Believed": 70,
+                  "Against": 80
+                }
+              }],
+              "03/04/2020": [{
+                "name": "Young",
+                "values": {
+                  "Believed": 150,
+                  "Against": 80
+                }
+              }, {
+                "name": "Middle",
+                "values": {
+                  "Believed": 210,
+                  "Against": 220
+                }
+              }, {
+                "name": "Older",
+                "values": {
+                  "Believed": 200,
+                  "Against": 160
+                }
+              }],
+              "04/04/2020": [{
+                "name": "Young",
+                "values": {
+                  "Believed": 150,
+                  "Against": 80
+                }
+              }, {
+                "name": "Middle",
+                "values": {
+                  "Believed": 160,
+                  "Against": 180
+                }
+              }, {
+                "name": "Older",
+                "values": {
+                  "Believed": 120,
+                  "Against": 80
+                }
+              }]
+            }
+    },
+    {
+      "state_code": "4",
+      "state_name": "South Australia",
+      "date_values": {
+              "02/04/2020": [{
+                "name": "Young",
+                "values": {
+                  "Believed": 100,
+                  "Against": 70
+                }
+              }, {
+                "name": "Middle",
+                "values": {
+                  "Believed": 110,
+                  "Against": 120
+                }
+              }, {
+                "name": "Older",
+                "values": {
+                  "Believed": 90,
+                  "Against": 60
+                }
+              }],
+              "03/04/2020": [{
+                "name": "Young",
+                "values": {
+                  "Believed": 150,
+                  "Against": 80
+                }
+              }, {
+                "name": "Middle",
+                "values": {
+                  "Believed": 210,
+                  "Against": 220
+                }
+              }, {
+                "name": "Older",
+                "values": {
+                  "Believed": 200,
+                  "Against": 160
+                }
+              }],
+              "04/04/2020": [{
+                "name": "Young",
+                "values": {
+                  "Believed": 150,
+                  "Against": 80
+                }
+              }, {
+                "name": "Middle",
+                "values": {
+                  "Believed": 160,
+                  "Against": 180
+                }
+              }, {
+                "name": "Older",
+                "values": {
+                  "Believed": 120,
+                  "Against": 80
+                }
+              }]
+            }
+    },
+    {
+      "state_code": "5",
+      "state_name": "Western Australia",
+      "date_values": {
+              "02/04/2020": [{
+                "name": "Young",
+                "values": {
+                  "Believed": 20,
+                  "Against": 10
+                }
+              }, {
+                "name": "Middle",
+                "values": {
+                  "Believed": 40,
+                  "Against": 30
+                }
+              }, {
+                "name": "Older",
+                "values": {
+                  "Believed": 60,
+                  "Against": 50
+                }
+              }],
+              "03/04/2020": [{
+                "name": "Young",
+                "values": {
+                  "Believed": 150,
+                  "Against": 80
+                }
+              }, {
+                "name": "Middle",
+                "values": {
+                  "Believed": 210,
+                  "Against": 220
+                }
+              }, {
+                "name": "Older",
+                "values": {
+                  "Believed": 200,
+                  "Against": 160
+                }
+              }],
+              "04/04/2020": [{
+                "name": "Young",
+                "values": {
+                  "Believed": 150,
+                  "Against": 80
+                }
+              }, {
+                "name": "Middle",
+                "values": {
+                  "Believed": 160,
+                  "Against": 180
+                }
+              }, {
+                "name": "Older",
+                "values": {
+                  "Believed": 120,
+                  "Against": 80
+                }
+              }]
+            }
+    },
+    {
+      "state_code": "6",
+      "state_name": "Tasmania",
+      "date_values": {
+              "02/04/2020": [{
+                "name": "Young",
+                "values": {
+                  "Believed": 40,
+                  "Against": 70
+                }
+              }, {
+                "name": "Middle",
+                "values": {
+                  "Believed": 80,
+                  "Against": 120
+                }
+              }, {
+                "name": "Older",
+                "values": {
+                  "Believed": 70,
+                  "Against": 60
+                }
+              }],
+              "03/04/2020": [{
+                "name": "Young",
+                "values": {
+                  "Believed": 150,
+                  "Against": 80
+                }
+              }, {
+                "name": "Middle",
+                "values": {
+                  "Believed": 210,
+                  "Against": 220
+                }
+              }, {
+                "name": "Older",
+                "values": {
+                  "Believed": 200,
+                  "Against": 160
+                }
+              }],
+              "04/04/2020": [{
+                "name": "Young",
+                "values": {
+                  "Believed": 150,
+                  "Against": 80
+                }
+              }, {
+                "name": "Middle",
+                "values": {
+                  "Believed": 160,
+                  "Against": 180
+                }
+              }, {
+                "name": "Older",
+                "values": {
+                  "Believed": 120,
+                  "Against": 80
+                }
+              }]
+            }
+    },
+    {
+      "state_code": "7",
+      "state_name": "Northern Territory",
+      "date_values": {
+              "02/04/2020": [{
+                "name": "Young",
+                "values": {
+                  "Believed": 10,
+                  "Against": 7
+                }
+              }, {
+                "name": "Middle",
+                "values": {
+                  "Believed": 11,
+                  "Against": 12
+                }
+              }, {
+                "name": "Older",
+                "values": {
+                  "Believed": 9,
+                  "Against": 6
+                }
+              }],
+              "03/04/2020": [{
+                "name": "Young",
+                "values": {
+                  "Believed": 150,
+                  "Against": 80
+                }
+              }, {
+                "name": "Middle",
+                "values": {
+                  "Believed": 210,
+                  "Against": 220
+                }
+              }, {
+                "name": "Older",
+                "values": {
+                  "Believed": 200,
+                  "Against": 160
+                }
+              }],
+              "04/04/2020": [{
+                "name": "Young",
+                "values": {
+                  "Believed": 150,
+                  "Against": 80
+                }
+              }, {
+                "name": "Middle",
+                "values": {
+                  "Believed": 160,
+                  "Against": 180
+                }
+              }, {
+                "name": "Older",
+                "values": {
+                  "Believed": 120,
+                  "Against": 80
+                }
+              }]
+            }
+    },
+    {
+      "state_code": "8",
+      "state_name": "ACT",
+      "date_values": {
+              "02/04/2020": [{
+                "name": "Young",
+                "values": {
+                  "Believed": 20,
+                  "Against": 17
+                }
+              }, {
+                "name": "Middle",
+                "values": {
+                  "Believed": 11,
+                  "Against": 20
+                }
+              }, {
+                "name": "Older",
+                "values": {
+                  "Believed": 8,
+                  "Against": 6
+                }
+              }],
+              "03/04/2020": [{
+                "name": "Young",
+                "values": {
+                  "Believed": 150,
+                  "Against": 80
+                }
+              }, {
+                "name": "Middle",
+                "values": {
+                  "Believed": 210,
+                  "Against": 220
+                }
+              }, {
+                "name": "Older",
+                "values": {
+                  "Believed": 200,
+                  "Against": 160
+                }
+              }],
+              "04/04/2020": [{
+                "name": "Young",
+                "values": {
+                  "Believed": 150,
+                  "Against": 80
+                }
+              }, {
+                "name": "Middle",
+                "values": {
+                  "Believed": 160,
+                  "Against": 180
+                }
+              }, {
+                "name": "Older",
+                "values": {
+                  "Believed": 120,
+                  "Against": 80
+                }
+              }]
+            }
+    }
+  ]
+}
+

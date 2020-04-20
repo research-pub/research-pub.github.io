@@ -29,7 +29,7 @@ d3.json(json_file, function(error, myData) {
         .append("tr");
     header
         .selectAll("th")
-        .data(["Topics", "1", "2","3", "4","5", "6","7", "8","9", "10"])
+        .data(["#", "1", "2","3", "4","5", "6","7", "8","9", "10"])
         .enter()
         .append("th")
         .attr('scope', 'col')

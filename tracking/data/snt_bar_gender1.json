@@ -1,0 +1,1122 @@
+{
+  "category": "Age",
+  "features": [
+    {
+      "state_code": "0",
+      "state_name": "Whole Australia",
+      "date_values": {
+              "02/04/2020": [{
+                "name": "Male",
+                "values": {
+                  "Positive": 100,
+                  "Negative": 70,
+                  "Neutral": 50
+                },
+                "stas_values": {
+                  "num_tweets_pos": 100,
+                  "num_retweets_pos": 202,
+                  "num_likes_pos": 140,
+                  "num_replies_pos": 30,
+                  "num_tweets_neg": 70,
+                  "num_retweets_neg": 20,
+                  "num_likes_neg": 100,
+                  "num_replies_neg": 20,
+                  "num_tweets_neu": 50,
+                  "num_retweets_neu": 30,
+                  "num_likes_neu": 70,
+                  "num_replies_neu": 40
+                }
+              }, {
+                "name": "Female",
+                "values": {
+                  "Positive": 110,
+                  "Negative": 120,
+                  "Neutral": 60
+                },
+                "stas_values": {
+                  "num_tweets_pos": 110,
+                  "num_retweets_pos": 202,
+                  "num_likes_pos": 140,
+                  "num_replies_pos": 30,
+                  "num_tweets_neg": 120,
+                  "num_retweets_neg": 20,
+                  "num_likes_neg": 100,
+                  "num_replies_neg": 20,
+                  "num_tweets_neu": 60,
+                  "num_retweets_neu": 30,
+                  "num_likes_neu": 70,
+                  "num_replies_neu": 40
+                }
+              }, {
+                "name": "Unknown",
+                "values": {
+                  "Positive": 90,
+                  "Negative": 60,
+                  "Neutral": 30
+                },
+                "stas_values": {
+                  "num_tweets_pos": 90,
+                  "num_retweets_pos": 202,
+                  "num_likes_pos": 140,
+                  "num_replies_pos": 30,
+                  "num_tweets_neg": 60,
+                  "num_retweets_neg": 20,
+                  "num_likes_neg": 100,
+                  "num_replies_neg": 20,
+                  "num_tweets_neu": 30,
+                  "num_retweets_neu": 30,
+                  "num_likes_neu": 70,
+                  "num_replies_neu": 40
+                }
+              }],
+              "03/04/2020": [{
+                "name": "Male",
+                "values": {
+                  "Positive": 150,
+                  "Negative": 80,
+                  "Neutral": 70
+                }
+              }, {
+                "name": "Female",
+                "values": {
+                  "Positive": 210,
+                  "Negative": 220,
+                  "Neutral": 160
+                }
+              }, {
+                "name": "Unknown",
+                "values": {
+                  "Positive": 200,
+                  "Negative": 160,
+                  "Neutral": 130
+                }
+              }],
+              "04/04/2020": [{
+                "name": "Male",
+                "values": {
+                  "Positive": 150,
+                  "Negative": 80,
+                  "Neutral": 90
+                }
+              }, {
+                "name": "Female",
+                "values": {
+                  "Positive": 160,
+                  "Negative": 180,
+                  "Neutral": 70
+                }
+              }, {
+                "name": "Unknown",
+                "values": {
+                  "Positive": 120,
+                  "Negative": 80,
+                  "Neutral":50
+                }
+              }]
+            }
+    },
+    {
+      "state_code": "1",
+      "state_name": "New South Wales",
+      "date_values": {
+              "02/04/2020": [
+                {
+                "name": "Male",
+                "values": {
+                  "Positive": 100,
+                  "Negative": 120,
+                  "Neutral": 80
+                },
+                "stas_values": {
+                  "num_tweets_pos": 100,
+                  "num_retweets_pos": 202,
+                  "num_likes_pos": 140,
+                  "num_replies_pos": 30,
+                  "num_tweets_neg": 70,
+                  "num_retweets_neg": 20,
+                  "num_likes_neg": 100,
+                  "num_replies_neg": 20,
+                  "num_tweets_neu": 50,
+                  "num_retweets_neu": 30,
+                  "num_likes_neu": 70,
+                  "num_replies_neu": 40
+                }
+              },
+                {
+                "name": "Female",
+                "values": {
+                  "Positive": 110,
+                  "Negative": 150,
+                  "Neutral": 60
+                },
+                "stas_values": {
+                  "num_tweets_pos": 110,
+                  "num_retweets_pos": 202,
+                  "num_likes_pos": 140,
+                  "num_replies_pos": 30,
+                  "num_tweets_neg": 120,
+                  "num_retweets_neg": 20,
+                  "num_likes_neg": 100,
+                  "num_replies_neg": 20,
+                  "num_tweets_neu": 60,
+                  "num_retweets_neu": 30,
+                  "num_likes_neu": 70,
+                  "num_replies_neu": 40
+                }
+              },
+                {
+                "name": "Unknown",
+                "values": {
+                  "Positive": 90,
+                  "Negative": 60,
+                  "Neutral": 50
+                },
+                "stas_values": {
+                  "num_tweets_pos": 90,
+                  "num_retweets_pos": 202,
+                  "num_likes_pos": 140,
+                  "num_replies_pos": 30,
+                  "num_tweets_neg": 60,
+                  "num_retweets_neg": 20,
+                  "num_likes_neg": 100,
+                  "num_replies_neg": 20,
+                  "num_tweets_neu": 30,
+                  "num_retweets_neu": 30,
+                  "num_likes_neu": 70,
+                  "num_replies_neu": 40
+                }
+              }],
+              "03/04/2020": [
+                {
+                "name": "Male",
+                "values": {
+                  "Positive": 150,
+                  "Negative": 80,
+                  "Neutral": 70
+                }
+              },
+                {
+                "name": "Female",
+                "values": {
+                  "Positive": 210,
+                  "Negative": 220,
+                  "Neutral": 160
+                }
+              },
+                {
+                "name": "Unknown",
+                "values": {
+                  "Positive": 200,
+                  "Negative": 160,
+                  "Neutral": 130
+                }
+              }],
+              "04/04/2020": [
+                {
+                "name": "Male",
+                "values": {
+                  "Positive": 150,
+                  "Negative": 80,
+                  "Neutral": 90
+                }
+              },
+                {
+                "name": "Female",
+                "values": {
+                  "Positive": 160,
+                  "Negative": 180,
+                  "Neutral": 70
+                }
+              },
+                {
+                "name": "Unknown",
+                "values": {
+                  "Positive": 120,
+                  "Negative": 80,
+                  "Neutral":50
+                }
+              }]
+            }
+    },
+    {
+      "state_code": "2",
+      "state_name": "Victoria",
+      "date_values": {
+              "02/04/2020": [
+                {
+                "name": "Male",
+                "values": {
+                  "Positive": 120,
+                  "Negative": 10,
+                  "Neutral": 80
+                },
+                "stas_values": {
+                  "num_tweets_pos": 100,
+                  "num_retweets_pos": 202,
+                  "num_likes_pos": 140,
+                  "num_replies_pos": 30,
+                  "num_tweets_neg": 70,
+                  "num_retweets_neg": 20,
+                  "num_likes_neg": 100,
+                  "num_replies_neg": 20,
+                  "num_tweets_neu": 50,
+                  "num_retweets_neu": 30,
+                  "num_likes_neu": 70,
+                  "num_replies_neu": 40
+                }
+              },
+                {
+                "name": "Female",
+                "values": {
+                  "Positive": 110,
+                  "Negative": 90,
+                  "Neutral": 80
+                },
+                "stas_values": {
+                  "num_tweets_pos": 110,
+                  "num_retweets_pos": 202,
+                  "num_likes_pos": 140,
+                  "num_replies_pos": 30,
+                  "num_tweets_neg": 120,
+                  "num_retweets_neg": 20,
+                  "num_likes_neg": 100,
+                  "num_replies_neg": 20,
+                  "num_tweets_neu": 60,
+                  "num_retweets_neu": 30,
+                  "num_likes_neu": 70,
+                  "num_replies_neu": 40
+                }
+              },
+                {
+                "name": "Unknown",
+                "values": {
+                  "Positive": 90,
+                  "Negative": 80,
+                  "Neutral": 100
+                },
+                "stas_values": {
+                  "num_tweets_pos": 90,
+                  "num_retweets_pos": 202,
+                  "num_likes_pos": 140,
+                  "num_replies_pos": 30,
+                  "num_tweets_neg": 60,
+                  "num_retweets_neg": 20,
+                  "num_likes_neg": 100,
+                  "num_replies_neg": 20,
+                  "num_tweets_neu": 30,
+                  "num_retweets_neu": 30,
+                  "num_likes_neu": 70,
+                  "num_replies_neu": 40
+                }
+              }],
+              "03/04/2020": [
+                {
+                "name": "Male",
+                "values": {
+                  "Positive": 150,
+                  "Negative": 80,
+                  "Neutral": 70
+                }
+              },
+                {
+                "name": "Female",
+                "values": {
+                  "Positive": 210,
+                  "Negative": 220,
+                  "Neutral": 160
+                }
+              },
+                {
+                "name": "Unknown",
+                "values": {
+                  "Positive": 200,
+                  "Negative": 160,
+                  "Neutral": 130
+                }
+              }],
+              "04/04/2020": [
+                {
+                "name": "Male",
+                "values": {
+                  "Positive": 150,
+                  "Negative": 80,
+                  "Neutral": 90
+                }
+              },
+                {
+                "name": "Female",
+                "values": {
+                  "Positive": 160,
+                  "Negative": 180,
+                  "Neutral": 70
+                }
+              },
+                {
+                "name": "Unknown",
+                "values": {
+                  "Positive": 120,
+                  "Negative": 80,
+                  "Neutral":50
+                }
+              }]
+            }
+    },
+    {
+      "state_code": "3",
+      "state_name": "Queensland",
+      "date_values": {
+              "02/04/2020": [
+                {
+                "name": "Male",
+                "values": {
+                  "Positive": 109,
+                  "Negative": 89,
+                  "Neutral": 70
+                },
+                "stas_values": {
+                  "num_tweets_pos": 100,
+                  "num_retweets_pos": 202,
+                  "num_likes_pos": 140,
+                  "num_replies_pos": 30,
+                  "num_tweets_neg": 70,
+                  "num_retweets_neg": 20,
+                  "num_likes_neg": 100,
+                  "num_replies_neg": 20,
+                  "num_tweets_neu": 50,
+                  "num_retweets_neu": 30,
+                  "num_likes_neu": 70,
+                  "num_replies_neu": 40
+                }
+              },
+                {
+                "name": "Female",
+                "values": {
+                  "Positive": 160,
+                  "Negative": 90,
+                  "Neutral": 60
+                },
+                "stas_values": {
+                  "num_tweets_pos": 110,
+                  "num_retweets_pos": 202,
+                  "num_likes_pos": 140,
+                  "num_replies_pos": 30,
+                  "num_tweets_neg": 120,
+                  "num_retweets_neg": 20,
+                  "num_likes_neg": 100,
+                  "num_replies_neg": 20,
+                  "num_tweets_neu": 60,
+                  "num_retweets_neu": 30,
+                  "num_likes_neu": 70,
+                  "num_replies_neu": 40
+                }
+              },
+                {
+                "name": "Unknown",
+                "values": {
+                  "Positive": 90,
+                  "Negative": 60,
+                  "Neutral": 30
+                },
+                "stas_values": {
+                  "num_tweets_pos": 90,
+                  "num_retweets_pos": 202,
+                  "num_likes_pos": 140,
+                  "num_replies_pos": 30,
+                  "num_tweets_neg": 60,
+                  "num_retweets_neg": 20,
+                  "num_likes_neg": 100,
+                  "num_replies_neg": 20,
+                  "num_tweets_neu": 30,
+                  "num_retweets_neu": 30,
+                  "num_likes_neu": 70,
+                  "num_replies_neu": 40
+                }
+              }
+              ],
+              "03/04/2020": [
+                {
+                "name": "Male",
+                "values": {
+                  "Positive": 150,
+                  "Negative": 80,
+                  "Neutral": 70
+                }
+              },
+                {
+                "name": "Female",
+                "values": {
+                  "Positive": 210,
+                  "Negative": 220,
+                  "Neutral": 160
+                }
+              },
+                {
+                "name": "Unknown",
+                "values": {
+                  "Positive": 200,
+                  "Negative": 160,
+                  "Neutral": 130
+                }
+              }
+              ],
+              "04/04/2020": [
+                {
+                "name": "Male",
+                "values": {
+                  "Positive": 150,
+                  "Negative": 80,
+                  "Neutral": 90
+                }
+              },
+                {
+                "name": "Female",
+                "values": {
+                  "Positive": 160,
+                  "Negative": 180,
+                  "Neutral": 70
+                }
+              },
+                {
+                "name": "Unknown",
+                "values": {
+                  "Positive": 120,
+                  "Negative": 80,
+                  "Neutral":50
+                }
+              }
+              ]
+            }
+    },
+    {
+      "state_code": "4",
+      "state_name": "South Australia",
+      "date_values": {
+              "02/04/2020": [
+                {
+                "name": "Male",
+                "values": {
+                  "Positive": 180,
+                  "Negative": 70,
+                  "Neutral": 80
+                },
+                "stas_values": {
+                  "num_tweets_pos": 100,
+                  "num_retweets_pos": 202,
+                  "num_likes_pos": 140,
+                  "num_replies_pos": 30,
+                  "num_tweets_neg": 70,
+                  "num_retweets_neg": 20,
+                  "num_likes_neg": 100,
+                  "num_replies_neg": 20,
+                  "num_tweets_neu": 50,
+                  "num_retweets_neu": 30,
+                  "num_likes_neu": 70,
+                  "num_replies_neu": 40
+                }
+              },
+                {
+                "name": "Female",
+                "values": {
+                  "Positive": 180,
+                  "Negative": 200,
+                  "Neutral": 180
+                },
+                "stas_values": {
+                  "num_tweets_pos": 110,
+                  "num_retweets_pos": 202,
+                  "num_likes_pos": 140,
+                  "num_replies_pos": 30,
+                  "num_tweets_neg": 120,
+                  "num_retweets_neg": 20,
+                  "num_likes_neg": 100,
+                  "num_replies_neg": 20,
+                  "num_tweets_neu": 60,
+                  "num_retweets_neu": 30,
+                  "num_likes_neu": 70,
+                  "num_replies_neu": 40
+                }
+              },
+                {
+                "name": "Unknown",
+                "values": {
+                  "Positive": 190,
+                  "Negative": 150,
+                  "Neutral": 130
+                },
+                "stas_values": {
+                  "num_tweets_pos": 90,
+                  "num_retweets_pos": 202,
+                  "num_likes_pos": 140,
+                  "num_replies_pos": 30,
+                  "num_tweets_neg": 60,
+                  "num_retweets_neg": 20,
+                  "num_likes_neg": 100,
+                  "num_replies_neg": 20,
+                  "num_tweets_neu": 30,
+                  "num_retweets_neu": 30,
+                  "num_likes_neu": 70,
+                  "num_replies_neu": 40
+                }
+              }
+              ],
+              "03/04/2020": [
+                {
+                "name": "Male",
+                "values": {
+                  "Positive": 190,
+                  "Negative": 180,
+                  "Neutral": 170
+                }
+              },
+                {
+                "name": "Female",
+                "values": {
+                  "Positive": 210,
+                  "Negative": 220,
+                  "Neutral": 160
+                }
+              },
+                {
+                "name": "Unknown",
+                "values": {
+                  "Positive": 200,
+                  "Negative": 160,
+                  "Neutral": 130
+                }
+              }
+              ],
+              "04/04/2020": [
+                {
+                "name": "Male",
+                "values": {
+                  "Positive": 150,
+                  "Negative": 80,
+                  "Neutral": 90
+                }
+              },
+                {
+                "name": "Female",
+                "values": {
+                  "Positive": 160,
+                  "Negative": 180,
+                  "Neutral": 70
+                }
+              },
+                {
+                "name": "Unknown",
+                "values": {
+                  "Positive": 120,
+                  "Negative": 80,
+                  "Neutral":50
+                }
+              }
+              ]
+            }
+    },
+    {
+      "state_code": "5",
+      "state_name": "Western Australia",
+      "date_values": {
+              "02/04/2020": [
+                {
+                "name": "Male",
+                "values": {
+                  "Positive": 180,
+                  "Negative": 150,
+                  "Neutral": 120
+                },
+                "stas_values": {
+                  "num_tweets_pos": 100,
+                  "num_retweets_pos": 202,
+                  "num_likes_pos": 140,
+                  "num_replies_pos": 30,
+                  "num_tweets_neg": 70,
+                  "num_retweets_neg": 20,
+                  "num_likes_neg": 100,
+                  "num_replies_neg": 20,
+                  "num_tweets_neu": 50,
+                  "num_retweets_neu": 30,
+                  "num_likes_neu": 70,
+                  "num_replies_neu": 40
+                }
+              },
+                {
+                "name": "Female",
+                "values": {
+                  "Positive": 140,
+                  "Negative": 120,
+                  "Neutral": 160
+                },
+                "stas_values": {
+                  "num_tweets_pos": 110,
+                  "num_retweets_pos": 202,
+                  "num_likes_pos": 140,
+                  "num_replies_pos": 30,
+                  "num_tweets_neg": 120,
+                  "num_retweets_neg": 20,
+                  "num_likes_neg": 100,
+                  "num_replies_neg": 20,
+                  "num_tweets_neu": 60,
+                  "num_retweets_neu": 30,
+                  "num_likes_neu": 70,
+                  "num_replies_neu": 40
+                }
+              },
+                {
+                "name": "Unknown",
+                "values": {
+                  "Positive": 90,
+                  "Negative": 60,
+                  "Neutral": 30
+                },
+                "stas_values": {
+                  "num_tweets_pos": 90,
+                  "num_retweets_pos": 202,
+                  "num_likes_pos": 140,
+                  "num_replies_pos": 30,
+                  "num_tweets_neg": 60,
+                  "num_retweets_neg": 20,
+                  "num_likes_neg": 100,
+                  "num_replies_neg": 20,
+                  "num_tweets_neu": 30,
+                  "num_retweets_neu": 30,
+                  "num_likes_neu": 70,
+                  "num_replies_neu": 40
+                }
+              }
+              ],
+              "03/04/2020": [
+                {
+                "name": "Male",
+                "values": {
+                  "Positive": 150,
+                  "Negative": 80,
+                  "Neutral": 70
+                }
+              },
+                {
+                "name": "Female",
+                "values": {
+                  "Positive": 210,
+                  "Negative": 220,
+                  "Neutral": 160
+                }
+              },
+                {
+                "name": "Unknown",
+                "values": {
+                  "Positive": 200,
+                  "Negative": 160,
+                  "Neutral": 130
+                }
+              }
+              ],
+              "04/04/2020": [
+                {
+                "name": "Male",
+                "values": {
+                  "Positive": 150,
+                  "Negative": 80,
+                  "Neutral": 90
+                }
+              },
+                {
+                "name": "Female",
+                "values": {
+                  "Positive": 160,
+                  "Negative": 180,
+                  "Neutral": 70
+                }
+              },
+                {
+                "name": "Unknown",
+                "values": {
+                  "Positive": 120,
+                  "Negative": 80,
+                  "Neutral":50
+                }
+              }
+              ]
+            }
+    },
+    {
+      "state_code": "6",
+      "state_name": "Tasmania",
+      "date_values": {
+              "02/04/2020": [
+                {
+                "name": "Male",
+                "values": {
+                  "Positive": 120,
+                  "Negative": 170,
+                  "Neutral": 150
+                },
+                "stas_values": {
+                  "num_tweets_pos": 100,
+                  "num_retweets_pos": 202,
+                  "num_likes_pos": 140,
+                  "num_replies_pos": 30,
+                  "num_tweets_neg": 70,
+                  "num_retweets_neg": 20,
+                  "num_likes_neg": 100,
+                  "num_replies_neg": 20,
+                  "num_tweets_neu": 50,
+                  "num_retweets_neu": 30,
+                  "num_likes_neu": 70,
+                  "num_replies_neu": 40
+                }
+              },
+                {
+                "name": "Female",
+                "values": {
+                  "Positive": 130,
+                  "Negative": 120,
+                  "Neutral": 160
+                },
+                "stas_values": {
+                  "num_tweets_pos": 110,
+                  "num_retweets_pos": 202,
+                  "num_likes_pos": 140,
+                  "num_replies_pos": 30,
+                  "num_tweets_neg": 120,
+                  "num_retweets_neg": 20,
+                  "num_likes_neg": 100,
+                  "num_replies_neg": 20,
+                  "num_tweets_neu": 60,
+                  "num_retweets_neu": 30,
+                  "num_likes_neu": 70,
+                  "num_replies_neu": 40
+                }
+              },
+                {
+                "name": "Unknown",
+                "values": {
+                  "Positive": 190,
+                  "Negative": 160,
+                  "Neutral": 130
+                },
+                "stas_values": {
+                  "num_tweets_pos": 90,
+                  "num_retweets_pos": 202,
+                  "num_likes_pos": 140,
+                  "num_replies_pos": 30,
+                  "num_tweets_neg": 60,
+                  "num_retweets_neg": 20,
+                  "num_likes_neg": 100,
+                  "num_replies_neg": 20,
+                  "num_tweets_neu": 30,
+                  "num_retweets_neu": 30,
+                  "num_likes_neu": 70,
+                  "num_replies_neu": 40
+                }
+              }
+              ],
+              "03/04/2020": [
+                {
+                "name": "Male",
+                "values": {
+                  "Positive": 150,
+                  "Negative": 80,
+                  "Neutral": 70
+                }
+              },
+                {
+                "name": "Female",
+                "values": {
+                  "Positive": 210,
+                  "Negative": 220,
+                  "Neutral": 160
+                }
+              },
+                {
+                "name": "Unknown",
+                "values": {
+                  "Positive": 200,
+                  "Negative": 160,
+                  "Neutral": 130
+                }
+              }
+              ],
+              "04/04/2020": [
+                {
+                "name": "Male",
+                "values": {
+                  "Positive": 150,
+                  "Negative": 80,
+                  "Neutral": 90
+                }
+              },
+                {
+                "name": "Female",
+                "values": {
+                  "Positive": 160,
+                  "Negative": 180,
+                  "Neutral": 70
+                }
+              },
+                {
+                "name": "Unknown",
+                "values": {
+                  "Positive": 120,
+                  "Negative": 80,
+                  "Neutral":50
+                }
+              }
+              ]
+            }
+    },
+    {
+      "state_code": "7",
+      "state_name": "Northern Territory",
+      "date_values": {
+              "02/04/2020": [
+                {
+                "name": "Male",
+                "values": {
+                  "Positive": 140,
+                  "Negative": 170,
+                  "Neutral": 100
+                },
+                "stas_values": {
+                  "num_tweets_pos": 100,
+                  "num_retweets_pos": 202,
+                  "num_likes_pos": 140,
+                  "num_replies_pos": 30,
+                  "num_tweets_neg": 70,
+                  "num_retweets_neg": 20,
+                  "num_likes_neg": 100,
+                  "num_replies_neg": 20,
+                  "num_tweets_neu": 50,
+                  "num_retweets_neu": 30,
+                  "num_likes_neu": 70,
+                  "num_replies_neu": 40
+                }
+              },
+                {
+                "name": "Female",
+                "values": {
+                  "Positive": 120,
+                  "Negative": 140,
+                  "Neutral": 160
+                },
+                "stas_values": {
+                  "num_tweets_pos": 110,
+                  "num_retweets_pos": 202,
+                  "num_likes_pos": 140,
+                  "num_replies_pos": 30,
+                  "num_tweets_neg": 120,
+                  "num_retweets_neg": 20,
+                  "num_likes_neg": 100,
+                  "num_replies_neg": 20,
+                  "num_tweets_neu": 60,
+                  "num_retweets_neu": 30,
+                  "num_likes_neu": 70,
+                  "num_replies_neu": 40
+                }
+              },
+                {
+                "name": "Unknown",
+                "values": {
+                  "Positive": 190,
+                  "Negative": 160,
+                  "Neutral": 130
+                },
+                "stas_values": {
+                  "num_tweets_pos": 90,
+                  "num_retweets_pos": 202,
+                  "num_likes_pos": 140,
+                  "num_replies_pos": 30,
+                  "num_tweets_neg": 60,
+                  "num_retweets_neg": 20,
+                  "num_likes_neg": 100,
+                  "num_replies_neg": 20,
+                  "num_tweets_neu": 30,
+                  "num_retweets_neu": 30,
+                  "num_likes_neu": 70,
+                  "num_replies_neu": 40
+                }
+              }
+              ],
+              "03/04/2020": [
+                {
+                "name": "Male",
+                "values": {
+                  "Positive": 150,
+                  "Negative": 80,
+                  "Neutral": 70
+                }
+              },
+                {
+                "name": "Female",
+                "values": {
+                  "Positive": 210,
+                  "Negative": 220,
+                  "Neutral": 160
+                }
+              },
+                {
+                "name": "Unknown",
+                "values": {
+                  "Positive": 200,
+                  "Negative": 160,
+                  "Neutral": 130
+                }
+              }
+              ],
+              "04/04/2020": [
+                {
+                "name": "Male",
+                "values": {
+                  "Positive": 150,
+                  "Negative": 80,
+                  "Neutral": 90
+                }
+              },
+                {
+                "name": "Female",
+                "values": {
+                  "Positive": 160,
+                  "Negative": 180,
+                  "Neutral": 70
+                }
+              },
+                {
+                "name": "Unknown",
+                "values": {
+                  "Positive": 120,
+                  "Negative": 80,
+                  "Neutral":50
+                }
+              }
+              ]
+            }
+    },
+    {
+      "state_code": "8",
+      "state_name": "ACT",
+      "date_values": {
+              "02/04/2020": [
+                {
+                "name": "Male",
+                "values": {
+                  "Positive": 40,
+                  "Negative": 30,
+                  "Neutral": 50
+                },
+                "stas_values": {
+                  "num_tweets_pos": 100,
+                  "num_retweets_pos": 202,
+                  "num_likes_pos": 140,
+                  "num_replies_pos": 30,
+                  "num_tweets_neg": 70,
+                  "num_retweets_neg": 20,
+                  "num_likes_neg": 100,
+                  "num_replies_neg": 20,
+                  "num_tweets_neu": 50,
+                  "num_retweets_neu": 30,
+                  "num_likes_neu": 70,
+                  "num_replies_neu": 40
+                }
+              },
+                {
+                "name": "Female",
+                "values": {
+                  "Positive": 60,
+                  "Negative": 80,
+                  "Neutral": 60
+                },
+                "stas_values": {
+                  "num_tweets_pos": 110,
+                  "num_retweets_pos": 202,
+                  "num_likes_pos": 140,
+                  "num_replies_pos": 30,
+                  "num_tweets_neg": 120,
+                  "num_retweets_neg": 20,
+                  "num_likes_neg": 100,
+                  "num_replies_neg": 20,
+                  "num_tweets_neu": 60,
+                  "num_retweets_neu": 30,
+                  "num_likes_neu": 70,
+                  "num_replies_neu": 40
+                }
+              },
+                {
+                "name": "Unknown",
+                "values": {
+                  "Positive": 40,
+                  "Negative": 50,
+                  "Neutral": 30
+                },
+                "stas_values": {
+                  "num_tweets_pos": 90,
+                  "num_retweets_pos": 202,
+                  "num_likes_pos": 140,
+                  "num_replies_pos": 30,
+                  "num_tweets_neg": 60,
+                  "num_retweets_neg": 20,
+                  "num_likes_neg": 100,
+                  "num_replies_neg": 20,
+                  "num_tweets_neu": 30,
+                  "num_retweets_neu": 30,
+                  "num_likes_neu": 70,
+                  "num_replies_neu": 40
+                }
+              }
+              ],
+              "03/04/2020": [
+                {
+                "name": "Male",
+                "values": {
+                  "Positive": 150,
+                  "Negative": 80,
+                  "Neutral": 70
+                }
+              },
+                {
+                "name": "Female",
+                "values": {
+                  "Positive": 210,
+                  "Negative": 220,
+                  "Neutral": 160
+                }
+              },
+                {
+                "name": "Unknown",
+                "values": {
+                  "Positive": 200,
+                  "Negative": 160,
+                  "Neutral": 130
+                }
+              }
+              ],
+              "04/04/2020": [
+                {
+                "name": "Male",
+                "values": {
+                  "Positive": 150,
+                  "Negative": 80,
+                  "Neutral": 90
+                }
+              },
+                {
+                "name": "Female",
+                "values": {
+                  "Positive": 160,
+                  "Negative": 180,
+                  "Neutral": 70
+                }
+              },
+                {
+                "name": "Unknown",
+                "values": {
+                  "Positive": 120,
+                  "Negative": 80,
+                  "Neutral":50
+                }
+              }
+              ]
+            }
+    }
+  ]
+}
+
