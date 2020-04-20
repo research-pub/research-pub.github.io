@@ -116,7 +116,15 @@ function WordCloud(options) {
            return (base - i*14);
          })
          .attr('text-anchor', 'left')
-         .text(function(title) { return title.text; });
+         .html(function(title,i) {
+             let link = 'https://twitter.com/'+title.user_id
+             let td_1 = i+1 +'. <a  target="_blank" href='+link+'>' +
+                 '<SPAN STYLE="text-decoration:underline; color: blue">' +title.user_id+ '</SPAN></a>'
+
+             let table = '<table><tr><td>'+td_1+', '+title.time+'</td></tr>' +
+                 '<tr><td>'+title.text+'</td></tr></table>'
+             return table;
+         });
 
     $("#dialog").dialog("open").css({height:"300px", overflow:"auto"});
     d3.select('#story-titles').remove();
