@@ -1,696 +1,293 @@
 {
-  "category": "Gender",
+  "category": "Gender" ,
   "features": [
     {
-      "state_code": "0",
-      "state_name": "Whole Australia",
+      "state_code": "0" ,
+      "state_name": "Whole Australia" ,
       "date_values": {
-              "02/04/2020": [{
-                "name": "Male",
-                "values": {
-                  "Positive": 100,
-                  "Negative": 70,
-                  "Neutral": 50
-                },
-                "stas_values": {
-                  "num_tweets_pos": 100,
-                  "num_retweets_pos": 202,
-                  "num_likes_pos": 140,
-                  "num_replies_pos": 30,
-                  "num_tweets_neg": 70,
-                  "num_retweets_neg": 20,
-                  "num_likes_neg": 100,
-                  "num_replies_neg": 20,
-                  "num_tweets_neu": 50,
-                  "num_retweets_neu": 30,
-                  "num_likes_neu": 70,
-                  "num_replies_neu": 40
-                }
-              }, {
-                "name": "Female",
-                "values": {
-                  "Positive": 110,
-                  "Negative": 120,
-                  "Neutral": 60
-                },
-                "stas_values": {
-                  "num_tweets_pos": 110,
-                  "num_retweets_pos": 202,
-                  "num_likes_pos": 140,
-                  "num_replies_pos": 30,
-                  "num_tweets_neg": 120,
-                  "num_retweets_neg": 20,
-                  "num_likes_neg": 100,
-                  "num_replies_neg": 20,
-                  "num_tweets_neu": 60,
-                  "num_retweets_neu": 30,
-                  "num_likes_neu": 70,
-                  "num_replies_neu": 40
-                }
-              }, {
-                "name": "Unknown",
-                "values": {
-                  "Positive": 90,
-                  "Negative": 60,
-                  "Neutral": 30
-                },
-                "stas_values": {
-                  "num_tweets_pos": 90,
-                  "num_retweets_pos": 202,
-                  "num_likes_pos": 140,
-                  "num_replies_pos": 30,
-                  "num_tweets_neg": 60,
-                  "num_retweets_neg": 20,
-                  "num_likes_neg": 100,
-                  "num_replies_neg": 20,
-                  "num_tweets_neu": 30,
-                  "num_retweets_neu": 30,
-                  "num_likes_neu": 70,
-                  "num_replies_neu": 40
-                }
-              }],
-              "03/04/2020": [{
-                "name": "Male",
-                "values": {
-                  "Positive": 150,
-                  "Negative": 80,
-                  "Neutral": 70
-                }
-              }, {
-                "name": "Female",
-                "values": {
-                  "Positive": 210,
-                  "Negative": 220,
-                  "Neutral": 160
-                }
-              }, {
-                "name": "Unknown",
-                "values": {
-                  "Positive": 200,
-                  "Negative": 160,
-                  "Neutral": 130
-                }
-              }],
-              "04/04/2020": [{
-                "name": "Male",
-                "values": {
-                  "Positive": 150,
-                  "Negative": 80,
-                  "Neutral": 90
-                }
-              }, {
-                "name": "Female",
-                "values": {
-                  "Positive": 160,
-                  "Negative": 180,
-                  "Neutral": 70
-                }
-              }, {
-                "name": "Unknown",
-                "values": {
-                  "Positive": 120,
-                  "Negative": 80,
-                  "Neutral":50
-                }
-              }]
+        "20200420": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "28" ,
+              "Negative": "19" ,
+              "Neutral": "22"
             }
-    },
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "66" ,
+              "Negative": "32" ,
+              "Neutral": "38"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ]
+      }
+    } ,
     {
-      "state_code": "1",
-      "state_name": "New South Wales",
+      "state_code": "1" ,
+      "state_name": "nsw" ,
       "date_values": {
-              "02/04/2020": [{
-                "name": "Male",
-                "values": {
-                  "Positive": 100,
-                  "Negative": 70,
-                  "Neutral": 50
-                }
-              }, {
-                "name": "Female",
-                "values": {
-                  "Positive": 110,
-                  "Negative": 120,
-                  "Neutral": 60
-                }
-              }, {
-                "name": "Unknown",
-                "values": {
-                  "Positive": 90,
-                  "Negative": 60,
-                  "Neutral": 30
-                }
-              }],
-              "03/04/2020": [{
-                "name": "Male",
-                "values": {
-                  "Positive": 150,
-                  "Negative": 80,
-                  "Neutral": 70
-                }
-              }, {
-                "name": "Female",
-                "values": {
-                  "Positive": 210,
-                  "Negative": 220,
-                  "Neutral": 160
-                }
-              }, {
-                "name": "Unknown",
-                "values": {
-                  "Positive": 200,
-                  "Negative": 160,
-                  "Neutral": 130
-                }
-              }],
-              "04/04/2020": [{
-                "name": "Male",
-                "values": {
-                  "Positive": 150,
-                  "Negative": 80,
-                  "Neutral": 90
-                }
-              }, {
-                "name": "Female",
-                "values": {
-                  "Positive": 160,
-                  "Negative": 180,
-                  "Neutral": 70
-                }
-              }, {
-                "name": "Unknown",
-                "values": {
-                  "Positive": 120,
-                  "Negative": 80,
-                  "Neutral":50
-                }
-              }]
+        "20200420": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "4" ,
+              "Negative": "5" ,
+              "Neutral": "8"
             }
-    },
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "15" ,
+              "Negative": "7" ,
+              "Neutral": "8"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ]
+      }
+    } ,
     {
-      "state_code": "2",
-      "state_name": "Victoria",
+      "state_code": "2" ,
+      "state_name": "vic" ,
       "date_values": {
-              "02/04/2020": [{
-                "name": "Male",
-                "values": {
-                  "Positive": 100,
-                  "Negative": 70,
-                  "Neutral": 50
-                }
-              }, {
-                "name": "Female",
-                "values": {
-                  "Positive": 110,
-                  "Negative": 120,
-                  "Neutral": 60
-                }
-              }, {
-                "name": "Unknown",
-                "values": {
-                  "Positive": 90,
-                  "Negative": 60,
-                  "Neutral": 30
-                }
-              }],
-              "03/04/2020": [{
-                "name": "Male",
-                "values": {
-                  "Positive": 150,
-                  "Negative": 80,
-                  "Neutral": 70
-                }
-              }, {
-                "name": "Female",
-                "values": {
-                  "Positive": 210,
-                  "Negative": 220,
-                  "Neutral": 160
-                }
-              }, {
-                "name": "Unknown",
-                "values": {
-                  "Positive": 200,
-                  "Negative": 160,
-                  "Neutral": 130
-                }
-              }],
-              "04/04/2020": [{
-                "name": "Male",
-                "values": {
-                  "Positive": 150,
-                  "Negative": 80,
-                  "Neutral": 90
-                }
-              }, {
-                "name": "Female",
-                "values": {
-                  "Positive": 160,
-                  "Negative": 180,
-                  "Neutral": 70
-                }
-              }, {
-                "name": "Unknown",
-                "values": {
-                  "Positive": 120,
-                  "Negative": 80,
-                  "Neutral":50
-                }
-              }]
+        "20200420": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "6" ,
+              "Negative": "4" ,
+              "Neutral": "2"
             }
-    },
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "7" ,
+              "Negative": "5" ,
+              "Neutral": "2"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ]
+      }
+    } ,
     {
-      "state_code": "3",
-      "state_name": "Queensland",
+      "state_code": "3" ,
+      "state_name": "qld" ,
       "date_values": {
-              "02/04/2020": [{
-                "name": "Male",
-                "values": {
-                  "Positive": 100,
-                  "Negative": 70,
-                  "Neutral": 50
-                }
-              }, {
-                "name": "Female",
-                "values": {
-                  "Positive": 110,
-                  "Negative": 120,
-                  "Neutral": 60
-                }
-              }, {
-                "name": "Unknown",
-                "values": {
-                  "Positive": 90,
-                  "Negative": 60,
-                  "Neutral": 30
-                }
-              }],
-              "03/04/2020": [{
-                "name": "Male",
-                "values": {
-                  "Positive": 150,
-                  "Negative": 80,
-                  "Neutral": 70
-                }
-              }, {
-                "name": "Female",
-                "values": {
-                  "Positive": 210,
-                  "Negative": 220,
-                  "Neutral": 160
-                }
-              }, {
-                "name": "Unknown",
-                "values": {
-                  "Positive": 200,
-                  "Negative": 160,
-                  "Neutral": 130
-                }
-              }],
-              "04/04/2020": [{
-                "name": "Male",
-                "values": {
-                  "Positive": 150,
-                  "Negative": 80,
-                  "Neutral": 90
-                }
-              }, {
-                "name": "Female",
-                "values": {
-                  "Positive": 160,
-                  "Negative": 180,
-                  "Neutral": 70
-                }
-              }, {
-                "name": "Unknown",
-                "values": {
-                  "Positive": 120,
-                  "Negative": 80,
-                  "Neutral":50
-                }
-              }]
+        "20200420": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "0"
             }
-    },
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "3" ,
+              "Negative": "1" ,
+              "Neutral": "4"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ]
+      }
+    } ,
     {
-      "state_code": "4",
-      "state_name": "South Australia",
+      "state_code": "4" ,
+      "state_name": "sa" ,
       "date_values": {
-              "02/04/2020": [{
-                "name": "Male",
-                "values": {
-                  "Positive": 100,
-                  "Negative": 70,
-                  "Neutral": 50
-                }
-              }, {
-                "name": "Female",
-                "values": {
-                  "Positive": 110,
-                  "Negative": 120,
-                  "Neutral": 60
-                }
-              }, {
-                "name": "Unknown",
-                "values": {
-                  "Positive": 90,
-                  "Negative": 60,
-                  "Neutral": 30
-                }
-              }],
-              "03/04/2020": [{
-                "name": "Male",
-                "values": {
-                  "Positive": 150,
-                  "Negative": 80,
-                  "Neutral": 70
-                }
-              }, {
-                "name": "Female",
-                "values": {
-                  "Positive": 210,
-                  "Negative": 220,
-                  "Neutral": 160
-                }
-              }, {
-                "name": "Unknown",
-                "values": {
-                  "Positive": 200,
-                  "Negative": 160,
-                  "Neutral": 130
-                }
-              }],
-              "04/04/2020": [{
-                "name": "Male",
-                "values": {
-                  "Positive": 150,
-                  "Negative": 80,
-                  "Neutral": 90
-                }
-              }, {
-                "name": "Female",
-                "values": {
-                  "Positive": 160,
-                  "Negative": 180,
-                  "Neutral": 70
-                }
-              }, {
-                "name": "Unknown",
-                "values": {
-                  "Positive": 120,
-                  "Negative": 80,
-                  "Neutral":50
-                }
-              }]
+        "20200420": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "6" ,
+              "Negative": "0" ,
+              "Neutral": "0"
             }
-    },
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "10" ,
+              "Negative": "2" ,
+              "Neutral": "1"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ]
+      }
+    } ,
     {
-      "state_code": "5",
-      "state_name": "Western Australia",
+      "state_code": "5" ,
+      "state_name": "wa" ,
       "date_values": {
-              "02/04/2020": [{
-                "name": "Male",
-                "values": {
-                  "Positive": 100,
-                  "Negative": 70,
-                  "Neutral": 50
-                }
-              }, {
-                "name": "Female",
-                "values": {
-                  "Positive": 110,
-                  "Negative": 120,
-                  "Neutral": 60
-                }
-              }, {
-                "name": "Unknown",
-                "values": {
-                  "Positive": 90,
-                  "Negative": 60,
-                  "Neutral": 30
-                }
-              }],
-              "03/04/2020": [{
-                "name": "Male",
-                "values": {
-                  "Positive": 150,
-                  "Negative": 80,
-                  "Neutral": 70
-                }
-              }, {
-                "name": "Female",
-                "values": {
-                  "Positive": 210,
-                  "Negative": 220,
-                  "Neutral": 160
-                }
-              }, {
-                "name": "Unknown",
-                "values": {
-                  "Positive": 200,
-                  "Negative": 160,
-                  "Neutral": 130
-                }
-              }],
-              "04/04/2020": [{
-                "name": "Male",
-                "values": {
-                  "Positive": 150,
-                  "Negative": 80,
-                  "Neutral": 90
-                }
-              }, {
-                "name": "Female",
-                "values": {
-                  "Positive": 160,
-                  "Negative": 180,
-                  "Neutral": 70
-                }
-              }, {
-                "name": "Unknown",
-                "values": {
-                  "Positive": 120,
-                  "Negative": 80,
-                  "Neutral":50
-                }
-              }]
+        "20200420": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "1"
             }
-    },
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "2" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ]
+      }
+    } ,
     {
-      "state_code": "6",
-      "state_name": "Tasmania",
+      "state_code": "6" ,
+      "state_name": "tas" ,
       "date_values": {
-              "02/04/2020": [{
-                "name": "Male",
-                "values": {
-                  "Positive": 100,
-                  "Negative": 70,
-                  "Neutral": 50
-                }
-              }, {
-                "name": "Female",
-                "values": {
-                  "Positive": 110,
-                  "Negative": 120,
-                  "Neutral": 60
-                }
-              }, {
-                "name": "Unknown",
-                "values": {
-                  "Positive": 90,
-                  "Negative": 60,
-                  "Neutral": 30
-                }
-              }],
-              "03/04/2020": [{
-                "name": "Male",
-                "values": {
-                  "Positive": 150,
-                  "Negative": 80,
-                  "Neutral": 70
-                }
-              }, {
-                "name": "Female",
-                "values": {
-                  "Positive": 210,
-                  "Negative": 220,
-                  "Neutral": 160
-                }
-              }, {
-                "name": "Unknown",
-                "values": {
-                  "Positive": 200,
-                  "Negative": 160,
-                  "Neutral": 130
-                }
-              }],
-              "04/04/2020": [{
-                "name": "Male",
-                "values": {
-                  "Positive": 150,
-                  "Negative": 80,
-                  "Neutral": 90
-                }
-              }, {
-                "name": "Female",
-                "values": {
-                  "Positive": 160,
-                  "Negative": 180,
-                  "Neutral": 70
-                }
-              }, {
-                "name": "Unknown",
-                "values": {
-                  "Positive": 120,
-                  "Negative": 80,
-                  "Neutral":50
-                }
-              }]
+        "20200420": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
             }
-    },
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ]
+      }
+    } ,
     {
-      "state_code": "7",
-      "state_name": "Northern Territory",
+      "state_code": "7" ,
+      "state_name": "nt" ,
       "date_values": {
-              "02/04/2020": [{
-                "name": "Male",
-                "values": {
-                  "Positive": 100,
-                  "Negative": 70,
-                  "Neutral": 50
-                }
-              }, {
-                "name": "Female",
-                "values": {
-                  "Positive": 110,
-                  "Negative": 120,
-                  "Neutral": 60
-                }
-              }, {
-                "name": "Unknown",
-                "values": {
-                  "Positive": 90,
-                  "Negative": 60,
-                  "Neutral": 30
-                }
-              }],
-              "03/04/2020": [{
-                "name": "Male",
-                "values": {
-                  "Positive": 150,
-                  "Negative": 80,
-                  "Neutral": 70
-                }
-              }, {
-                "name": "Female",
-                "values": {
-                  "Positive": 210,
-                  "Negative": 220,
-                  "Neutral": 160
-                }
-              }, {
-                "name": "Unknown",
-                "values": {
-                  "Positive": 200,
-                  "Negative": 160,
-                  "Neutral": 130
-                }
-              }],
-              "04/04/2020": [{
-                "name": "Male",
-                "values": {
-                  "Positive": 150,
-                  "Negative": 80,
-                  "Neutral": 90
-                }
-              }, {
-                "name": "Female",
-                "values": {
-                  "Positive": 160,
-                  "Negative": 180,
-                  "Neutral": 70
-                }
-              }, {
-                "name": "Unknown",
-                "values": {
-                  "Positive": 120,
-                  "Negative": 80,
-                  "Neutral":50
-                }
-              }]
+        "20200420": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
             }
-    },
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ]
+      }
+    } ,
     {
-      "state_code": "8",
-      "state_name": "ACT",
+      "state_code": "8" ,
+      "state_name": "act" ,
       "date_values": {
-              "02/04/2020": [{
-                "name": "Male",
-                "values": {
-                  "Positive": 100,
-                  "Negative": 70,
-                  "Neutral": 50
-                }
-              }, {
-                "name": "Female",
-                "values": {
-                  "Positive": 110,
-                  "Negative": 120,
-                  "Neutral": 60
-                }
-              }, {
-                "name": "Unknown",
-                "values": {
-                  "Positive": 90,
-                  "Negative": 60,
-                  "Neutral": 30
-                }
-              }],
-              "03/04/2020": [{
-                "name": "Male",
-                "values": {
-                  "Positive": 150,
-                  "Negative": 80,
-                  "Neutral": 70
-                }
-              }, {
-                "name": "Female",
-                "values": {
-                  "Positive": 210,
-                  "Negative": 220,
-                  "Neutral": 160
-                }
-              }, {
-                "name": "Unknown",
-                "values": {
-                  "Positive": 200,
-                  "Negative": 160,
-                  "Neutral": 130
-                }
-              }],
-              "04/04/2020": [{
-                "name": "Male",
-                "values": {
-                  "Positive": 150,
-                  "Negative": 80,
-                  "Neutral": 90
-                }
-              }, {
-                "name": "Female",
-                "values": {
-                  "Positive": 160,
-                  "Negative": 180,
-                  "Neutral": 70
-                }
-              }, {
-                "name": "Unknown",
-                "values": {
-                  "Positive": 120,
-                  "Negative": 80,
-                  "Neutral":50
-                }
-              }]
+        "20200420": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
             }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "1" ,
+              "Neutral": "1"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ]
+      }
     }
   ]
 }
-
