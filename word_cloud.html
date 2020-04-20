@@ -1,111 +1,47 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-<script src="http://d3js.org/d3.v3.min.js"></script>
-<script src="js/d3.layout.cloud.js"></script>
-<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.4/underscore-min.js"></script>
-
-<style>
-  text:hover { opacity: .7 !important; }
-</style>
+  <meta charset="utf-8">
+  <title>After All This Time?</title>
+  <!-- Import D3 -->
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <!-- Random number generator -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/seedrandom/2.4.3/lib/alea.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <!-- d3-cloud library -->
+  <script src="js/d3.layout.cloud.js"></script>
+  <link rel="stylesheet" type='text/css' href="css/wordcloud.css">
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 
 </head>
 
 <body>
-	words:<textarea type="text" id="input">Test word is word word word word testing hello world world is the</textarea>
-	<button type="button" id="button" onclick="generate()">show</button>
-	font-size:<input type="text" id="fontSize" value="12" />
-<script>
 
-var container = "svg";
+<div id='cloud-container'></div>
 
-var w = 700;
-var h = 600;
-var wordSize;
-var layout;
+<div id="dialog" title="Related Tweets"></div>
 
-function generate() {
-	wordSize = d3.select("#fontSize").property("value");
-	var str = d3.select("#input").property("value");
-
-	var list = str.split(/[\s.,]+/);
-	console.log(list)
-
-	result = { };
-	for(i = 0; i < list.length; ++i) {
-		if(!result[list[i]])
-			result[list[i]] = 0;
-		++result[list[i]];
-	}
-	var newList = _.uniq(list);
-    console.log(newList)
-	var frequency_list = [];
-	var len = newList.length;
-	for (var i = 0; i < len; i++) {
-        var temp = newList[i];
-        frequency_list.push({
-            text : temp,
-            freq : result[newList[i]],
-            time : 0
-        });
-    }
-    frequency_list.sort(function(a,b) { return parseFloat(b.freq) - parseFloat(a.freq) } );
+  <script src="js/wordcloud.js"></script>
+  <script>
+		  WordCloud({
+			container: '#cloud-container',
+			// data: 'data/wordcloud.json'
+            data: 'http://3.24.135.55/get_topic_model'
+		  });
+	$( "#dialog" ).dialog({
+      autoOpen: false,
+      show: {
+        effect: "blind",
+        duration: 1000
+      },
+      hide: {
+        effect: "explode",
+        duration: 1000
+      }
+    });
+  </script>
 
 
-    for(var t = 0 ; t < len ; t++)
-    {
-      var addTime = (100 * t) +500;
-      frequency_list[t].time=addTime;
-    }
-
-
-    for(i in frequency_list){
-        if(frequency_list[i].freq*wordSize > 160)
-            wordSize = 3;
-    }
-    var sizeScale = d3.scale.linear()
-                   .domain([0, d3.max(frequency_list, function(d) { return d.freq} )])
-                                    .range([10, 95]); // 95 because 100 was causing stuff to be missing
-    layout = d3.layout.cloud().size([w, h])
-    .words(frequency_list)
-    .padding(5)
-    .rotate(function() { return ~~(Math.random() * 2) * 90; })
-    .font("Impact")
-    .fontSize(function(d) { return sizeScale(d.freq); })
-      .on("end",draw)
-      .start();
-}
-
-function draw(words) {
-    var fill = d3.scale.category20();
-        d3.select(container).remove();
-        d3.select("body").append(container)
-        .attr("width", w)
-        .attr("height", h)
-            .append("g")
-        .attr("transform", "translate(" + [w/2, h/2] + ")")
-        .selectAll("text")
-        .data(words)
-        .enter().append("text")
-        .transition()
-        .duration(function(d) { return d.time}  )
-        .attr('opacity', 1)
-        .style("font-size", function(d) { return d.size + "px"; })
-        .style("font-family", "Impact")
-          .style("fill", function(d, i) { return fill(i); })
-        .attr("text-anchor", "middle")
-        .attr("transform", function(d) {
-          return "rotate(" + d.rotate + ")";
-        })
-        .attr("transform", function(d) {
-          return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
-        })
-        .text(function(d) { return d.text; })
-
-}
-
-</script>
 </body>
-
 </html>

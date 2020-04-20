@@ -31,6 +31,7 @@ function WordCloud(options) {
     var word_entries = d3.entries(data['count']);
     xScale.domain(d3.extent(word_entries, function(d) {return d.value;}));
 
+    // console.log(word_entries)
     makeCloud();
 
     function makeCloud() {
@@ -52,9 +53,7 @@ function WordCloud(options) {
                })
                .start();
     }
-
     d3.layout.cloud().stop();
-
   });
 
   function draw(words) {
@@ -75,8 +74,6 @@ function WordCloud(options) {
   }
 
   function handleMouseOver(d) {
-      // console.log(d)
-      // console.log(data['sample_title'][d.key])
     var group = focus.append('g')
         .attr('id', 'story-titles');
     var base = d.y - d.size;
@@ -110,37 +107,23 @@ function WordCloud(options) {
     var group = d3.select('#dialog');
     var base = d.y - d.size;
       $( "#ui-id-1" ).html("Tweets related to '"+d.key+"'");
-    $( "#dialog" ).empty()
+    $("#dialog" ).empty()
     group.selectAll('text')
-         .data(data['sample_title'][d.key])
+         .data(data['tweet_info'][d.key])
          .enter().append('p')
          .attr('x', d.x)
          .attr('y', function(title, i) {
            return (base - i*14);
          })
          .attr('text-anchor', 'left')
-         .text(function(title) { return title; });
+         .text(function(title) { return title.text; });
 
-    // var bbox = group.node().getBBox();
-    // var bboxPadding = 5;
-    //
-    // // place a white background to see text more clearly
-    // var rect = group.insert('rect', ':first-child')
-    //               .attr('x', bbox.x)
-    //               .attr('y', bbox.y)
-    //               .attr('width', bbox.width + bboxPadding)
-    //               .attr('height', bbox.height + bboxPadding)
-    //               .attr('rx', 10)
-    //               .attr('ry', 10)
-    //               .attr('class', 'label-background-strong');
-      $( "#dialog" ).attr('title', d.key).dialog("open");
-
+    $("#dialog").dialog("open").css({height:"300px", overflow:"auto"});
     d3.select('#story-titles').remove();
   }
 
   function handleMouseOut(d) {
     d3.select('#story-titles').remove();
     d3.select('#tweets').remove();
-    // $( "#dialog" ).empty()
   }
 }
