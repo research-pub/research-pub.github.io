@@ -117,9 +117,9 @@ function WordCloud(options) {
          })
          .attr('text-anchor', 'left')
          .html(function(title,i) {
-             let link = 'https://twitter.com/'+title.user_id
+             let link = 'https://twitter.com/'+title.screen_name
              let td_1 = i+1 +'. <a  target="_blank" href='+link+'>' +
-                 '<SPAN STYLE="text-decoration:underline; color: blue">' +title.user_id+ '</SPAN></a>'
+                 '<SPAN STYLE="text-decoration:underline; color: blue">' +title.screen_name+ '</SPAN></a>'
 
              let table = '<table><tr><td>'+td_1+', '+title.time+'</td></tr>' +
                  '<tr><td>'+title.text+'</td></tr></table>'
