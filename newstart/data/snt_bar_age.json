@@ -5,1118 +5,289 @@
       "state_code": "0",
       "state_name": "Whole Australia",
       "date_values": {
-              "02/04/2020": [{
-                "name": "Young",
-                "values": {
-                  "Positive": 100,
-                  "Negative": 70,
-                  "Neutral": 50
-                },
-                "stas_values": {
-                  "num_tweets_pos": 100,
-                  "num_retweets_pos": 202,
-                  "num_likes_pos": 140,
-                  "num_replies_pos": 30,
-                  "num_tweets_neg": 70,
-                  "num_retweets_neg": 20,
-                  "num_likes_neg": 100,
-                  "num_replies_neg": 20,
-                  "num_tweets_neu": 50,
-                  "num_retweets_neu": 30,
-                  "num_likes_neu": 70,
-                  "num_replies_neu": 40
-                }
-              }, {
-                "name": "Middle",
-                "values": {
-                  "Positive": 110,
-                  "Negative": 120,
-                  "Neutral": 60
-                },
-                "stas_values": {
-                  "num_tweets_pos": 110,
-                  "num_retweets_pos": 202,
-                  "num_likes_pos": 140,
-                  "num_replies_pos": 30,
-                  "num_tweets_neg": 120,
-                  "num_retweets_neg": 20,
-                  "num_likes_neg": 100,
-                  "num_replies_neg": 20,
-                  "num_tweets_neu": 60,
-                  "num_retweets_neu": 30,
-                  "num_likes_neu": 70,
-                  "num_replies_neu": 40
-                }
-              }, {
-                "name": "Older",
-                "values": {
-                  "Positive": 90,
-                  "Negative": 60,
-                  "Neutral": 30
-                },
-                "stas_values": {
-                  "num_tweets_pos": 90,
-                  "num_retweets_pos": 202,
-                  "num_likes_pos": 140,
-                  "num_replies_pos": 30,
-                  "num_tweets_neg": 60,
-                  "num_retweets_neg": 20,
-                  "num_likes_neg": 100,
-                  "num_replies_neg": 20,
-                  "num_tweets_neu": 30,
-                  "num_retweets_neu": 30,
-                  "num_likes_neu": 70,
-                  "num_replies_neu": 40
-                }
-              }],
-              "03/04/2020": [{
-                "name": "Young",
-                "values": {
-                  "Positive": 150,
-                  "Negative": 80,
-                  "Neutral": 70
-                }
-              }, {
-                "name": "Middle",
-                "values": {
-                  "Positive": 210,
-                  "Negative": 220,
-                  "Neutral": 160
-                }
-              }, {
-                "name": "Older",
-                "values": {
-                  "Positive": 200,
-                  "Negative": 160,
-                  "Neutral": 130
-                }
-              }],
-              "04/04/2020": [{
-                "name": "Young",
-                "values": {
-                  "Positive": 150,
-                  "Negative": 80,
-                  "Neutral": 90
-                }
-              }, {
-                "name": "Middle",
-                "values": {
-                  "Positive": 160,
-                  "Negative": 180,
-                  "Neutral": 70
-                }
-              }, {
-                "name": "Older",
-                "values": {
-                  "Positive": 120,
-                  "Negative": 80,
-                  "Neutral":50
-                }
-              }]
+        "20200420": [
+          {
+            "name": "Young",
+            "values": {
+              "Positive": "17",
+              "Negative": "11",
+              "Neutral": "0"
             }
+          },
+          {
+            "name": "Middle",
+            "values": {
+              "Positive": "60",
+              "Negative": "35",
+              "Neutral": "0"
+            }
+          },
+          {
+            "name": "Older",
+            "values": {
+              "Positive": "17",
+              "Negative": "5",
+              "Neutral": "0"
+            }
+          }
+        ]
+      }
     },
     {
       "state_code": "1",
-      "state_name": "New South Wales",
+      "state_name": "nsw",
       "date_values": {
-              "02/04/2020": [
-                {
-                "name": "Young",
-                "values": {
-                  "Positive": 100,
-                  "Negative": 120,
-                  "Neutral": 80
-                },
-                "stas_values": {
-                  "num_tweets_pos": 100,
-                  "num_retweets_pos": 202,
-                  "num_likes_pos": 140,
-                  "num_replies_pos": 30,
-                  "num_tweets_neg": 70,
-                  "num_retweets_neg": 20,
-                  "num_likes_neg": 100,
-                  "num_replies_neg": 20,
-                  "num_tweets_neu": 50,
-                  "num_retweets_neu": 30,
-                  "num_likes_neu": 70,
-                  "num_replies_neu": 40
-                }
-              },
-                {
-                "name": "Middle",
-                "values": {
-                  "Positive": 110,
-                  "Negative": 150,
-                  "Neutral": 60
-                },
-                "stas_values": {
-                  "num_tweets_pos": 110,
-                  "num_retweets_pos": 202,
-                  "num_likes_pos": 140,
-                  "num_replies_pos": 30,
-                  "num_tweets_neg": 120,
-                  "num_retweets_neg": 20,
-                  "num_likes_neg": 100,
-                  "num_replies_neg": 20,
-                  "num_tweets_neu": 60,
-                  "num_retweets_neu": 30,
-                  "num_likes_neu": 70,
-                  "num_replies_neu": 40
-                }
-              },
-                {
-                "name": "Older",
-                "values": {
-                  "Positive": 90,
-                  "Negative": 60,
-                  "Neutral": 50
-                },
-                "stas_values": {
-                  "num_tweets_pos": 90,
-                  "num_retweets_pos": 202,
-                  "num_likes_pos": 140,
-                  "num_replies_pos": 30,
-                  "num_tweets_neg": 60,
-                  "num_retweets_neg": 20,
-                  "num_likes_neg": 100,
-                  "num_replies_neg": 20,
-                  "num_tweets_neu": 30,
-                  "num_retweets_neu": 30,
-                  "num_likes_neu": 70,
-                  "num_replies_neu": 40
-                }
-              }],
-              "03/04/2020": [
-                {
-                "name": "Young",
-                "values": {
-                  "Positive": 150,
-                  "Negative": 80,
-                  "Neutral": 70
-                }
-              },
-                {
-                "name": "Middle",
-                "values": {
-                  "Positive": 210,
-                  "Negative": 220,
-                  "Neutral": 160
-                }
-              },
-                {
-                "name": "Older",
-                "values": {
-                  "Positive": 200,
-                  "Negative": 160,
-                  "Neutral": 130
-                }
-              }],
-              "04/04/2020": [
-                {
-                "name": "Young",
-                "values": {
-                  "Positive": 150,
-                  "Negative": 80,
-                  "Neutral": 90
-                }
-              },
-                {
-                "name": "Middle",
-                "values": {
-                  "Positive": 160,
-                  "Negative": 180,
-                  "Neutral": 70
-                }
-              },
-                {
-                "name": "Older",
-                "values": {
-                  "Positive": 120,
-                  "Negative": 80,
-                  "Neutral":50
-                }
-              }]
+        "20200420": [
+          {
+            "name": "Young",
+            "values": {
+              "Positive": "5",
+              "Negative": "4",
+              "Neutral": "0"
             }
+          },
+          {
+            "name": "Middle",
+            "values": {
+              "Positive": "14",
+              "Negative": "8",
+              "Neutral": "0"
+            }
+          },
+          {
+            "name": "Older",
+            "values": {
+              "Positive": "0",
+              "Negative": "0",
+              "Neutral": "0"
+            }
+          }
+        ]
+      }
     },
     {
       "state_code": "2",
-      "state_name": "Victoria",
+      "state_name": "vic",
       "date_values": {
-              "02/04/2020": [
-                {
-                "name": "Young",
-                "values": {
-                  "Positive": 120,
-                  "Negative": 10,
-                  "Neutral": 80
-                },
-                "stas_values": {
-                  "num_tweets_pos": 100,
-                  "num_retweets_pos": 202,
-                  "num_likes_pos": 140,
-                  "num_replies_pos": 30,
-                  "num_tweets_neg": 70,
-                  "num_retweets_neg": 20,
-                  "num_likes_neg": 100,
-                  "num_replies_neg": 20,
-                  "num_tweets_neu": 50,
-                  "num_retweets_neu": 30,
-                  "num_likes_neu": 70,
-                  "num_replies_neu": 40
-                }
-              },
-                {
-                "name": "Middle",
-                "values": {
-                  "Positive": 110,
-                  "Negative": 90,
-                  "Neutral": 80
-                },
-                "stas_values": {
-                  "num_tweets_pos": 110,
-                  "num_retweets_pos": 202,
-                  "num_likes_pos": 140,
-                  "num_replies_pos": 30,
-                  "num_tweets_neg": 120,
-                  "num_retweets_neg": 20,
-                  "num_likes_neg": 100,
-                  "num_replies_neg": 20,
-                  "num_tweets_neu": 60,
-                  "num_retweets_neu": 30,
-                  "num_likes_neu": 70,
-                  "num_replies_neu": 40
-                }
-              },
-                {
-                "name": "Older",
-                "values": {
-                  "Positive": 90,
-                  "Negative": 80,
-                  "Neutral": 100
-                },
-                "stas_values": {
-                  "num_tweets_pos": 90,
-                  "num_retweets_pos": 202,
-                  "num_likes_pos": 140,
-                  "num_replies_pos": 30,
-                  "num_tweets_neg": 60,
-                  "num_retweets_neg": 20,
-                  "num_likes_neg": 100,
-                  "num_replies_neg": 20,
-                  "num_tweets_neu": 30,
-                  "num_retweets_neu": 30,
-                  "num_likes_neu": 70,
-                  "num_replies_neu": 40
-                }
-              }],
-              "03/04/2020": [
-                {
-                "name": "Young",
-                "values": {
-                  "Positive": 150,
-                  "Negative": 80,
-                  "Neutral": 70
-                }
-              },
-                {
-                "name": "Middle",
-                "values": {
-                  "Positive": 210,
-                  "Negative": 220,
-                  "Neutral": 160
-                }
-              },
-                {
-                "name": "Older",
-                "values": {
-                  "Positive": 200,
-                  "Negative": 160,
-                  "Neutral": 130
-                }
-              }],
-              "04/04/2020": [
-                {
-                "name": "Young",
-                "values": {
-                  "Positive": 150,
-                  "Negative": 80,
-                  "Neutral": 90
-                }
-              },
-                {
-                "name": "Middle",
-                "values": {
-                  "Positive": 160,
-                  "Negative": 180,
-                  "Neutral": 70
-                }
-              },
-                {
-                "name": "Older",
-                "values": {
-                  "Positive": 120,
-                  "Negative": 80,
-                  "Neutral":50
-                }
-              }]
+        "20200420": [
+          {
+            "name": "Young",
+            "values": {
+              "Positive": "2",
+              "Negative": "2",
+              "Neutral": "0"
             }
+          },
+          {
+            "name": "Middle",
+            "values": {
+              "Positive": "8",
+              "Negative": "7",
+              "Neutral": "0"
+            }
+          },
+          {
+            "name": "Older",
+            "values": {
+              "Positive": "3",
+              "Negative": "0",
+              "Neutral": "0"
+            }
+          }
+        ]
+      }
     },
     {
       "state_code": "3",
-      "state_name": "Queensland",
+      "state_name": "qsl",
       "date_values": {
-              "02/04/2020": [
-                {
-                "name": "Young",
-                "values": {
-                  "Positive": 109,
-                  "Negative": 89,
-                  "Neutral": 70
-                },
-                "stas_values": {
-                  "num_tweets_pos": 100,
-                  "num_retweets_pos": 202,
-                  "num_likes_pos": 140,
-                  "num_replies_pos": 30,
-                  "num_tweets_neg": 70,
-                  "num_retweets_neg": 20,
-                  "num_likes_neg": 100,
-                  "num_replies_neg": 20,
-                  "num_tweets_neu": 50,
-                  "num_retweets_neu": 30,
-                  "num_likes_neu": 70,
-                  "num_replies_neu": 40
-                }
-              },
-                {
-                "name": "Middle",
-                "values": {
-                  "Positive": 160,
-                  "Negative": 90,
-                  "Neutral": 60
-                },
-                "stas_values": {
-                  "num_tweets_pos": 110,
-                  "num_retweets_pos": 202,
-                  "num_likes_pos": 140,
-                  "num_replies_pos": 30,
-                  "num_tweets_neg": 120,
-                  "num_retweets_neg": 20,
-                  "num_likes_neg": 100,
-                  "num_replies_neg": 20,
-                  "num_tweets_neu": 60,
-                  "num_retweets_neu": 30,
-                  "num_likes_neu": 70,
-                  "num_replies_neu": 40
-                }
-              },
-                {
-                "name": "Older",
-                "values": {
-                  "Positive": 90,
-                  "Negative": 60,
-                  "Neutral": 30
-                },
-                "stas_values": {
-                  "num_tweets_pos": 90,
-                  "num_retweets_pos": 202,
-                  "num_likes_pos": 140,
-                  "num_replies_pos": 30,
-                  "num_tweets_neg": 60,
-                  "num_retweets_neg": 20,
-                  "num_likes_neg": 100,
-                  "num_replies_neg": 20,
-                  "num_tweets_neu": 30,
-                  "num_retweets_neu": 30,
-                  "num_likes_neu": 70,
-                  "num_replies_neu": 40
-                }
-              }
-              ],
-              "03/04/2020": [
-                {
-                "name": "Young",
-                "values": {
-                  "Positive": 150,
-                  "Negative": 80,
-                  "Neutral": 70
-                }
-              },
-                {
-                "name": "Middle",
-                "values": {
-                  "Positive": 210,
-                  "Negative": 220,
-                  "Neutral": 160
-                }
-              },
-                {
-                "name": "Older",
-                "values": {
-                  "Positive": 200,
-                  "Negative": 160,
-                  "Neutral": 130
-                }
-              }
-              ],
-              "04/04/2020": [
-                {
-                "name": "Young",
-                "values": {
-                  "Positive": 150,
-                  "Negative": 80,
-                  "Neutral": 90
-                }
-              },
-                {
-                "name": "Middle",
-                "values": {
-                  "Positive": 160,
-                  "Negative": 180,
-                  "Neutral": 70
-                }
-              },
-                {
-                "name": "Older",
-                "values": {
-                  "Positive": 120,
-                  "Negative": 80,
-                  "Neutral":50
-                }
-              }
-              ]
+        "20200420": [
+          {
+            "name": "Young",
+            "values": {
+              "Positive": "0",
+              "Negative": "0",
+              "Neutral": "0"
             }
+          },
+          {
+            "name": "Middle",
+            "values": {
+              "Positive": "0",
+              "Negative": "0",
+              "Neutral": "0"
+            }
+          },
+          {
+            "name": "Older",
+            "values": {
+              "Positive": "0",
+              "Negative": "0",
+              "Neutral": "0"
+            }
+          }
+        ]
+      }
     },
     {
       "state_code": "4",
-      "state_name": "South Australia",
+      "state_name": "sa",
       "date_values": {
-              "02/04/2020": [
-                {
-                "name": "Young",
-                "values": {
-                  "Positive": 180,
-                  "Negative": 70,
-                  "Neutral": 80
-                },
-                "stas_values": {
-                  "num_tweets_pos": 100,
-                  "num_retweets_pos": 202,
-                  "num_likes_pos": 140,
-                  "num_replies_pos": 30,
-                  "num_tweets_neg": 70,
-                  "num_retweets_neg": 20,
-                  "num_likes_neg": 100,
-                  "num_replies_neg": 20,
-                  "num_tweets_neu": 50,
-                  "num_retweets_neu": 30,
-                  "num_likes_neu": 70,
-                  "num_replies_neu": 40
-                }
-              },
-                {
-                "name": "Middle",
-                "values": {
-                  "Positive": 180,
-                  "Negative": 200,
-                  "Neutral": 180
-                },
-                "stas_values": {
-                  "num_tweets_pos": 110,
-                  "num_retweets_pos": 202,
-                  "num_likes_pos": 140,
-                  "num_replies_pos": 30,
-                  "num_tweets_neg": 120,
-                  "num_retweets_neg": 20,
-                  "num_likes_neg": 100,
-                  "num_replies_neg": 20,
-                  "num_tweets_neu": 60,
-                  "num_retweets_neu": 30,
-                  "num_likes_neu": 70,
-                  "num_replies_neu": 40
-                }
-              },
-                {
-                "name": "Older",
-                "values": {
-                  "Positive": 190,
-                  "Negative": 150,
-                  "Neutral": 130
-                },
-                "stas_values": {
-                  "num_tweets_pos": 90,
-                  "num_retweets_pos": 202,
-                  "num_likes_pos": 140,
-                  "num_replies_pos": 30,
-                  "num_tweets_neg": 60,
-                  "num_retweets_neg": 20,
-                  "num_likes_neg": 100,
-                  "num_replies_neg": 20,
-                  "num_tweets_neu": 30,
-                  "num_retweets_neu": 30,
-                  "num_likes_neu": 70,
-                  "num_replies_neu": 40
-                }
-              }
-              ],
-              "03/04/2020": [
-                {
-                "name": "Young",
-                "values": {
-                  "Positive": 190,
-                  "Negative": 180,
-                  "Neutral": 170
-                }
-              },
-                {
-                "name": "Middle",
-                "values": {
-                  "Positive": 210,
-                  "Negative": 220,
-                  "Neutral": 160
-                }
-              },
-                {
-                "name": "Older",
-                "values": {
-                  "Positive": 200,
-                  "Negative": 160,
-                  "Neutral": 130
-                }
-              }
-              ],
-              "04/04/2020": [
-                {
-                "name": "Young",
-                "values": {
-                  "Positive": 150,
-                  "Negative": 80,
-                  "Neutral": 90
-                }
-              },
-                {
-                "name": "Middle",
-                "values": {
-                  "Positive": 160,
-                  "Negative": 180,
-                  "Neutral": 70
-                }
-              },
-                {
-                "name": "Older",
-                "values": {
-                  "Positive": 120,
-                  "Negative": 80,
-                  "Neutral":50
-                }
-              }
-              ]
+        "20200420": [
+          {
+            "name": "Young",
+            "values": {
+              "Positive": "1",
+              "Negative": "0",
+              "Neutral": "0"
             }
+          },
+          {
+            "name": "Middle",
+            "values": {
+              "Positive": "10",
+              "Negative": "0",
+              "Neutral": "0"
+            }
+          },
+          {
+            "name": "Older",
+            "values": {
+              "Positive": "5",
+              "Negative": "2",
+              "Neutral": "0"
+            }
+          }
+        ]
+      }
     },
     {
       "state_code": "5",
-      "state_name": "Western Australia",
+      "state_name": "wa",
       "date_values": {
-              "02/04/2020": [
-                {
-                "name": "Young",
-                "values": {
-                  "Positive": 180,
-                  "Negative": 150,
-                  "Neutral": 120
-                },
-                "stas_values": {
-                  "num_tweets_pos": 100,
-                  "num_retweets_pos": 202,
-                  "num_likes_pos": 140,
-                  "num_replies_pos": 30,
-                  "num_tweets_neg": 70,
-                  "num_retweets_neg": 20,
-                  "num_likes_neg": 100,
-                  "num_replies_neg": 20,
-                  "num_tweets_neu": 50,
-                  "num_retweets_neu": 30,
-                  "num_likes_neu": 70,
-                  "num_replies_neu": 40
-                }
-              },
-                {
-                "name": "Middle",
-                "values": {
-                  "Positive": 140,
-                  "Negative": 120,
-                  "Neutral": 160
-                },
-                "stas_values": {
-                  "num_tweets_pos": 110,
-                  "num_retweets_pos": 202,
-                  "num_likes_pos": 140,
-                  "num_replies_pos": 30,
-                  "num_tweets_neg": 120,
-                  "num_retweets_neg": 20,
-                  "num_likes_neg": 100,
-                  "num_replies_neg": 20,
-                  "num_tweets_neu": 60,
-                  "num_retweets_neu": 30,
-                  "num_likes_neu": 70,
-                  "num_replies_neu": 40
-                }
-              },
-                {
-                "name": "Older",
-                "values": {
-                  "Positive": 90,
-                  "Negative": 60,
-                  "Neutral": 30
-                },
-                "stas_values": {
-                  "num_tweets_pos": 90,
-                  "num_retweets_pos": 202,
-                  "num_likes_pos": 140,
-                  "num_replies_pos": 30,
-                  "num_tweets_neg": 60,
-                  "num_retweets_neg": 20,
-                  "num_likes_neg": 100,
-                  "num_replies_neg": 20,
-                  "num_tweets_neu": 30,
-                  "num_retweets_neu": 30,
-                  "num_likes_neu": 70,
-                  "num_replies_neu": 40
-                }
-              }
-              ],
-              "03/04/2020": [
-                {
-                "name": "Young",
-                "values": {
-                  "Positive": 150,
-                  "Negative": 80,
-                  "Neutral": 70
-                }
-              },
-                {
-                "name": "Middle",
-                "values": {
-                  "Positive": 210,
-                  "Negative": 220,
-                  "Neutral": 160
-                }
-              },
-                {
-                "name": "Older",
-                "values": {
-                  "Positive": 200,
-                  "Negative": 160,
-                  "Neutral": 130
-                }
-              }
-              ],
-              "04/04/2020": [
-                {
-                "name": "Young",
-                "values": {
-                  "Positive": 150,
-                  "Negative": 80,
-                  "Neutral": 90
-                }
-              },
-                {
-                "name": "Middle",
-                "values": {
-                  "Positive": 160,
-                  "Negative": 180,
-                  "Neutral": 70
-                }
-              },
-                {
-                "name": "Older",
-                "values": {
-                  "Positive": 120,
-                  "Negative": 80,
-                  "Neutral":50
-                }
-              }
-              ]
+        "20200420": [
+          {
+            "name": "Young",
+            "values": {
+              "Positive": "0",
+              "Negative": "0",
+              "Neutral": "0"
             }
+          },
+          {
+            "name": "Middle",
+            "values": {
+              "Positive": "2",
+              "Negative": "0",
+              "Neutral": "0"
+            }
+          },
+          {
+            "name": "Older",
+            "values": {
+              "Positive": "1",
+              "Negative": "0",
+              "Neutral": "0"
+            }
+          }
+        ]
+      }
     },
     {
       "state_code": "6",
-      "state_name": "Tasmania",
+      "state_name": "tas",
       "date_values": {
-              "02/04/2020": [
-                {
-                "name": "Young",
-                "values": {
-                  "Positive": 120,
-                  "Negative": 170,
-                  "Neutral": 150
-                },
-                "stas_values": {
-                  "num_tweets_pos": 100,
-                  "num_retweets_pos": 202,
-                  "num_likes_pos": 140,
-                  "num_replies_pos": 30,
-                  "num_tweets_neg": 70,
-                  "num_retweets_neg": 20,
-                  "num_likes_neg": 100,
-                  "num_replies_neg": 20,
-                  "num_tweets_neu": 50,
-                  "num_retweets_neu": 30,
-                  "num_likes_neu": 70,
-                  "num_replies_neu": 40
-                }
-              },
-                {
-                "name": "Middle",
-                "values": {
-                  "Positive": 130,
-                  "Negative": 120,
-                  "Neutral": 160
-                },
-                "stas_values": {
-                  "num_tweets_pos": 110,
-                  "num_retweets_pos": 202,
-                  "num_likes_pos": 140,
-                  "num_replies_pos": 30,
-                  "num_tweets_neg": 120,
-                  "num_retweets_neg": 20,
-                  "num_likes_neg": 100,
-                  "num_replies_neg": 20,
-                  "num_tweets_neu": 60,
-                  "num_retweets_neu": 30,
-                  "num_likes_neu": 70,
-                  "num_replies_neu": 40
-                }
-              },
-                {
-                "name": "Older",
-                "values": {
-                  "Positive": 190,
-                  "Negative": 160,
-                  "Neutral": 130
-                },
-                "stas_values": {
-                  "num_tweets_pos": 90,
-                  "num_retweets_pos": 202,
-                  "num_likes_pos": 140,
-                  "num_replies_pos": 30,
-                  "num_tweets_neg": 60,
-                  "num_retweets_neg": 20,
-                  "num_likes_neg": 100,
-                  "num_replies_neg": 20,
-                  "num_tweets_neu": 30,
-                  "num_retweets_neu": 30,
-                  "num_likes_neu": 70,
-                  "num_replies_neu": 40
-                }
-              }
-              ],
-              "03/04/2020": [
-                {
-                "name": "Young",
-                "values": {
-                  "Positive": 150,
-                  "Negative": 80,
-                  "Neutral": 70
-                }
-              },
-                {
-                "name": "Middle",
-                "values": {
-                  "Positive": 210,
-                  "Negative": 220,
-                  "Neutral": 160
-                }
-              },
-                {
-                "name": "Older",
-                "values": {
-                  "Positive": 200,
-                  "Negative": 160,
-                  "Neutral": 130
-                }
-              }
-              ],
-              "04/04/2020": [
-                {
-                "name": "Young",
-                "values": {
-                  "Positive": 150,
-                  "Negative": 80,
-                  "Neutral": 90
-                }
-              },
-                {
-                "name": "Middle",
-                "values": {
-                  "Positive": 160,
-                  "Negative": 180,
-                  "Neutral": 70
-                }
-              },
-                {
-                "name": "Older",
-                "values": {
-                  "Positive": 120,
-                  "Negative": 80,
-                  "Neutral":50
-                }
-              }
-              ]
+        "20200420": [
+          {
+            "name": "Young",
+            "values": {
+              "Positive": "0",
+              "Negative": "0",
+              "Neutral": "0"
             }
+          },
+          {
+            "name": "Middle",
+            "values": {
+              "Positive": "0",
+              "Negative": "0",
+              "Neutral": "0"
+            }
+          },
+          {
+            "name": "Older",
+            "values": {
+              "Positive": "0",
+              "Negative": "0",
+              "Neutral": "0"
+            }
+          }
+        ]
+      }
     },
     {
       "state_code": "7",
-      "state_name": "Northern Territory",
+      "state_name": "nt",
       "date_values": {
-              "02/04/2020": [
-                {
-                "name": "Young",
-                "values": {
-                  "Positive": 140,
-                  "Negative": 170,
-                  "Neutral": 100
-                },
-                "stas_values": {
-                  "num_tweets_pos": 100,
-                  "num_retweets_pos": 202,
-                  "num_likes_pos": 140,
-                  "num_replies_pos": 30,
-                  "num_tweets_neg": 70,
-                  "num_retweets_neg": 20,
-                  "num_likes_neg": 100,
-                  "num_replies_neg": 20,
-                  "num_tweets_neu": 50,
-                  "num_retweets_neu": 30,
-                  "num_likes_neu": 70,
-                  "num_replies_neu": 40
-                }
-              },
-                {
-                "name": "Middle",
-                "values": {
-                  "Positive": 120,
-                  "Negative": 140,
-                  "Neutral": 160
-                },
-                "stas_values": {
-                  "num_tweets_pos": 110,
-                  "num_retweets_pos": 202,
-                  "num_likes_pos": 140,
-                  "num_replies_pos": 30,
-                  "num_tweets_neg": 120,
-                  "num_retweets_neg": 20,
-                  "num_likes_neg": 100,
-                  "num_replies_neg": 20,
-                  "num_tweets_neu": 60,
-                  "num_retweets_neu": 30,
-                  "num_likes_neu": 70,
-                  "num_replies_neu": 40
-                }
-              },
-                {
-                "name": "Older",
-                "values": {
-                  "Positive": 190,
-                  "Negative": 160,
-                  "Neutral": 130
-                },
-                "stas_values": {
-                  "num_tweets_pos": 90,
-                  "num_retweets_pos": 202,
-                  "num_likes_pos": 140,
-                  "num_replies_pos": 30,
-                  "num_tweets_neg": 60,
-                  "num_retweets_neg": 20,
-                  "num_likes_neg": 100,
-                  "num_replies_neg": 20,
-                  "num_tweets_neu": 30,
-                  "num_retweets_neu": 30,
-                  "num_likes_neu": 70,
-                  "num_replies_neu": 40
-                }
-              }
-              ],
-              "03/04/2020": [
-                {
-                "name": "Young",
-                "values": {
-                  "Positive": 150,
-                  "Negative": 80,
-                  "Neutral": 70
-                }
-              },
-                {
-                "name": "Middle",
-                "values": {
-                  "Positive": 210,
-                  "Negative": 220,
-                  "Neutral": 160
-                }
-              },
-                {
-                "name": "Older",
-                "values": {
-                  "Positive": 200,
-                  "Negative": 160,
-                  "Neutral": 130
-                }
-              }
-              ],
-              "04/04/2020": [
-                {
-                "name": "Young",
-                "values": {
-                  "Positive": 150,
-                  "Negative": 80,
-                  "Neutral": 90
-                }
-              },
-                {
-                "name": "Middle",
-                "values": {
-                  "Positive": 160,
-                  "Negative": 180,
-                  "Neutral": 70
-                }
-              },
-                {
-                "name": "Older",
-                "values": {
-                  "Positive": 120,
-                  "Negative": 80,
-                  "Neutral":50
-                }
-              }
-              ]
+        "20200420": [
+          {
+            "name": "Young",
+            "values": {
+              "Positive": "0",
+              "Negative": "0",
+              "Neutral": "0"
             }
+          },
+          {
+            "name": "Middle",
+            "values": {
+              "Positive": "0",
+              "Negative": "0",
+              "Neutral": "0"
+            }
+          },
+          {
+            "name": "Older",
+            "values": {
+              "Positive": "0",
+              "Negative": "0",
+              "Neutral": "0"
+            }
+          }
+        ]
+      }
     },
     {
       "state_code": "8",
-      "state_name": "ACT",
+      "state_name": "act",
       "date_values": {
-              "02/04/2020": [
-                {
-                "name": "Young",
-                "values": {
-                  "Positive": 40,
-                  "Negative": 30,
-                  "Neutral": 50
-                },
-                "stas_values": {
-                  "num_tweets_pos": 100,
-                  "num_retweets_pos": 202,
-                  "num_likes_pos": 140,
-                  "num_replies_pos": 30,
-                  "num_tweets_neg": 70,
-                  "num_retweets_neg": 20,
-                  "num_likes_neg": 100,
-                  "num_replies_neg": 20,
-                  "num_tweets_neu": 50,
-                  "num_retweets_neu": 30,
-                  "num_likes_neu": 70,
-                  "num_replies_neu": 40
-                }
-              },
-                {
-                "name": "Middle",
-                "values": {
-                  "Positive": 60,
-                  "Negative": 80,
-                  "Neutral": 60
-                },
-                "stas_values": {
-                  "num_tweets_pos": 110,
-                  "num_retweets_pos": 202,
-                  "num_likes_pos": 140,
-                  "num_replies_pos": 30,
-                  "num_tweets_neg": 120,
-                  "num_retweets_neg": 20,
-                  "num_likes_neg": 100,
-                  "num_replies_neg": 20,
-                  "num_tweets_neu": 60,
-                  "num_retweets_neu": 30,
-                  "num_likes_neu": 70,
-                  "num_replies_neu": 40
-                }
-              },
-                {
-                "name": "Older",
-                "values": {
-                  "Positive": 40,
-                  "Negative": 50,
-                  "Neutral": 30
-                },
-                "stas_values": {
-                  "num_tweets_pos": 90,
-                  "num_retweets_pos": 202,
-                  "num_likes_pos": 140,
-                  "num_replies_pos": 30,
-                  "num_tweets_neg": 60,
-                  "num_retweets_neg": 20,
-                  "num_likes_neg": 100,
-                  "num_replies_neg": 20,
-                  "num_tweets_neu": 30,
-                  "num_retweets_neu": 30,
-                  "num_likes_neu": 70,
-                  "num_replies_neu": 40
-                }
-              }
-              ],
-              "03/04/2020": [
-                {
-                "name": "Young",
-                "values": {
-                  "Positive": 150,
-                  "Negative": 80,
-                  "Neutral": 70
-                }
-              },
-                {
-                "name": "Middle",
-                "values": {
-                  "Positive": 210,
-                  "Negative": 220,
-                  "Neutral": 160
-                }
-              },
-                {
-                "name": "Older",
-                "values": {
-                  "Positive": 200,
-                  "Negative": 160,
-                  "Neutral": 130
-                }
-              }
-              ],
-              "04/04/2020": [
-                {
-                "name": "Young",
-                "values": {
-                  "Positive": 150,
-                  "Negative": 80,
-                  "Neutral": 90
-                }
-              },
-                {
-                "name": "Middle",
-                "values": {
-                  "Positive": 160,
-                  "Negative": 180,
-                  "Neutral": 70
-                }
-              },
-                {
-                "name": "Older",
-                "values": {
-                  "Positive": 120,
-                  "Negative": 80,
-                  "Neutral":50
-                }
-              }
-              ]
+        "20200420": [
+          {
+            "name": "Young",
+            "values": {
+              "Positive": "0",
+              "Negative": "0",
+              "Neutral": "0"
             }
+          },
+          {
+            "name": "Middle",
+            "values": {
+              "Positive": "0",
+              "Negative": "1",
+              "Neutral": "0"
+            }
+          },
+          {
+            "name": "Older",
+            "values": {
+              "Positive": "0",
+              "Negative": "0",
+              "Neutral": "0"
+            }
+          }
+        ]
+      }
     }
   ]
 }
-

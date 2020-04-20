@@ -33,7 +33,7 @@ function draw_pie(data) {
    // check each subset of data for possible sections, since not all subsets have every possible section.
   let nameKeys = data.map(obj =>obj.name)
   // get total number of each category (Male, Female or Other)
-  let values = data.map(obj =>Object.values(obj.values).reduce((a, b) => a + b, 0))
+  let values = data.map(obj =>Object.values(obj.values).reduce((a, b) => parseInt(a) + parseInt(b), 0))
   // get total number of a state in a day
   let total = values.reduce((a, b) => a + b, 0)
   let new_data = []
