@@ -1,13 +1,22 @@
 function WordCloud(options) {
   var margin =
           // {top: 10, right: 10, bottom: 0, left: 10},
-      {top: -100, right:500, bottom: 20, left: -200},
-      w = 900, h = 600,
+      {top: 10, right:500, bottom: 20, left: -10},
+      w = 1000, h = 800,
       w_g = 1000, h_g = 800;
   // create the svg
   var svg = d3.select(options.container).append("svg")
               .attr('height', h)
               .attr('width', w)
+
+  // var margin = {top: 70, right: 100, bottom: 0, left: 100},
+  //          w = 1200 - margin.left - margin.right,
+  //          h = 400 - margin.top - margin.bottom;
+
+  // create the svg
+  // var svg = d3.select(options.container).append("svg")
+  //             .attr('height', h + margin.top + margin.bottom)
+  //             .attr('width', w + margin.left + margin.right)
 
   // set the ranges for the scales
   var xScale = d3.scaleLinear().range([10, 100]);
