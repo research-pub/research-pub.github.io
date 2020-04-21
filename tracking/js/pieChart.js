@@ -161,7 +161,7 @@ function draw_pie(data) {
     var radius = radius_set / 2;
     var donutWidth = 75; //This is the size of the hole in the middle
 
-    var color = d3.scaleOrdinal().range(['#2e1dc5', '#6b1415', '#ff25d3']);
+        var color = d3.scaleOrdinal().range(['#2e1dc5', '#6b1415', '#ff25d3', '#c5211a', '#0ac50f']);
     d3.select('#pie').html("");
     var svg = d3.select('#pie')
          .append('svg')
@@ -191,9 +191,9 @@ function draw_pie(data) {
   let temp = Array.from(data.map(obj =>Object.values(obj.values)))
   //transpose
   temp = temp.map((col, i) => temp.map(row => row[i]));
-  let values = temp.map(obj => obj.reduce((a, b) => parseInt(a) + parseInt(b), 0))
+  let values = temp.map(obj => obj.reduce((a, b) => parseInt(a) + parseInt(b), 0)).slice(0, nameKeys.length)
   // get total number of a state in a day
-  let total = values.reduce((a, b) => a + b, 0)
+  let total = values.reduce((a, b) => parseInt(a) + parseInt(b), 0)
   let new_data = []
     for (let i = 0; i < nameKeys.length; i++) {
         let item = {}

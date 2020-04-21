@@ -6,7 +6,7 @@ function draw_pie(data) {
     var radius = radius_set / 2;
     var donutWidth = 30; //This is the size of the hole in the middle
 
-    var color = d3.scaleOrdinal().range(['#2e1dc5', '#6b1415', '#ff25d3']);
+    var color = d3.scaleOrdinal().range(['#2e1dc5', '#6b1415', '#ff25d3', '#c5211a', '#0ac50f']);
     d3.select('#pie').html("");
     var svg = d3.select('#pie')
          .append('svg')
@@ -198,8 +198,13 @@ function createChart (svg, data) {
       var tooltip_bar = d3.select('body').append('div')
         .attr('class', 'hidden tooltip-bar');
 
+      console.log(data)
+
       //find max value of a section
-      const maxValue = d3.max(data.map((d) => Object.values(d.values)).reduce((a, b) => a.concat(b), []))
+      let values_int = []
+      let values_list = data.map((d) => Object.values(d.values)).reduce((a, b) => a.concat(b), [])
+      values_list.forEach(d => values_int.push(parseInt(d)))
+      const maxValue = d3.max(values_int)
       y.domain([0, maxValue]).nice()
 
       yAxis.transition().call(d3.axisLeft(y))

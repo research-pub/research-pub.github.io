@@ -1,5 +1,5 @@
 {
-  "category": "Age",
+  "category": "age",
   "features": [
     {
       "state_code": "0",
@@ -7,27 +7,35 @@
       "date_values": {
         "20200420": [
           {
-            "name": "Young",
+            "name": "Unknown",
             "values": {
-              "Positive": "17",
-              "Negative": "11",
-              "Neutral": "0"
+              "Positive": "747",
+              "Negative": "391",
+              "Neutral": "627"
+            }
+          },
+          {
+            "name": "Aging",
+            "values": {
+              "Positive": "55",
+              "Negative": "28",
+              "Neutral": "60"
             }
           },
           {
             "name": "Middle",
             "values": {
-              "Positive": "60",
-              "Negative": "35",
-              "Neutral": "0"
+              "Positive": "239",
+              "Negative": "116",
+              "Neutral": "200"
             }
           },
           {
-            "name": "Aged",
+            "name": "Young",
             "values": {
-              "Positive": "17",
-              "Negative": "5",
-              "Neutral": "0"
+              "Positive": "89",
+              "Negative": "47",
+              "Neutral": "59"
             }
           }
         ]
@@ -39,27 +47,35 @@
       "date_values": {
         "20200420": [
           {
-            "name": "Young",
+            "name": "Unknown",
             "values": {
-              "Positive": "5",
-              "Negative": "4",
-              "Neutral": "0"
+              "Positive": "79",
+              "Negative": "36",
+              "Neutral": "69"
+            }
+          },
+          {
+            "name": "Aging",
+            "values": {
+              "Positive": "2",
+              "Negative": "2",
+              "Neutral": "6"
             }
           },
           {
             "name": "Middle",
             "values": {
-              "Positive": "14",
-              "Negative": "8",
-              "Neutral": "0"
+              "Positive": "34",
+              "Negative": "28",
+              "Neutral": "30"
             }
           },
           {
-            "name": "Aged",
+            "name": "Young",
             "values": {
-              "Positive": "0",
-              "Negative": "0",
-              "Neutral": "0"
+              "Positive": "7",
+              "Negative": "10",
+              "Neutral": "10"
             }
           }
         ]
@@ -71,27 +87,35 @@
       "date_values": {
         "20200420": [
           {
-            "name": "Young",
+            "name": "Unknown",
             "values": {
-              "Positive": "2",
-              "Negative": "2",
-              "Neutral": "0"
+              "Positive": "66",
+              "Negative": "29",
+              "Neutral": "52"
+            }
+          },
+          {
+            "name": "Aging",
+            "values": {
+              "Positive": "3",
+              "Negative": "0",
+              "Neutral": "4"
             }
           },
           {
             "name": "Middle",
             "values": {
-              "Positive": "8",
-              "Negative": "7",
-              "Neutral": "0"
+              "Positive": "29",
+              "Negative": "19",
+              "Neutral": "20"
             }
           },
           {
-            "name": "Aged",
+            "name": "Young",
             "values": {
-              "Positive": "3",
-              "Negative": "0",
-              "Neutral": "0"
+              "Positive": "16",
+              "Negative": "8",
+              "Neutral": "6"
             }
           }
         ]
@@ -99,30 +123,38 @@
     },
     {
       "state_code": "3",
-      "state_name": "qsl",
+      "state_name": "qld",
       "date_values": {
         "20200420": [
           {
-            "name": "Young",
+            "name": "Unknown",
             "values": {
-              "Positive": "0",
-              "Negative": "0",
-              "Neutral": "0"
+              "Positive": "58",
+              "Negative": "42",
+              "Neutral": "72"
+            }
+          },
+          {
+            "name": "Aging",
+            "values": {
+              "Positive": "4",
+              "Negative": "6",
+              "Neutral": "3"
             }
           },
           {
             "name": "Middle",
             "values": {
-              "Positive": "0",
-              "Negative": "0",
-              "Neutral": "0"
+              "Positive": "21",
+              "Negative": "7",
+              "Neutral": "17"
             }
           },
           {
-            "name": "Aged",
+            "name": "Young",
             "values": {
-              "Positive": "0",
-              "Negative": "0",
+              "Positive": "4",
+              "Negative": "4",
               "Neutral": "0"
             }
           }
@@ -135,26 +167,34 @@
       "date_values": {
         "20200420": [
           {
-            "name": "Young",
+            "name": "Unknown",
             "values": {
-              "Positive": "1",
-              "Negative": "0",
-              "Neutral": "0"
+              "Positive": "30",
+              "Negative": "12",
+              "Neutral": "11"
+            }
+          },
+          {
+            "name": "Aging",
+            "values": {
+              "Positive": "5",
+              "Negative": "4",
+              "Neutral": "1"
             }
           },
           {
             "name": "Middle",
             "values": {
-              "Positive": "10",
-              "Negative": "0",
-              "Neutral": "0"
+              "Positive": "18",
+              "Negative": "4",
+              "Neutral": "6"
             }
           },
           {
-            "name": "Aged",
+            "name": "Young",
             "values": {
-              "Positive": "5",
-              "Negative": "2",
+              "Positive": "3",
+              "Negative": "0",
               "Neutral": "0"
             }
           }
@@ -167,27 +207,35 @@
       "date_values": {
         "20200420": [
           {
-            "name": "Young",
+            "name": "Unknown",
             "values": {
-              "Positive": "0",
-              "Negative": "0",
-              "Neutral": "0"
+              "Positive": "18",
+              "Negative": "10",
+              "Neutral": "12"
+            }
+          },
+          {
+            "name": "Aging",
+            "values": {
+              "Positive": "1",
+              "Negative": "2",
+              "Neutral": "2"
             }
           },
           {
             "name": "Middle",
             "values": {
-              "Positive": "2",
-              "Negative": "0",
-              "Neutral": "0"
+              "Positive": "10",
+              "Negative": "2",
+              "Neutral": "9"
             }
           },
           {
-            "name": "Aged",
+            "name": "Young",
             "values": {
-              "Positive": "1",
+              "Positive": "0",
               "Negative": "0",
-              "Neutral": "0"
+              "Neutral": "1"
             }
           }
         ]
@@ -199,7 +247,15 @@
       "date_values": {
         "20200420": [
           {
-            "name": "Young",
+            "name": "Unknown",
+            "values": {
+              "Positive": "10",
+              "Negative": "8",
+              "Neutral": "14"
+            }
+          },
+          {
+            "name": "Aging",
             "values": {
               "Positive": "0",
               "Negative": "0",
@@ -211,11 +267,11 @@
             "values": {
               "Positive": "0",
               "Negative": "0",
-              "Neutral": "0"
+              "Neutral": "2"
             }
           },
           {
-            "name": "Aged",
+            "name": "Young",
             "values": {
               "Positive": "0",
               "Negative": "0",
@@ -231,7 +287,15 @@
       "date_values": {
         "20200420": [
           {
-            "name": "Young",
+            "name": "Unknown",
+            "values": {
+              "Positive": "2",
+              "Negative": "0",
+              "Neutral": "5"
+            }
+          },
+          {
+            "name": "Aging",
             "values": {
               "Positive": "0",
               "Negative": "0",
@@ -241,13 +305,13 @@
           {
             "name": "Middle",
             "values": {
-              "Positive": "0",
-              "Negative": "0",
-              "Neutral": "0"
+              "Positive": "2",
+              "Negative": "2",
+              "Neutral": "2"
             }
           },
           {
-            "name": "Aged",
+            "name": "Young",
             "values": {
               "Positive": "0",
               "Negative": "0",
@@ -263,7 +327,15 @@
       "date_values": {
         "20200420": [
           {
-            "name": "Young",
+            "name": "Unknown",
+            "values": {
+              "Positive": "11",
+              "Negative": "8",
+              "Neutral": "8"
+            }
+          },
+          {
+            "name": "Aging",
             "values": {
               "Positive": "0",
               "Negative": "0",
@@ -273,17 +345,17 @@
           {
             "name": "Middle",
             "values": {
-              "Positive": "0",
-              "Negative": "1",
+              "Positive": "4",
+              "Negative": "3",
               "Neutral": "0"
             }
           },
           {
-            "name": "Aged",
+            "name": "Young",
             "values": {
-              "Positive": "0",
+              "Positive": "2",
               "Negative": "0",
-              "Neutral": "0"
+              "Neutral": "1"
             }
           }
         ]

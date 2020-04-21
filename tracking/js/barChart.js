@@ -89,7 +89,11 @@ console.log(data)
       var tooltip = d3.select('body').append('div')
         .attr('class', 'hidden tooltip');
       //find max value of a section
-      const maxValue = d3.max(data.map((d) => Object.values(d.values)).reduce((a, b) => a.concat(b), []))
+      // const maxValue = d3.max(data.map((d) => Object.values(d.values)).reduce((a, b) => a.concat(b), []))
+      let values_int = []
+      let values_list = data.map((d) => Object.values(d.values)).reduce((a, b) => a.concat(b), [])
+      values_list.forEach(d => values_int.push(parseInt(d)))
+      const maxValue = d3.max(values_int)
       y.domain([0, maxValue]).nice()
 
       yAxis.transition().call(d3.axisLeft(y))
