@@ -1,5 +1,66 @@
 /*eslint no-undef: 0*/
 
+let empty_gender = [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ];
+let empty_age = [
+          {
+            "name": "Young",
+            "values": {
+              "Positive": "0",
+              "Negative": "0",
+              "Neutral": "0"
+            }
+          },
+          {
+            "name": "Middle",
+            "values": {
+              "Positive": "0",
+              "Negative": "0",
+              "Neutral": "0"
+            }
+          },
+          {
+            "name": "Aging",
+            "values": {
+              "Positive": "0",
+              "Negative": "0",
+              "Neutral": "0"
+            }
+          },
+          {
+            "name": "Unknown",
+            "values": {
+              "Positive": "0",
+              "Negative": "0",
+              "Neutral": "0"
+            }
+          }
+        ]
+
 function createChart (svg, data) {
 
   const colors = ['#98abc5', '#6b486b', '#ff8c00', '#98abc5', '#8a89a6', '#7b6888', '#6b486b', '#a05d56', '#d0743c', '#ff8c00']
@@ -21,15 +82,16 @@ function createChart (svg, data) {
     .rangeRound([height, 0])
 
   var z = d3.scaleOrdinal().range(colors)
-console.log(data)
-  console.log(Object.keys(data)[0])
-  console.log(Object.keys(data[Object.keys(data)[0]][0].values))
-  console.log(Object.values(data[Object.keys(data)[0]][0].values))
-
+  // console.log(data)
+  // console.log(Object.keys(data))
+  // console.log(Object.keys(data[Object.keys(data)[0]][0].values))
+  // console.log(Object.values(data[Object.keys(data)[0]][0].values))
 
   // check each subset of data for possible sections, since not all subsets have every possible section.
   let nameKeys = data[Object.keys(data)[0]].map(obj =>obj.name)
+    // console.log(nameKeys)
   let valueKeys = Object.keys(data[Object.keys(data)[0]][0].values)
+    // console.log(valueKeys)
 
 
   x0.domain(nameKeys)
@@ -86,6 +148,7 @@ console.log(data)
       .text(d => d)
 
   function updateChart (data) {
+      // console.log(data)
       var tooltip = d3.select('body').append('div')
         .attr('class', 'hidden tooltip');
       //find max value of a section
@@ -93,9 +156,9 @@ console.log(data)
       let values_int = []
       let values_list = data.map((d) => Object.values(d.values)).reduce((a, b) => a.concat(b), [])
       values_list.forEach(d => values_int.push(parseInt(d)))
-      const maxValue = d3.max(values_int)
-      y.domain([0, maxValue]).nice()
+      let maxValue = d3.max(values_int)
 
+      y.domain([0, maxValue]).nice()
       yAxis.transition().call(d3.axisLeft(y))
 
       const barsWithData = barContainer
@@ -151,9 +214,6 @@ console.log(data)
       .attr('x', function (d) { return x1(d.key) })
       .attr('y', d => y(d.value))
       .attr('height', d => height - y(d.value))
-
-
-
   }
 
   return {
@@ -168,11 +228,69 @@ d3.json(data_source, function(error, data_json){
   //start with the first year selected
   const chart = createChart(document.querySelector('svg'), data)
 
+    // To obtain the first and last date from collected data, the day difference is the span,
+    // the new date is the first date
+  // const tParser = d3.timeParse("%Y-%m-%d")
+  // let dates_ls = Object.keys(data)
+  // let first_date = tParser(dates_ls[0]),
+  //     last_date  = tParser(dates_ls[0]);
+  // for (let i = 0; i < dates_ls.length; i++) {
+  //     let current_date = tParser(dates_ls[i])
+  //     if (first_date > current_date)
+  //         first_date = tParser(dates_ls[i])
+  //     if (last_date < current_date)
+  //         last_date = current_date
+  // }
+  // let span = d3.timeDay.count(first_date, last_date)
+  //   console.log(first_date)
+  //   console.log(last_date)
+  //   // console.log(span)
+  //   // first_date
+  // var dataTime = d3.range(0, span+2).map(function(d) {
+  //   return new Date(first_date.getFullYear() , first_date.getMonth(), first_date.getDate() + d);
+  // });
+  // // console.log(dataTime)
+  // let sliderTime = d3
+  //   .sliderBottom()
+  //   .min(d3.min(dataTime))
+  //   .max(d3.max(dataTime))
+  //   .step(1000 * 60 * 60 * 24)
+  //   .width(700)
+  //   .tickFormat(d3.timeFormat('%d/%m'))
+  //   .tickValues(dataTime)
+  //   .default(new Date(first_date.getFullYear() , first_date.getMonth(), first_date.getDate()))
+  //   .on('onchange', val => {
+  //       // console.log(data_source)
+  //       // console.log(d3.timeFormat('%Y-%m-%d')(val))
+  //       const selected_data = data[d3.timeFormat('%Y-%m-%d')(val)]
+  //        if (typeof selected_data == 'undefined'){
+  //            if (data_source.includes('age')){
+  //                chart.updateChart(empty_age)
+  //            }
+  //            else {
+  //                 chart.updateChart(empty_gender)
+  //            }
+  //         }
+  //        else {
+  //            chart.updateChart(data[d3.timeFormat('%Y-%m-%d')(val)])
+  //        }
+  //   });
+  //
+  // d3.select('div#slider-time').html("")
+  // let gTime = d3
+  //   .select('div#slider-time')
+  //   .append('svg')
+  //   .attr('width',750)
+  //   .attr('height', 100)
+  //   .append('g')
+  //   .attr('transform', 'translate(30,30)');
+  // gTime.call(sliderTime);
+  //
   // append the input controls
   const fieldset1 = d3.select('.controls').append('fieldset')
   fieldset1.append('legend').text('Date')
 
-  Object.keys(data).forEach((year, index )=>{
+  Object.keys(data).sort().forEach((year, index )=>{
 
     const label = fieldset1.append('label')
 
@@ -186,12 +304,63 @@ d3.json(data_source, function(error, data_json){
       return null
     })
     label.append('span')
-    .text(year)
+    .text(function () {
+        const d = year.split('-')
+        return d[2]+'/'+d[1]
+    })
     label.on('click', function(){
       chart.updateChart(data[year])
     })
   })
+
+  //  aggregate data fromm all dates
+    const all_dates = Object.values(data)
+    let new_data = all_dates[0]
+    for (let k=1; k<all_dates.length; k++){
+        let date2_data = all_dates[k]
+        for (let i=0; i<new_data.length; i++){
+            let keys =  Object.keys(new_data[i].values)
+            let value = {}
+            keys.forEach(key => {
+              value[key] = parseInt(new_data[i].values[key]) + parseInt(date2_data[i].values[key])
+              new_data[i].values[key] = value[key]
+             })
+         }
+    }
+  console.log(new_data)
+
+    const all_keys = Object.keys(data).sort()
+    //get positive, negative and neutral
+    const all_sents = Object.keys(Object.values(data)[0][0].values)
+    let ds_list = []
+    for (let k=0; k<all_keys.length; k++){
+        let entry = data[all_keys[k]]
+        let temp = entry.map(key => Object.values(key.values))
+        //transpose
+        temp = temp.map((col, i) => temp.map(row => row[i])).slice(0, all_sents.length);
+        let values = temp.map(obj => obj.reduce((a, b) => parseInt(a) + parseInt(b), 0))
+        let value = {}
+        for (let i=0; i<all_sents.length; i++){
+            all_sents.forEach(key => {
+              value[key] = values[i]
+             })
+         }
+        ds_list.push({date:all_keys[k], values:value})
+    }
+
+    // const entry = data[all_keys[0]]
+    // // let temp = entry.map(key => Object.values(key.values)).reduce((a, b) => a+b, 0)
+    // let temp = entry.map(key => Object.values(key.values))
+    // // let temp = entry.map(key => Object.values(key.values).reduce((a, b) => parseInt(a)+parseInt(b),0))
+    // //transpose
+    //  temp = temp.map((col, i) => temp.map(row => row[i])).slice(0, all_sents.length);
+    // let values = temp.map(obj => obj.reduce((a, b) => parseInt(a) + parseInt(b), 0))
+    // console.log(entry)
+    //   console.log(all_keys)
+    // console.log(temp)
+     console.log(ds_list)
+
   // render initial chart
-  chart.updateChart(data[Object.keys(data)[0]])
+  chart.updateChart(new_data)
 
 })

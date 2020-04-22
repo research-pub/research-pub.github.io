@@ -1,33 +1,297 @@
 {
   "category": "gender" ,
+  "unique_users": "1529" ,
+  "total_positive": "654" ,
+  "total_negative": "345" ,
+  "total_neutral": "530" ,
   "features": [
     {
       "state_code": "0" ,
       "state_name": "Whole Australia" ,
       "date_values": {
-        "20200420": [
+        "2020-03-26": [
           {
-            "name": "Unknown" ,
+            "name": "Male" ,
             "values": {
-              "Positive": "747" ,
-              "Negative": "391" ,
-              "Neutral": "627"
+              "Positive": "7" ,
+              "Negative": "5" ,
+              "Neutral": "3"
             }
           } ,
           {
             "name": "Female" ,
             "values": {
-              "Positive": "239" ,
-              "Negative": "113" ,
-              "Neutral": "204"
+              "Positive": "17" ,
+              "Negative": "6" ,
+              "Neutral": "6"
             }
           } ,
           {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "33" ,
+              "Negative": "17" ,
+              "Neutral": "18"
+            }
+          }
+        ] ,
+        "2020-03-25": [
+          {
             "name": "Male" ,
             "values": {
-              "Positive": "144" ,
-              "Negative": "78" ,
-              "Neutral": "115"
+              "Positive": "11" ,
+              "Negative": "4" ,
+              "Neutral": "8"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "18" ,
+              "Negative": "8" ,
+              "Neutral": "9"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "40" ,
+              "Negative": "16" ,
+              "Neutral": "30"
+            }
+          }
+        ] ,
+        "2020-04-19": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "1"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "3" ,
+              "Negative": "0" ,
+              "Neutral": "1"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "2"
+            }
+          }
+        ] ,
+        "2020-04-18": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "1" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "2" ,
+              "Negative": "3" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "3" ,
+              "Neutral": "1"
+            }
+          }
+        ] ,
+        "2020-04-17": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "14" ,
+              "Negative": "18" ,
+              "Neutral": "13"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "20" ,
+              "Negative": "16" ,
+              "Neutral": "26"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "85" ,
+              "Negative": "52" ,
+              "Neutral": "92"
+            }
+          }
+        ] ,
+        "2020-04-16": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-15": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-14": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "1"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "2" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-13": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-12": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-20": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
             }
           }
         ]
@@ -37,29 +301,289 @@
       "state_code": "1" ,
       "state_name": "nsw" ,
       "date_values": {
-        "20200420": [
+        "2020-03-26": [
           {
-            "name": "Unknown" ,
+            "name": "Male" ,
             "values": {
-              "Positive": "79" ,
-              "Negative": "36" ,
-              "Neutral": "69"
+              "Positive": "2" ,
+              "Negative": "4" ,
+              "Neutral": "2"
             }
           } ,
           {
             "name": "Female" ,
             "values": {
-              "Positive": "33" ,
-              "Negative": "23" ,
-              "Neutral": "30"
+              "Positive": "7" ,
+              "Negative": "2" ,
+              "Neutral": "1"
             }
           } ,
           {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "7" ,
+              "Negative": "8" ,
+              "Neutral": "4"
+            }
+          }
+        ] ,
+        "2020-03-25": [
+          {
             "name": "Male" ,
             "values": {
-              "Positive": "10" ,
-              "Negative": "17" ,
-              "Neutral": "16"
+              "Positive": "2" ,
+              "Negative": "1" ,
+              "Neutral": "6"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "8" ,
+              "Negative": "4" ,
+              "Neutral": "6"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "16" ,
+              "Negative": "4" ,
+              "Neutral": "13"
+            }
+          }
+        ] ,
+        "2020-04-19": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "1"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "1"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "1"
+            }
+          }
+        ] ,
+        "2020-04-18": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "1" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "2" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "1" ,
+              "Neutral": "1"
+            }
+          }
+        ] ,
+        "2020-04-17": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "3" ,
+              "Negative": "5" ,
+              "Neutral": "3"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "8" ,
+              "Negative": "6" ,
+              "Neutral": "9"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "25" ,
+              "Negative": "11" ,
+              "Neutral": "24"
+            }
+          }
+        ] ,
+        "2020-04-16": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-15": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-14": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-13": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-12": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-20": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
             }
           }
         ]
@@ -69,29 +593,289 @@
       "state_code": "2" ,
       "state_name": "vic" ,
       "date_values": {
-        "20200420": [
+        "2020-03-26": [
           {
-            "name": "Unknown" ,
+            "name": "Male" ,
             "values": {
-              "Positive": "66" ,
-              "Negative": "29" ,
-              "Neutral": "52"
+              "Positive": "2" ,
+              "Negative": "1" ,
+              "Neutral": "1"
             }
           } ,
           {
             "name": "Female" ,
             "values": {
-              "Positive": "36" ,
-              "Negative": "11" ,
-              "Neutral": "18"
+              "Positive": "2" ,
+              "Negative": "2" ,
+              "Neutral": "1"
             }
           } ,
           {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "5" ,
+              "Negative": "3" ,
+              "Neutral": "9"
+            }
+          }
+        ] ,
+        "2020-03-25": [
+          {
             "name": "Male" ,
             "values": {
-              "Positive": "12" ,
-              "Negative": "16" ,
-              "Neutral": "12"
+              "Positive": "4" ,
+              "Negative": "3" ,
+              "Neutral": "1"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "5" ,
+              "Negative": "3" ,
+              "Neutral": "1"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "10" ,
+              "Negative": "4" ,
+              "Neutral": "9"
+            }
+          }
+        ] ,
+        "2020-04-19": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-18": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-17": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "2" ,
+              "Negative": "6" ,
+              "Neutral": "5"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "3" ,
+              "Negative": "3" ,
+              "Neutral": "7"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "21" ,
+              "Negative": "11" ,
+              "Neutral": "17"
+            }
+          }
+        ] ,
+        "2020-04-16": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-15": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-14": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "2" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-13": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-12": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-20": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
             }
           }
         ]
@@ -101,29 +885,289 @@
       "state_code": "3" ,
       "state_name": "qld" ,
       "date_values": {
-        "20200420": [
+        "2020-03-26": [
           {
-            "name": "Unknown" ,
+            "name": "Male" ,
             "values": {
-              "Positive": "58" ,
-              "Negative": "42" ,
-              "Neutral": "72"
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
             }
           } ,
           {
             "name": "Female" ,
             "values": {
-              "Positive": "11" ,
-              "Negative": "11" ,
-              "Neutral": "14"
+              "Positive": "1" ,
+              "Negative": "1" ,
+              "Neutral": "3"
             }
           } ,
           {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "8" ,
+              "Negative": "5" ,
+              "Neutral": "4"
+            }
+          }
+        ] ,
+        "2020-03-25": [
+          {
             "name": "Male" ,
             "values": {
-              "Positive": "18" ,
-              "Negative": "6" ,
-              "Neutral": "6"
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "1"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "6" ,
+              "Negative": "3" ,
+              "Neutral": "5"
+            }
+          }
+        ] ,
+        "2020-04-19": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-18": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "1" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-17": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "5" ,
+              "Negative": "3" ,
+              "Neutral": "3"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "3" ,
+              "Negative": "4" ,
+              "Neutral": "5"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "16" ,
+              "Negative": "16" ,
+              "Neutral": "29"
+            }
+          }
+        ] ,
+        "2020-04-16": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-15": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-14": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-13": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-12": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-20": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
             }
           }
         ]
@@ -133,29 +1177,289 @@
       "state_code": "4" ,
       "state_name": "sa" ,
       "date_values": {
-        "20200420": [
+        "2020-03-26": [
           {
-            "name": "Unknown" ,
+            "name": "Male" ,
             "values": {
-              "Positive": "30" ,
-              "Negative": "12" ,
-              "Neutral": "11"
+              "Positive": "3" ,
+              "Negative": "0" ,
+              "Neutral": "0"
             }
           } ,
           {
             "name": "Female" ,
             "values": {
-              "Positive": "16" ,
-              "Negative": "4" ,
-              "Neutral": "5"
+              "Positive": "6" ,
+              "Negative": "1" ,
+              "Neutral": "0"
             }
           } ,
           {
-            "name": "Male" ,
+            "name": "Unknown" ,
             "values": {
               "Positive": "10" ,
-              "Negative": "4" ,
+              "Negative": "0" ,
+              "Neutral": "1"
+            }
+          }
+        ] ,
+        "2020-03-25": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "3" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "3" ,
+              "Negative": "0" ,
+              "Neutral": "1"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "2" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-19": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-18": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-17": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "2" ,
+              "Negative": "2" ,
+              "Neutral": "1"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "2" ,
+              "Negative": "1" ,
               "Neutral": "2"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "9" ,
+              "Negative": "6" ,
+              "Neutral": "5"
+            }
+          }
+        ] ,
+        "2020-04-16": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-15": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-14": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-13": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-12": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-20": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
             }
           }
         ]
@@ -165,29 +1469,289 @@
       "state_code": "5" ,
       "state_name": "wa" ,
       "date_values": {
-        "20200420": [
+        "2020-03-26": [
           {
-            "name": "Unknown" ,
+            "name": "Male" ,
             "values": {
-              "Positive": "18" ,
-              "Negative": "10" ,
-              "Neutral": "12"
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
             }
           } ,
           {
             "name": "Female" ,
             "values": {
-              "Positive": "6" ,
-              "Negative": "2" ,
-              "Neutral": "2"
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "0"
             }
           } ,
           {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-03-25": [
+          {
             "name": "Male" ,
             "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "1"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "3" ,
+              "Negative": "0" ,
+              "Neutral": "2"
+            }
+          }
+        ] ,
+        "2020-04-19": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-18": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "1" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-17": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "2" ,
+              "Negative": "1" ,
+              "Neutral": "1"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "2" ,
+              "Negative": "1" ,
+              "Neutral": "1"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
               "Positive": "5" ,
-              "Negative": "2" ,
-              "Neutral": "10"
+              "Negative": "4" ,
+              "Neutral": "5"
+            }
+          }
+        ] ,
+        "2020-04-16": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-15": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-14": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "1"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-13": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-12": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-20": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
             }
           }
         ]
@@ -197,13 +1761,13 @@
       "state_code": "6" ,
       "state_name": "tas" ,
       "date_values": {
-        "20200420": [
+        "2020-03-26": [
           {
-            "name": "Unknown" ,
+            "name": "Male" ,
             "values": {
-              "Positive": "10" ,
-              "Negative": "8" ,
-              "Neutral": "14"
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
             }
           } ,
           {
@@ -211,11 +1775,271 @@
             "values": {
               "Positive": "0" ,
               "Negative": "0" ,
-              "Neutral": "2"
+              "Neutral": "0"
             }
           } ,
           {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-03-25": [
+          {
             "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "4" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-19": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-18": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-17": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "1"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "4" ,
+              "Negative": "2" ,
+              "Neutral": "7"
+            }
+          }
+        ] ,
+        "2020-04-16": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-15": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-14": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-13": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-12": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-20": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
             "values": {
               "Positive": "0" ,
               "Negative": "0" ,
@@ -229,25 +2053,285 @@
       "state_code": "7" ,
       "state_name": "nt" ,
       "date_values": {
-        "20200420": [
+        "2020-03-26": [
           {
-            "name": "Unknown" ,
+            "name": "Male" ,
             "values": {
-              "Positive": "2" ,
+              "Positive": "0" ,
               "Negative": "0" ,
-              "Neutral": "5"
+              "Neutral": "0"
             }
           } ,
           {
             "name": "Female" ,
             "values": {
-              "Positive": "2" ,
-              "Negative": "2" ,
-              "Neutral": "2"
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
             }
           } ,
           {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-03-25": [
+          {
             "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "2" ,
+              "Negative": "0" ,
+              "Neutral": "1"
+            }
+          }
+        ] ,
+        "2020-04-19": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-18": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-17": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "1" ,
+              "Neutral": "1"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "2"
+            }
+          }
+        ] ,
+        "2020-04-16": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-15": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-14": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-13": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-12": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-20": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
             "values": {
               "Positive": "0" ,
               "Negative": "0" ,
@@ -261,28 +2345,288 @@
       "state_code": "8" ,
       "state_name": "act" ,
       "date_values": {
-        "20200420": [
+        "2020-03-26": [
           {
-            "name": "Unknown" ,
+            "name": "Male" ,
             "values": {
-              "Positive": "11" ,
-              "Negative": "8" ,
-              "Neutral": "8"
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
             }
           } ,
           {
             "name": "Female" ,
             "values": {
-              "Positive": "6" ,
-              "Negative": "1" ,
+              "Positive": "0" ,
+              "Negative": "0" ,
               "Neutral": "1"
             }
           } ,
           {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "1" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-03-25": [
+          {
             "name": "Male" ,
             "values": {
               "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "1" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "1" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-19": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "2" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "1"
+            }
+          }
+        ] ,
+        "2020-04-18": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "1" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-17": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "1" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "5" ,
               "Negative": "2" ,
+              "Neutral": "3"
+            }
+          }
+        ] ,
+        "2020-04-16": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-15": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-14": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-13": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-12": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-20": [
+          {
+            "name": "Male" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Female" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
               "Neutral": "0"
             }
           }

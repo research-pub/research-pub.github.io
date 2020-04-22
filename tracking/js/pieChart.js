@@ -119,7 +119,22 @@ d3.queue()
     .await(
         function(error, ageData) {
             let data = ageData.features[0].date_values;
-            draw_pie(data[Object.keys(data)[0]])
+
+            // Aggregate all Australia data
+            const all_dates = Object.values(data)
+            let new_data = all_dates[0]
+            for (let k=1; k<all_dates.length; k++){
+                let date2_data = all_dates[k]
+                for (let i=0; i<new_data.length; i++){
+                    let keys =  Object.keys(new_data[i].values)
+                    let value = {}
+                    keys.forEach(key => {
+                      value[key] = parseInt(new_data[i].values[key]) + parseInt(date2_data[i].values[key])
+                      new_data[i].values[key] = value[key]
+                     })
+                }
+            }
+            draw_pie(new_data)
         });
 
 function change(data) {

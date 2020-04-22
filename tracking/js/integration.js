@@ -34,6 +34,7 @@ function draw_pie(data) {
   let nameKeys = data.map(obj =>obj.name)
   // get total number of each category (Male, Female or Other)
   let values = data.map(obj =>Object.values(obj.values).reduce((a, b) => parseInt(a) + parseInt(b), 0))
+    console.log(values)
   // get total number of a state in a day
   let total = values.reduce((a, b) => a + b, 0)
   let new_data = []
@@ -360,8 +361,37 @@ function draw_bar(data) {
   //   })
   // })
 
-
+    const all_dates = Object.values(data)
+    new_data = [];
+    // clone the first data's data
+    const first_entry = all_dates[0]
+    for (let i=0; i<first_entry.length; i++){
+        let entry =  {name: first_entry[i].name}
+        let value = {}
+        Object.keys(first_entry[i].values).forEach(key => {
+          value[key] = parseInt(first_entry[i].values[key])
+         })
+        entry['values'] = value
+        new_data.push(entry)
+    }
+    //aggregate all dates' data
+    for (let k=1; k<all_dates.length; k++){
+        let date2_data = [...all_dates[k]]
+        for (let i=0; i<new_data.length; i++){
+            let keys =  Object.keys(new_data[i].values)
+            let value = {}
+            keys.forEach(key => {
+              value[key] = parseInt(new_data[i].values[key]) + parseInt(date2_data[i].values[key])
+              new_data[i].values[key] = value[key]
+             })
+        }
+    }
+    // console.log(all_dates[0])
+    // console.log(new_data)
   //start with the first year selected
-  chart.updateChart(data[Object.keys(data)[0]])
-  draw_pie(data[Object.keys(data)[0]])
+  // chart.updateChart(data[Object.keys(data)[0]])
+  // draw_pie(data[Object.keys(data)[0]])
+  chart.updateChart(new_data)
+  draw_pie(new_data)
+  delete new_data;
 }
