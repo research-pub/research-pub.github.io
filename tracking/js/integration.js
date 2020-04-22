@@ -139,6 +139,19 @@ function createChart (svg, data) {
 
   // check each subset of data for possible sections, since not all subsets have every possible section.
   let nameKeys = data[Object.keys(data)[0]].map(obj =>obj.name)
+  var index = nameKeys.indexOf('Aging');
+    if (index !== -1) {
+        nameKeys[index] = "Senior (60+)";
+    }
+  //   var index = nameKeys.indexOf('Young');
+  //   if (index !== -1) {
+  //       nameKeys[index] = "Young (18-29)";
+  //   }
+  //   var index = nameKeys.indexOf('Middle');
+  //   if (index !== -1) {
+  //       nameKeys[index] = "Middle (30-59)";
+  //   }
+    console.log(nameKeys)
   let valueKeys = Object.keys(data[Object.keys(data)[0]][0].values)
 
   x0.domain(nameKeys)

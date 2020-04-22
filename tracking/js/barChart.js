@@ -341,12 +341,36 @@ d3.json(data_source, function(error, data_json){
         let values = temp.map(obj => obj.reduce((a, b) => parseInt(a) + parseInt(b), 0))
         let value = {}
         for (let i=0; i<all_sents.length; i++){
-            all_sents.forEach(key => {
-              value[key] = values[i]
-             })
+            let dict = {}
+            if (ds_list.length > 0){
+                const last_value = ds_list[ds_list.length -1]
+                dict["name"] =  all_sents[i]
+                dict["value"] =  values[i] + last_value.value
+                dict["year"] =  all_keys[k]
+                dict["lastValue"] =  last_value.value
+                dict["rank"] =  0
+                ds_list.push(dict)
+            }
+            else{
+                dict["name"] =  all_sents[i]
+                dict["value"] =  values[i]
+                dict["year"] =  all_keys[k]
+                dict["lastValue"] =  values[i]
+                dict["rank"] =  0
+                ds_list.push(dict)
+            }
+
+
          }
-        ds_list.push({date:all_keys[k], values:value})
     }
+    console.log(ds_list)
+    // {
+    //           "name": "Neutral",
+    //           "value": 142,
+    //           "year": 2020.9,
+    //           "lastValue": 140,
+    //           "rank": 3
+    //         },
 
     // const entry = data[all_keys[0]]
     // // let temp = entry.map(key => Object.values(key.values)).reduce((a, b) => a+b, 0)
@@ -358,7 +382,7 @@ d3.json(data_source, function(error, data_json){
     // console.log(entry)
     //   console.log(all_keys)
     // console.log(temp)
-     console.log(ds_list)
+
 
   // render initial chart
   chart.updateChart(new_data)
