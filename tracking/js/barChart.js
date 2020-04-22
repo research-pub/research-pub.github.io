@@ -346,7 +346,7 @@ d3.json(data_source, function(error, data_json){
                 const last_value = ds_list[ds_list.length -1]
                 dict["name"] =  all_sents[i]
                 dict["value"] =  values[i] + last_value.value
-                dict["year"] =  all_keys[k]
+                dict["year"] =  "2020."+ k
                 dict["lastValue"] =  last_value.value
                 dict["rank"] =  0
                 ds_list.push(dict)
@@ -354,13 +354,11 @@ d3.json(data_source, function(error, data_json){
             else{
                 dict["name"] =  all_sents[i]
                 dict["value"] =  values[i]
-                dict["year"] =  all_keys[k]
+                dict["year"] =  "2020."+ k
                 dict["lastValue"] =  values[i]
                 dict["rank"] =  0
                 ds_list.push(dict)
             }
-
-
          }
     }
     console.log(ds_list)

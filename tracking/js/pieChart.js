@@ -218,6 +218,8 @@ function draw_pie(data) {
         new_data.push(item)
     }
 
+    console.log(total)
+
     // console.log(new_data)
 
     var arcOver = d3.arc()

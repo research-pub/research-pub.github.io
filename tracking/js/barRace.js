@@ -33,7 +33,7 @@
      .html("Tweet Number");
 
      let year = 2020;
-     let date = new Date('2020-03-25');
+     let date = new Date('2020-04-11');
      var date_str = date.toISOString().slice(0,10);
 
   // d3.csv(data_source).then(function(data) {
@@ -41,6 +41,44 @@
     //if (error) throw error;
       // console.log(data_json);
       var data = data_json.features[0].groups[0].group_value
+
+      // var data = data_json.features[0].date_values
+
+    //   const all_keys = Object.keys(data).sort()
+    // //get positive, negative and neutral
+    // const all_sents = Object.keys(Object.values(data)[0][0].values)
+    // let ds_list = []
+    //
+    //   for (let k=0; k<all_keys.length; k++){
+    //     let entry = data[all_keys[k]]
+    //     let temp = entry.map(key => Object.values(key.values))
+    //     //transpose
+    //     temp = temp.map((col, i) => temp.map(row => row[i])).slice(0, all_sents.length);
+    //     let values = temp.map(obj => obj.reduce((a, b) => parseInt(a) + parseInt(b), 0))
+    //     let value = {}
+    //     for (let i=0; i<all_sents.length; i++){
+    //         let dict = {}
+    //         if (ds_list.length > 0){
+    //             const last_value = ds_list[ds_list.length -1]
+    //             dict["name"] =  all_sents[i]
+    //             dict["value"] =  values[i] + last_value.value
+    //             dict["year"] =  "2020."+ k
+    //             dict["lastValue"] =  last_value.value
+    //             dict["rank"] =  0
+    //             ds_list.push(dict)
+    //         }
+    //         else{
+    //             dict["name"] =  all_sents[i]
+    //             dict["value"] =  values[i]
+    //             dict["year"] =  "2020."+ k
+    //             dict["lastValue"] =  values[i]
+    //             dict["rank"] =  0
+    //             ds_list.push(dict)
+    //         }
+    //      }
+    // }
+    // console.log(ds_list)
+    //   data = ds_list
 
       console.log(data);
 
