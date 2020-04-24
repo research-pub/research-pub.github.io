@@ -89,6 +89,15 @@ d3.csv(data_source, function(error, data) {
     // Scale the range of the data
     x.domain(d3.extent(data, function(d) { return d.date; }));
     y.domain([0, d3.max(data, function(d) {return Math.max(d.aus_users, d.ref_users); })]);
+
+    svg.append("text")
+        .attr("x", (width / 2))
+        .attr("y", (margin.top / 2))
+        .attr("text-anchor", "middle")
+        .style("font-size", "16px")
+        // .style("text-decoration", "underline")
+        .text("Daily User");
+
     // Add the positive path.
       svg.append("path")
           .data([data])
@@ -155,6 +164,13 @@ d3.csv(data_source, function(error, data) {
             .attr("height", height + margin.top + margin.bottom)
             .append("g")
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+        svg.append("text")
+            .attr("x", (width / 2))
+            .attr("y", (margin.top / 2))
+            .attr("text-anchor", "middle")
+            .style("font-size", "16px")
+            // .style("text-decoration", "underline")
+            .text("Daily Sentiment");
 
           // Scale the range of the data
           x.domain(d3.extent(data, function(d) { return d.date; }));
@@ -227,6 +243,13 @@ d3.csv(data_source, function(error, data) {
         .attr("height", height + margin.top + margin.bottom)
         .append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+    svg.append("text")
+            .attr("x", (width / 2))
+            .attr("y", (margin.top / 2))
+            .attr("text-anchor", "middle")
+            .style("font-size", "16px")
+            // .style("text-decoration", "underline")
+            .text("Accumulative User");
     // Scale the range of the data
     x.domain(d3.extent(ds_list, function(d) { return d.date; }));
     y.domain([0, d3.max(ds_list, function(d) {return Math.max(d.acc_aus_users, d.acc_ref_users); })]);
@@ -295,6 +318,13 @@ d3.csv(data_source, function(error, data) {
             .attr("height", height + margin.top + margin.bottom)
             .append("g")
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+        svg.append("text")
+            .attr("x", (width / 2))
+            .attr("y", (margin.top / 2))
+            .attr("text-anchor", "middle")
+            .style("font-size", "16px")
+            // .style("text-decoration", "underline")
+            .text("Accumulative Sentiment");
 
           // Scale the range of the data
           x.domain(d3.extent(ds_list, function(d) { return d.date; }));
