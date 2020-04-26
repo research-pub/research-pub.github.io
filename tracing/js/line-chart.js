@@ -15,6 +15,7 @@ d3.csv(data_source, function(error, data) {
 
   // format the data
   data.forEach(function(d) {
+      d.date_str = d.date;
       d.date = parseTime(d.date);
       d.close = +d.close;
       d.open = +d.open;
@@ -35,9 +36,16 @@ d3.csv(data_source, function(error, data) {
       if (ds_list.length > 0) {
           const last_value = ds_list[ i - 1]
           dict["date"] = current_value.date
+          dict["date_str"] = current_value.date_str
           dict["positive"] = current_value.positive
           dict["negative"] = current_value.negative
           dict["neutral"] = current_value.neutral
+          dict["perc_positive"] = (current_value.positive/(current_value.positive+
+              current_value.negative+current_value.neutral)).toFixed(4);
+          dict["perc_negative"] = (current_value.negative/(current_value.positive+
+              current_value.negative+current_value.neutral)).toFixed(4);
+          dict["perc_neutral"] = (current_value.neutral/(current_value.positive+
+              current_value.negative+current_value.neutral)).toFixed(4);
           dict["aus_users"] = current_value.aus_users
           dict["ref_users"] = current_value.ref_users
           dict["acc_positive"] = current_value.positive + last_value.acc_positive
@@ -48,9 +56,16 @@ d3.csv(data_source, function(error, data) {
           ds_list.push(dict)
       } else {
           dict["date"] = current_value.date
+          dict["date_str"] = current_value.date_str
           dict["positive"] = current_value.positive
           dict["negative"] = current_value.negative
           dict["neutral"] = current_value.neutral
+          dict["perc_positive"] = (current_value.positive/(current_value.positive+
+              current_value.negative+current_value.neutral)).toFixed(4);
+          dict["perc_negative"] = (current_value.negative/(current_value.positive+
+              current_value.negative+current_value.neutral)).toFixed(4);
+          dict["perc_neutral"] = (current_value.neutral/(current_value.positive+
+              current_value.negative+current_value.neutral)).toFixed(4);
           dict["aus_users"] = current_value.aus_users
           dict["ref_users"] = current_value.ref_users
           dict["acc_positive"] = current_value.positive
@@ -61,7 +76,24 @@ d3.csv(data_source, function(error, data) {
           ds_list.push(dict)
       }
   }
-  console.log(ds_list)
+
+//   let csvContent = "data:text/csv;charset=utf-8,"
+//   let keys = Object.keys(ds_list[0])
+//     csvContent += keys.join() + "\r\n";
+//   ds_list.forEach(function(rowArray) {
+//       let vals = Object.values(rowArray)
+//     let row = vals.join();
+//     csvContent += row + "\r\n";
+// });
+// var encodedUri = encodeURI(csvContent);
+// var link = document.createElement("a");
+// link.setAttribute("href", encodedUri);
+// link.setAttribute("download", "my_data.csv");
+// document.body.appendChild(link); // Required for FF
+//
+// link.click(); // This will download the data file named "my_data.csv".
+
+
 
   draw_daily_user(data)
   drew_daily_sentiment(data)

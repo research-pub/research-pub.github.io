@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<style>
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+#main {
+  width: 960px;
+}
+.axis .domain {
+  display: none;
+}
+    .line {
+  fill: none;
+  stroke: MidnightBlue;
+  stroke-width: 2px;
+}
+  .dot {
+    fill: IndianRed;
+  }
+  .area {
+    fill: none;
+  }
+  text.shadow {
+    stroke: white;
+    stroke-width: 4px;
+    opacity: 1
+  }
+  .grid line {
+    stroke: #664a62;
+    stroke-opacity: 1;
+    /*shape-rendering: crispEdges*/
+  }
+  .grid path {
+    stroke-width: 0;
+  }
+</style>
+<div id="main">
+    <div id="daily_sentiment"></div>
+    <br><br>
+    <div id="daily_percentage"></div>
+</div>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="js/stacked_bar.js"></script>
