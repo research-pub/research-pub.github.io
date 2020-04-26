@@ -9,6 +9,9 @@ var svg_width = 960, svg_height = 500;
     // create the svg
     var svg_per = d3.select("#daily_percentage").append("svg").attr("width", svg_width).attr("height", svg_height),
         g_per = svg_per.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+    // create the svg
+    var svg_acc = d3.select("#acc_sentiment").append("svg").attr("width", svg_width).attr("height", svg_height),
+        g_acc = svg_acc.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
     // parse the date / time
     var parseTime = d3.timeParse("%d-%b-%y");
@@ -210,6 +213,92 @@ d3.csv("data/output_format.csv",
               .attr("fill", z);
 
           legend_txt = ["Support group", "Neutral group", "Against group"]
+          legend.append("text")
+              .attr("x", width - 24)
+              .attr("y", 9.5)
+              .attr("dy", "0.32em")
+              .text(function(d,i) { return legend_txt[i]; });
+
+          var keys = data.columns.slice(9,12);
+          console.log(keys)
+          tmp  = keys[1]
+          keys[1] = keys[2]
+          keys[2] = tmp
+          y.domain([0, d3.max(data, function(d) {
+              return d[data.columns[9]] + d[data.columns[10]]+d[data.columns[11]]; })]).nice();
+          z.domain(keys);
+          svg_acc.append("text")
+            .attr("x", (width / 2))
+            .attr("y", (margin.top / 2))
+            .attr("text-anchor", "middle")
+            .style("font-size", "20px")
+            // .style("text-decoration", "underline")
+            .text("Accumulative number of Twitter users referencing COVID Safe app");
+
+          g_acc.append("g")
+              // .attr("class", "axis")
+              .attr("transform", "translate(0," + height + ")")
+              .call(d3.axisBottom(x));
+
+          g_acc.append("g")
+              .call(d3.axisLeft(y)
+              // .tickFormat(d3.format(".0%"))
+              .ticks(5)
+              )
+            .append("text")
+              .attr("x", 2)
+              .attr("y", y(y.ticks().pop()) + 0.5)
+              .attr("dy", "0.32em")
+              .attr("fill", "#000")
+              .attr("font-weight", "bold")
+              .attr("text-anchor", "start")
+
+          g_acc.append("g")
+                .attr("class","grid")
+                .style("stroke-dasharray",("3,3"))
+                .call(make_y_gridlines()
+                    .tickSize(-width)
+                    .tickFormat("")
+                 )
+
+          g_acc.append("g")
+            .selectAll("g")
+            .data(d3.stack().keys(keys.slice().reverse())(data))
+            .enter().append("g")
+              .attr("fill", function(d) { return z(d.key); })
+            .selectAll("rect")
+            .data(function(d) { return d; })
+            .enter().append("rect")
+              .attr("x", function(d) { return x(d.data.date.getDate() +"/"+(d.data.date.getMonth()+1)) + 3; })
+              .attr("y", function(d) { return y(d[1]); })
+              .attr("height", function(d) { return y(d[0]) - y(d[1]); })
+              .attr("width", x.bandwidth()-5)
+            // .on("mouseover", function() { tooltip_per.style("display", null); })
+            // .on("mouseout", function() { tooltip_per.style("display", "none"); })
+            // .on("mousemove", function(d) {
+            //   var xPosition = d3.mouse(this)[0] - 5;
+            //   var yPosition = d3.mouse(this)[1] - 5;
+            //   tooltip_per.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
+            //   tooltip_per.select("text").text(((d[1]-d[0])*100).toFixed(2)+"%");
+            // });
+
+          var legend = g_acc.append("g")
+              .attr("font-family", "sans-serif")
+              .attr("font-size", 15)
+              .attr("text-anchor", "end")
+            .selectAll("g")
+            .data(keys.slice())
+             // .data(keys.slice().reverse())
+            .enter().append("g")
+              .attr("transform", function(d, i) { return "translate(" + (i * 150 - 550) + ",450)"; });
+
+          legend.append("rect")
+              .attr("x", width - 19)
+              .attr("width", 19)
+              .attr("height", 19)
+              .attr("fill", z);
+
+          legend_txt = ["Support users", "Neutral users", "Against users"]
           legend.append("text")
               .attr("x", width - 24)
               .attr("y", 9.5)
