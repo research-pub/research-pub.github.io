@@ -1,0 +1,8019 @@
+{
+  "category": "age" ,
+  "unique_users": "5164" ,
+  "total_positive": "1751" ,
+  "total_negative": "1440" ,
+  "total_neutral": "1973" ,
+  "features": [
+    {
+      "state_code": "0" ,
+      "state_name": "Whole Australia" ,
+      "date_values": {
+        "2020-03-26": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "2" ,
+              "Negative": "3" ,
+              "Neutral": "1"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "18" ,
+              "Negative": "7" ,
+              "Neutral": "7"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "4" ,
+              "Negative": "1" ,
+              "Neutral": "1"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "33" ,
+              "Negative": "17" ,
+              "Neutral": "18"
+            }
+          }
+        ] ,
+        "2020-03-25": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "6" ,
+              "Negative": "3" ,
+              "Neutral": "6"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "20" ,
+              "Negative": "17" ,
+              "Neutral": "19"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "4" ,
+              "Negative": "0" ,
+              "Neutral": "1"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "40" ,
+              "Negative": "16" ,
+              "Neutral": "30"
+            }
+          }
+        ] ,
+        "2020-04-19": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "78" ,
+              "Negative": "27" ,
+              "Neutral": "35"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "1"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "2"
+            }
+          }
+        ] ,
+        "2020-04-18": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "30" ,
+              "Negative": "34" ,
+              "Neutral": "52"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "3" ,
+              "Neutral": "1"
+            }
+          }
+        ] ,
+        "2020-04-17": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "3" ,
+              "Negative": "8" ,
+              "Neutral": "5"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "36" ,
+              "Negative": "28" ,
+              "Neutral": "41"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "3" ,
+              "Negative": "6" ,
+              "Neutral": "6"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "85" ,
+              "Negative": "52" ,
+              "Neutral": "92"
+            }
+          }
+        ] ,
+        "2020-04-16": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "2"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-15": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-14": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "2" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "2" ,
+              "Negative": "0" ,
+              "Neutral": "1"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-13": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-12": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-20": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "44" ,
+              "Negative": "23" ,
+              "Neutral": "55"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-26": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "19" ,
+              "Negative": "17" ,
+              "Neutral": "18"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-25": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "9" ,
+              "Negative": "6" ,
+              "Neutral": "9"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-24": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "12" ,
+              "Negative": "50" ,
+              "Neutral": "8"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-23": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "9" ,
+              "Negative": "15" ,
+              "Neutral": "10"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-22": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "14" ,
+              "Negative": "3" ,
+              "Neutral": "7"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-21": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "21" ,
+              "Negative": "4" ,
+              "Neutral": "12"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-10": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "1" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-08": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-06": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "1"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-05": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-03-31": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "1" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-03-08": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "1"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-01": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-11": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-27": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "3" ,
+              "Neutral": "4"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ]
+      }
+    } ,
+    {
+      "state_code": "1" ,
+      "state_name": "nsw" ,
+      "date_values": {
+        "2020-03-26": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "2" ,
+              "Negative": "3" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "7" ,
+              "Negative": "3" ,
+              "Neutral": "3"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "7" ,
+              "Negative": "8" ,
+              "Neutral": "4"
+            }
+          }
+        ] ,
+        "2020-03-25": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "3" ,
+              "Negative": "1" ,
+              "Neutral": "5"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "7" ,
+              "Negative": "4" ,
+              "Neutral": "7"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "16" ,
+              "Negative": "4" ,
+              "Neutral": "13"
+            }
+          }
+        ] ,
+        "2020-04-19": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "30" ,
+              "Negative": "11" ,
+              "Neutral": "12"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "1"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "1"
+            }
+          }
+        ] ,
+        "2020-04-18": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "12" ,
+              "Negative": "14" ,
+              "Neutral": "24"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "1" ,
+              "Neutral": "1"
+            }
+          }
+        ] ,
+        "2020-04-17": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "3" ,
+              "Neutral": "2"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "11" ,
+              "Negative": "12" ,
+              "Neutral": "11"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "1" ,
+              "Neutral": "2"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "25" ,
+              "Negative": "11" ,
+              "Neutral": "24"
+            }
+          }
+        ] ,
+        "2020-04-16": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "1"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-15": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-14": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-13": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-12": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-20": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "16" ,
+              "Negative": "9" ,
+              "Neutral": "22"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-26": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "8" ,
+              "Negative": "8" ,
+              "Neutral": "6"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-25": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "4" ,
+              "Negative": "0" ,
+              "Neutral": "5"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-24": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "5" ,
+              "Negative": "17" ,
+              "Neutral": "3"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-23": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "6" ,
+              "Negative": "7" ,
+              "Neutral": "5"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-22": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "4" ,
+              "Negative": "2" ,
+              "Neutral": "1"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-21": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "7" ,
+              "Negative": "0" ,
+              "Neutral": "3"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-10": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-08": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-06": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-05": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-03-31": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-03-08": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-01": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-11": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-27": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "2" ,
+              "Neutral": "2"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ]
+      }
+    } ,
+    {
+      "state_code": "2" ,
+      "state_name": "vic" ,
+      "date_values": {
+        "2020-03-26": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "3" ,
+              "Negative": "3" ,
+              "Neutral": "2"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "5" ,
+              "Negative": "3" ,
+              "Neutral": "9"
+            }
+          }
+        ] ,
+        "2020-03-25": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "2" ,
+              "Negative": "2" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "5" ,
+              "Negative": "4" ,
+              "Neutral": "2"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "2" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "10" ,
+              "Negative": "4" ,
+              "Neutral": "9"
+            }
+          }
+        ] ,
+        "2020-04-19": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "18" ,
+              "Negative": "7" ,
+              "Neutral": "8"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-18": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "9" ,
+              "Negative": "4" ,
+              "Neutral": "8"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-17": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "3" ,
+              "Neutral": "3"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "7" ,
+              "Negative": "6" ,
+              "Neutral": "11"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "2"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "21" ,
+              "Negative": "11" ,
+              "Neutral": "17"
+            }
+          }
+        ] ,
+        "2020-04-16": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-15": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-14": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "2" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-13": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-12": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-20": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "10" ,
+              "Negative": "3" ,
+              "Neutral": "15"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-26": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "9" ,
+              "Negative": "5" ,
+              "Neutral": "7"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-25": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "2" ,
+              "Negative": "2" ,
+              "Neutral": "1"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-24": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "3" ,
+              "Negative": "4" ,
+              "Neutral": "3"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-23": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "7" ,
+              "Neutral": "1"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-22": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "3" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-21": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "11" ,
+              "Negative": "1" ,
+              "Neutral": "4"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-10": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-08": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-06": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-05": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-03-31": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-03-08": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-01": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-11": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-27": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ]
+      }
+    } ,
+    {
+      "state_code": "3" ,
+      "state_name": "qld" ,
+      "date_values": {
+        "2020-03-26": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "1" ,
+              "Neutral": "2"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "1"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "8" ,
+              "Negative": "5" ,
+              "Neutral": "4"
+            }
+          }
+        ] ,
+        "2020-03-25": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "3" ,
+              "Negative": "8" ,
+              "Neutral": "10"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "6" ,
+              "Negative": "3" ,
+              "Neutral": "5"
+            }
+          }
+        ] ,
+        "2020-04-19": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "16" ,
+              "Negative": "5" ,
+              "Neutral": "8"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-18": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "4" ,
+              "Negative": "8" ,
+              "Neutral": "10"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-17": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "2" ,
+              "Negative": "2" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "6" ,
+              "Negative": "4" ,
+              "Neutral": "10"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "2" ,
+              "Negative": "3" ,
+              "Neutral": "1"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "16" ,
+              "Negative": "16" ,
+              "Neutral": "29"
+            }
+          }
+        ] ,
+        "2020-04-16": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "1"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-15": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-14": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "2" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-13": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-12": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-20": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "8" ,
+              "Negative": "6" ,
+              "Neutral": "7"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-26": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "2" ,
+              "Negative": "0" ,
+              "Neutral": "3"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-25": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "3" ,
+              "Neutral": "2"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-24": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "3" ,
+              "Negative": "12" ,
+              "Neutral": "1"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-23": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "1" ,
+              "Neutral": "1"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-22": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-21": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "2" ,
+              "Negative": "0" ,
+              "Neutral": "3"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-10": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "1" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-08": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-06": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "1"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-05": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-03-31": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "1" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-03-08": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "1"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-01": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-11": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-27": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "2"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ]
+      }
+    } ,
+    {
+      "state_code": "4" ,
+      "state_name": "sa" ,
+      "date_values": {
+        "2020-03-26": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "7" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "2" ,
+              "Negative": "1" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "10" ,
+              "Negative": "0" ,
+              "Neutral": "1"
+            }
+          }
+        ] ,
+        "2020-03-25": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "3" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "2" ,
+              "Negative": "0" ,
+              "Neutral": "1"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "2" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-19": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "2" ,
+              "Negative": "0" ,
+              "Neutral": "2"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-18": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "2" ,
+              "Negative": "1" ,
+              "Neutral": "2"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-17": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "4" ,
+              "Negative": "2" ,
+              "Neutral": "4"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "1" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "9" ,
+              "Negative": "6" ,
+              "Neutral": "5"
+            }
+          }
+        ] ,
+        "2020-04-16": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-15": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-14": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-13": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-12": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-20": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "2" ,
+              "Negative": "0" ,
+              "Neutral": "1"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-26": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "1"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-25": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-24": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "4" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-23": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-22": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "1" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-21": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-10": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-08": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-06": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-05": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-03-31": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-03-08": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-01": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-11": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-27": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "1" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ]
+      }
+    } ,
+    {
+      "state_code": "5" ,
+      "state_name": "wa" ,
+      "date_values": {
+        "2020-03-26": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-03-25": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "1"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "2" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "3" ,
+              "Negative": "0" ,
+              "Neutral": "2"
+            }
+          }
+        ] ,
+        "2020-04-19": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "7" ,
+              "Negative": "2" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-18": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "3" ,
+              "Neutral": "4"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "1" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-17": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "4" ,
+              "Negative": "2" ,
+              "Neutral": "1"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "1" ,
+              "Neutral": "1"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "5" ,
+              "Negative": "4" ,
+              "Neutral": "5"
+            }
+          }
+        ] ,
+        "2020-04-16": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-15": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-14": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "1"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-13": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-12": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-20": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "3" ,
+              "Negative": "5" ,
+              "Neutral": "4"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-26": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "1" ,
+              "Neutral": "1"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-25": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "1"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-24": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "9" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-23": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "2"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-22": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "6" ,
+              "Negative": "0" ,
+              "Neutral": "3"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-21": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "2"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-10": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-08": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-06": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-05": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-03-31": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-03-08": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-01": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-11": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-27": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ]
+      }
+    } ,
+    {
+      "state_code": "6" ,
+      "state_name": "tas" ,
+      "date_values": {
+        "2020-03-26": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-03-25": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "4" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-19": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "1"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-18": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "1" ,
+              "Neutral": "1"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-17": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "3"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "4" ,
+              "Negative": "2" ,
+              "Neutral": "7"
+            }
+          }
+        ] ,
+        "2020-04-16": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-15": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-14": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-13": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-12": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-20": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "2" ,
+              "Negative": "0" ,
+              "Neutral": "3"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-26": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "2" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-25": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-24": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "2" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-23": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-22": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-21": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "2" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-10": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-08": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-06": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-05": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-03-31": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-03-08": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-01": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-11": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-27": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ]
+      }
+    } ,
+    {
+      "state_code": "7" ,
+      "state_name": "nt" ,
+      "date_values": {
+        "2020-03-26": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-03-25": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "2" ,
+              "Negative": "0" ,
+              "Neutral": "1"
+            }
+          }
+        ] ,
+        "2020-04-19": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-18": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "2" ,
+              "Neutral": "1"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-17": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "1" ,
+              "Neutral": "1"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "2"
+            }
+          }
+        ] ,
+        "2020-04-16": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-15": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-14": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-13": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-12": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-20": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "1"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-26": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "1" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-25": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-24": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "1" ,
+              "Neutral": "1"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-23": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-22": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-21": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "1" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-10": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-08": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-06": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-05": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-03-31": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-03-08": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-01": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-11": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-27": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ]
+      }
+    } ,
+    {
+      "state_code": "8" ,
+      "state_name": "act" ,
+      "date_values": {
+        "2020-03-26": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "1"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "1" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-03-25": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "1" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "1" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-19": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "4" ,
+              "Negative": "2" ,
+              "Neutral": "4"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "1"
+            }
+          }
+        ] ,
+        "2020-04-18": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "1" ,
+              "Neutral": "2"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "1" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-17": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "2" ,
+              "Negative": "1" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "5" ,
+              "Negative": "2" ,
+              "Neutral": "3"
+            }
+          }
+        ] ,
+        "2020-04-16": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-15": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-14": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-13": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-12": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-20": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "3" ,
+              "Negative": "0" ,
+              "Neutral": "2"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-26": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-25": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "1" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-24": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "1" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-23": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "1" ,
+              "Negative": "0" ,
+              "Neutral": "1"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-22": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "3"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-21": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-10": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-08": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-06": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-05": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-03-31": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-03-08": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-01": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-11": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ] ,
+        "2020-04-27": [
+          {
+            "name": "Young" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Middle" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Aging" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          } ,
+          {
+            "name": "Unknown" ,
+            "values": {
+              "Positive": "0" ,
+              "Negative": "0" ,
+              "Neutral": "0"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

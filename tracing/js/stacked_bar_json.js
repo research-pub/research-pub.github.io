@@ -14,8 +14,7 @@ var svg_acc = d3.select("#acc_sentiment").append("svg").attr("width", svg_width)
     g_acc = svg_acc.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 // parse the date / time
-// var parseTime = d3.timeParse("%d-%b-%y");
-var parseTime = d3.timeParse("%Y-%m-%d");
+var parseTime = d3.timeParse("%d-%b-%y");
 // set x scale
 var x = d3.scaleBand()
     .rangeRound([0, width])
@@ -36,8 +35,7 @@ function make_y_gridlines() {
 
 // load the csv and create the chart
 // "data/age-groups.csv"
-// "data/output_format.csv",
-d3.csv("data/my_data.csv",
+d3.csv("data/output_format.csv",
     function(d, i, columns) {
         // console.log(columns)
         // console.log(d)
@@ -226,13 +224,13 @@ d3.csv("data/my_data.csv",
         // --------------------To draw Daily percentage of different sentiment groups ----------------- end---
 
         // --------------------To draw Accumulative number of Twitter users referencing COVID Safe app -----------------
-          var keys = data.columns.slice(7,10);
+          var keys = data.columns.slice(9,12);
           console.log(keys)
           tmp  = keys[1]
           keys[1] = keys[2]
           keys[2] = tmp
           y.domain([0, d3.max(data, function(d) {
-              return d[data.columns[7]] + d[data.columns[8]]+d[data.columns[9]]; })]).nice();
+              return d[data.columns[9]] + d[data.columns[10]]+d[data.columns[11]]; })]).nice();
           z.domain(keys);
           svg_acc.append("text")
             .attr("x", (width / 2))

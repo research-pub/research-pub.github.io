@@ -119,7 +119,7 @@ d3.queue()
     .await(
         function(error, ageData) {
             let data = ageData.features[0].date_values;
-
+            // console.log(data)
             // Aggregate all Australia data
             const all_dates = Object.values(data)
             let new_data = all_dates[0]
@@ -135,6 +135,7 @@ d3.queue()
                 }
             }
             draw_pie(new_data)
+            // console.log(new_data)
         });
 
 function change(data) {
@@ -200,23 +201,23 @@ function draw_pie(data) {
          .style("opacity", 0);
 
 
-   // check each subset of data for possible sections, since not all subsets have every possible section.
-  let nameKeys = Object.keys(data[0].values)
-  // get (positive, negative,neurtral) number of each category (Male, Female or Other)
-  let temp = Array.from(data.map(obj =>Object.values(obj.values)))
-  //transpose
-  temp = temp.map((col, i) => temp.map(row => row[i]));
-  let values = temp.map(obj => obj.reduce((a, b) => parseInt(a) + parseInt(b), 0)).slice(0, nameKeys.length)
-  // get total number of a state in a day
-  let total = values.reduce((a, b) => parseInt(a) + parseInt(b), 0)
-  let new_data = []
-    for (let i = 0; i < nameKeys.length; i++) {
-        let item = {}
-        item.title = nameKeys[i]
-        item.value = values[i]
-        item.all = total
-        new_data.push(item)
-    }
+       // check each subset of data for possible sections, since not all subsets have every possible section.
+      let nameKeys = Object.keys(data[0].values)
+      // get (positive, negative,neurtral) number of each category (Male, Female or Other)
+      let temp = Array.from(data.map(obj =>Object.values(obj.values)))
+      //transpose
+      temp = temp.map((col, i) => temp.map(row => row[i]));
+      let values = temp.map(obj => obj.reduce((a, b) => parseInt(a) + parseInt(b), 0)).slice(0, nameKeys.length)
+      // get total number of a state in a day
+      let total = values.reduce((a, b) => parseInt(a) + parseInt(b), 0)
+      let new_data = []
+        for (let i = 0; i < nameKeys.length; i++) {
+            let item = {}
+            item.title = nameKeys[i]
+            item.value = values[i]
+            item.all = total
+            new_data.push(item)
+        }
 
     console.log(total)
 
