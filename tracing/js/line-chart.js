@@ -88,10 +88,10 @@ d3.csv(data_source, function(error, data) {
 // var encodedUri = encodeURI(csvContent);
 // var link = document.createElement("a");
 // link.setAttribute("href", encodedUri);
-// link.setAttribute("download", "my_data.csv");
+// link.setAttribute("download", "my_data_aus.csv");
 // document.body.appendChild(link); // Required for FF
 //
-// link.click(); // This will download the data file named "my_data.csv".
+// link.click(); // This will download the data file named "my_data_aus.csv".
 
 
 

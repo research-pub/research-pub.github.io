@@ -313,91 +313,111 @@ d3.json(data_source, function(error, data_json){
     })
   })
 
-  //  aggregate data fromm all dates
-  //   const all_dates = Object.values(data)
-  //   console.log(all_dates[0])
-  //   let new_data = all_dates[0]
-  //   for (let k=1; k<all_dates.length; k++){
-  //       let date2_data = all_dates[k]
-  //       for (let i=0; i<new_data.length; i++){
-  //           let keys =  Object.keys(new_data[i].values)
-  //           keys.forEach(key => {
-  //             let val = parseInt(new_data[i].values[key]) + parseInt(date2_data[i].values[key])
-  //             new_data[i].values[key] = val
-  //            })
-  //        }
-  //   }
-
+   // aggregate data fromm all dates
     const all_dates = Object.values(data)
-    //get all dates
-    const dates = Object.keys(data)
-    //get groups of sentiments
-    const nameKeys = Object.keys(data[dates[0]][0].values)
+    console.log(all_dates[0])
+    let new_data = all_dates[0]
+    for (let k=1; k<all_dates.length; k++){
+        let date2_data = all_dates[k]
+        for (let i=0; i<new_data.length; i++){
+            let keys =  Object.keys(new_data[i].values)
+            keys.forEach(key => {
+              let val = parseInt(new_data[i].values[key]) + parseInt(date2_data[i].values[key])
+              new_data[i].values[key] = val
+             })
+         }
+    }
 
-  let  new_data = [];
-// parse the date / time
-   var parseTime = d3.timeParse("%Y-%m-%d");
-// dates.sort(function(a, b) { return a - b; })
-  dates.forEach(date =>{
-      const current_data = data[date]
-      // get (positive, negative,neurtral) number of each category (e.g., Male, Female or Other)
-      let temp = Array.from(current_data.map(obj =>Object.values(obj.values)))
-      //transpose
-      temp = temp.map((col, i) => temp.map(row => row[i]));
-      // get all number of each group of sentiments
-      let values = temp.map(obj => obj.reduce((a, b) => parseInt(a) + parseInt(b), 0)).slice(0, nameKeys.length)
-      // get total number of a state in a day
-      let total = values.reduce((a, b) => parseInt(a) + parseInt(b), 0)
-      // console.log(parseTime(date) > parseTime('2020-04-13'))
-      if (parseTime(date) > parseTime('2020-04-13')){
-          let entry = {}
-          entry['date_str'] = date
-          entry['date'] = parseTime(date)
-          for (let i = 0; i < nameKeys.length; i++) {
-              entry[nameKeys[i]] = values[i]
-              entry["perc_"+nameKeys[i]] = (values[i]/total).toFixed(4)
-          }
-          new_data.push(entry)
-      }
-  })
- console.log(new_data)
-    new_data.sort(function(a, b) { return a.date - b.date; })
-  console.log(new_data)
+// Australia Plus All states Dta-------------------------------------------------------------------------
+    let all_ls = []
+    data_json.features.forEach(feature => {
+        let data  = feature.date_values
+        // data_json.features[0].date_values
+        const all_dates = Object.values(data)
+            //get all dates
+            const dates = Object.keys(data)
+            //get groups of sentiments
+            const nameKeys = Object.keys(data[dates[0]][0].values)
+        console.log(nameKeys)
+
+          let  new_data = [];
+        // parse the date / time
+           var parseTime = d3.timeParse("%Y-%m-%d");
+        // dates.sort(function(a, b) { return a - b; })
+          dates.forEach(date =>{
+              const current_data = data[date]
+              // get (positive, negative,neurtral) number of each category (e.g., Male, Female or Other)
+              let temp = Array.from(current_data.map(obj =>Object.values(obj.values)))
+              //transpose
+              temp = temp.map((col, i) => temp.map(row => row[i]));
+              // get all number of each group of sentiments
+              let values = temp.map(obj => obj.reduce((a, b) => parseInt(a) + parseInt(b), 0)).slice(0, nameKeys.length)
+
+              if (parseTime(date) > parseTime('2020-04-13')){
+                  let entry = {}
+                  entry['date_str'] = date
+                  entry['date'] = parseTime(date)
+                  for (let i = 0; i < nameKeys.length; i++) {
+                      entry[nameKeys[i]] = values[i]
+                      // entry["perc_"+nameKeys[i]] = (values[i]/total).toFixed(4)
+                  }
+                  new_data.push(entry)
+              }
+          })
+         // console.log(new_data)
+          new_data.sort(function(a, b) { return a.date - b.date; })
+        all_ls.push(new_data)
+        console.log(new_data)
+    });
+
+    let array_ls = all_ls[0].map(obj => Object.values(obj).slice(2))
+    let array_dates = all_ls[0].map(obj => Object.values(obj)[0])
+    for(let i = 1; i < all_ls.length; i++){
+        let current_ls = all_ls[i].map(obj => Object.values(obj).slice(2))
+        for(let j=0; j<array_ls.length; j++){
+            var sum = array_ls[j].map(function (num, idx) {
+                  return num + current_ls[j][idx];
+                });
+            array_ls[j] = sum
+        }
+    }
+    console.log(array_ls)
+    console.log(array_dates)
+
 
  let ds_list = []
-  for (let i = 0; i < new_data.length; i++) {
+  for (let i = 0; i < array_dates.length; i++) {
       let dict = {}
-      const current_value = new_data[i]
+      const current_value = array_ls[i],
+            current_total = current_value.reduce((a, b) => a + b, 0)
       if (ds_list.length > 0) {
           const last_value = ds_list[ i - 1]
           // dict["date"] = current_value.date
-          dict["date_str"] = current_value.date_str
-          dict["positive"] = current_value.Positive
-          dict["negative"] = current_value.Negative
-          dict["neutral"] = current_value.Neutral
-          dict["perc_positive"] = current_value.perc_Positive;
-          dict["perc_negative"] = current_value.perc_Negative;
-          dict["perc_neutral"] = current_value.perc_Neutral;
-          dict["acc_positive"] = current_value.Positive + last_value.acc_positive
-          dict["acc_negative"] = current_value.Negative + last_value.acc_negative
-          dict["acc_neutral"] = current_value.Neutral + last_value.acc_neutral
+          dict["date_str"] = array_dates[i]
+          dict["positive"] = current_value[0]
+          dict["negative"] = current_value[1]
+          dict["neutral"] = current_value[2]
+          dict["perc_positive"] = (current_value[0]/current_total).toFixed(4);
+          dict["perc_negative"] = (current_value[1]/current_total).toFixed(4);
+          dict["perc_neutral"] =  (current_value[2]/current_total).toFixed(4);
+          dict["acc_positive"] = current_value[0] + last_value.acc_positive
+          dict["acc_negative"] = current_value[1] + last_value.acc_negative
+          dict["acc_neutral"] = current_value[2] + last_value.acc_neutral
           ds_list.push(dict)
       } else {
-          // dict["date"] = current_value.date
-          dict["date_str"] = current_value.date_str
-         dict["positive"] = current_value.Positive
-          dict["negative"] = current_value.Negative
-          dict["neutral"] = current_value.Neutral
-          dict["perc_positive"] = current_value.perc_Positive;
-          dict["perc_negative"] = current_value.perc_Negative;
-          dict["perc_neutral"] = current_value.perc_Neutral;
-          dict["acc_positive"] = current_value.Positive
-          dict["acc_negative"] = current_value.Negative
-          dict["acc_neutral"] = current_value.Neutral
+          dict["date_str"] = array_dates[i]
+          dict["positive"] = current_value[0]
+          dict["negative"] = current_value[1]
+          dict["neutral"] = current_value[2]
+          dict["perc_positive"] = (current_value[0]/current_total).toFixed(4);
+          dict["perc_negative"] = (current_value[1]/current_total).toFixed(4);
+          dict["perc_neutral"] =  (current_value[2]/current_total).toFixed(4);
+          dict["acc_positive"] = current_value[0]
+          dict["acc_negative"] = current_value[1]
+          dict["acc_neutral"] = current_value[2]
           ds_list.push(dict)
       }
   }
-
   console.log(ds_list)
 
   let csvContent = "data:text/csv;charset=utf-8,"
@@ -411,11 +431,100 @@ d3.json(data_source, function(error, data_json){
 var encodedUri = encodeURI(csvContent);
 var link = document.createElement("a");
 link.setAttribute("href", encodedUri);
-link.setAttribute("download", "my_data.csv");
+link.setAttribute("download", "my_data_aus.csv");
 document.body.appendChild(link); // Required for FF
+link.click(); // This will download the data file named "my_data_aus.csv".
+// Australia Plus All states Dta----------------------------------------------------------------end---------
 
-link.click(); // This will download the data file named "my_data.csv".
-
+    // only Australia Dta-------------------------------------------------------------------------
+//     const all_dates = Object.values(data)
+//     //get all dates
+//     const dates = Object.keys(data)
+//     //get groups of sentiments
+//     const nameKeys = Object.keys(data[dates[0]][0].values)
+//
+//   let  new_data = [];
+// // parse the date / time
+//    var parseTime = d3.timeParse("%Y-%m-%d");
+// // dates.sort(function(a, b) { return a - b; })
+//   dates.forEach(date =>{
+//       const current_data = data[date]
+//       // get (positive, negative,neurtral) number of each category (e.g., Male, Female or Other)
+//       let temp = Array.from(current_data.map(obj =>Object.values(obj.values)))
+//       //transpose
+//       temp = temp.map((col, i) => temp.map(row => row[i]));
+//       // get all number of each group of sentiments
+//       let values = temp.map(obj => obj.reduce((a, b) => parseInt(a) + parseInt(b), 0)).slice(0, nameKeys.length)
+//       // get total number of a state in a day
+//       let total = values.reduce((a, b) => parseInt(a) + parseInt(b), 0)
+//       // console.log(parseTime(date) > parseTime('2020-04-13'))
+//       if (parseTime(date) > parseTime('2020-04-13')){
+//           let entry = {}
+//           entry['date_str'] = date
+//           entry['date'] = parseTime(date)
+//           for (let i = 0; i < nameKeys.length; i++) {
+//               entry[nameKeys[i]] = values[i]
+//               entry["perc_"+nameKeys[i]] = (values[i]/total).toFixed(4)
+//           }
+//           new_data.push(entry)
+//       }
+//   })
+//  console.log(new_data)
+//     new_data.sort(function(a, b) { return a.date - b.date; })
+//   console.log(new_data)
+//
+//  let ds_list = []
+//   for (let i = 0; i < new_data.length; i++) {
+//       let dict = {}
+//       const current_value = new_data[i]
+//       if (ds_list.length > 0) {
+//           const last_value = ds_list[ i - 1]
+//           // dict["date"] = current_value.date
+//           dict["date_str"] = current_value.date_str
+//           dict["positive"] = current_value.Positive
+//           dict["negative"] = current_value.Negative
+//           dict["neutral"] = current_value.Neutral
+//           dict["perc_positive"] = current_value.perc_Positive;
+//           dict["perc_negative"] = current_value.perc_Negative;
+//           dict["perc_neutral"] = current_value.perc_Neutral;
+//           dict["acc_positive"] = current_value.Positive + last_value.acc_positive
+//           dict["acc_negative"] = current_value.Negative + last_value.acc_negative
+//           dict["acc_neutral"] = current_value.Neutral + last_value.acc_neutral
+//           ds_list.push(dict)
+//       } else {
+//           // dict["date"] = current_value.date
+//           dict["date_str"] = current_value.date_str
+//          dict["positive"] = current_value.Positive
+//           dict["negative"] = current_value.Negative
+//           dict["neutral"] = current_value.Neutral
+//           dict["perc_positive"] = current_value.perc_Positive;
+//           dict["perc_negative"] = current_value.perc_Negative;
+//           dict["perc_neutral"] = current_value.perc_Neutral;
+//           dict["acc_positive"] = current_value.Positive
+//           dict["acc_negative"] = current_value.Negative
+//           dict["acc_neutral"] = current_value.Neutral
+//           ds_list.push(dict)
+//       }
+//   }
+//
+//   console.log(ds_list)
+//
+//   let csvContent = "data:text/csv;charset=utf-8,"
+//   let keys = Object.keys(ds_list[0])
+//     csvContent += keys.join() + "\r\n";
+//   ds_list.forEach(function(rowArray) {
+//       let vals = Object.values(rowArray)
+//     let row = vals.join();
+//     csvContent += row + "\r\n";
+// });
+// var encodedUri = encodeURI(csvContent);
+// var link = document.createElement("a");
+// link.setAttribute("href", encodedUri);
+// link.setAttribute("download", "my_data.csv");
+// document.body.appendChild(link); // Required for FF
+//
+// link.click(); // This will download the data file named "my_data.csv".
+// only Australia Dta-------------------------------------------------------------------------end-----------
 
     // // test for bar racing chart
     // const all_keys = Object.keys(data).sort()
@@ -472,7 +581,7 @@ link.click(); // This will download the data file named "my_data.csv".
 
 
   // render initial chart
-  chart.updateChart(all_dates[0])
-    // chart.updateChart(new_data)
+  // chart.updateChart(all_dates[0])
+    chart.updateChart(new_data)
 
 })
