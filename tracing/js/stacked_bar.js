@@ -280,14 +280,14 @@ d3.csv("data/2020-04-27_output.csv",
               .attr("y", function(d) { return y(d[1]); })
               .attr("height", function(d) { return y(d[0]) - y(d[1]); })
               .attr("width", x.bandwidth()-5)
-            // .on("mouseover", function() { tooltip_per.style("display", null); })
-            // .on("mouseout", function() { tooltip_per.style("display", "none"); })
-            // .on("mousemove", function(d) {
-            //   var xPosition = d3.mouse(this)[0] - 5;
-            //   var yPosition = d3.mouse(this)[1] - 5;
-            //   tooltip_per.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
-            //   tooltip_per.select("text").text(((d[1]-d[0])*100).toFixed(2)+"%");
-            // });
+            .on("mouseover", function() { tooltip_acc.style("display", null); })
+            .on("mouseout", function() { tooltip_acc.style("display", "none"); })
+            .on("mousemove", function(d) {
+              var xPosition = d3.mouse(this)[0] - 5;
+              var yPosition = d3.mouse(this)[1] - 5;
+              tooltip_acc.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
+              tooltip_acc.select("text").text(d[1]-d[0]);
+            });
 
           var legend = g_acc.append("g")
               .attr("font-family", "sans-serif")
@@ -343,6 +343,23 @@ d3.csv("data/2020-04-27_output.csv",
     .style("opacity", 0.5);
 
   tooltip_per.append("text")
+    .attr("x", 30)
+    .attr("dy", "1.2em")
+    .style("text-anchor", "middle")
+    .attr("font-size", "12px")
+    .attr("font-weight", "bold");
+
+    var tooltip_acc = svg_acc.append("g")
+    .attr("class", "tooltip")
+    .style("display", "none");
+
+  tooltip_acc.append("rect")
+    .attr("width", 60)
+    .attr("height", 20)
+    .attr("fill", "white")
+    .style("opacity", 0.5);
+
+  tooltip_acc.append("text")
     .attr("x", 30)
     .attr("dy", "1.2em")
     .style("text-anchor", "middle")
