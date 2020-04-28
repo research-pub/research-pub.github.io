@@ -2,7 +2,7 @@ var svg_width = 960, svg_height = 500;
 
 // create the svg
 var svg = d3.select("#daily_sentiment").append("svg").attr("width", svg_width).attr("height", svg_height),
-    margin = {top: 30, right: 20, bottom: 50, left: 40},
+    margin = {top: 30, right: 20, bottom: 50, left: 60},
     width = +svg_width - margin.left - margin.right,
     height = +svg_height - margin.top - margin.bottom,
     g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
@@ -37,7 +37,7 @@ function make_y_gridlines() {
 // load the csv and create the chart
 // "data/age-groups.csv"
 // "data/output_format.csv",
-d3.csv("data/2020-04-27_output.csv",
+d3.csv("data/2020-04-28_output.csv",
     function(d, i, columns) {
         // console.log(columns)
         // console.log(d)
