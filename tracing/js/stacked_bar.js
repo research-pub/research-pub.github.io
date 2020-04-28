@@ -13,6 +13,10 @@ var svg_per = d3.select("#daily_percentage").append("svg").attr("width", svg_wid
 var svg_acc = d3.select("#acc_sentiment").append("svg").attr("width", svg_width).attr("height", svg_height),
     g_acc = svg_acc.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
+// // create the svg
+// var svg_user = d3.select("#daily_users").append("svg").attr("width", svg_width).attr("height", svg_height),
+//     g_user = svg_user.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
 // parse the date / time
 // var parseTime = d3.timeParse("%d-%b-%y");
 var parseTime = d3.timeParse("%Y-%m-%d");
@@ -311,7 +315,7 @@ d3.csv("data/2020-04-28_output.csv",
               .attr("y", 9.5)
               .attr("dy", "0.32em")
               .text(function(d,i) { return legend_txt[i]; });
-          // --------------------To draw Accumulative number of Twitter users referencing COVID Safe app -----------end--
+          // --------------------To draw Accumulative number of Twitter users referencing COVID Safe app -----------end-
     });
 
   // Prep the tooltip bits, initial display is hidden
