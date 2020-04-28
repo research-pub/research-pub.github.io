@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>After All This Time?</title>
+  <!-- Import D3 -->
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <!-- Random number generator -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/seedrandom/2.4.3/lib/alea.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <!-- d3-cloud library -->
+  <script src="js/d3.layout.cloud.js"></script>
+  <link rel="stylesheet" type='text/css' href="css/wordcloud.css">
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+</head>
+
+<body>
+
+<div id='cloud-container'></div>
+
+<div id="dialog" title="Related Tweets"></div>
+
+  <script src="js/wordcloud.js"></script>
+  <script>
+		  WordCloud({
+			container: '#cloud-container',
+			data: 'data/wc_neutral.json'
+            // data: 'http://3.24.135.55/get_topic_model'
+		  });
+	$( "#dialog" ).dialog({
+      autoOpen: false,
+      show: {
+        effect: "blind",
+        duration: 1000
+      },
+      hide: {
+        effect: "explode",
+        duration: 1000
+      }
+    });
+  </script>
+
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+.label-background-strong {
+  fill: white;
+  fill-opacity: .8;
+}
+
+#wolfstar-container {
+  cursor: default;
+}
+
+svg text{
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+text:hover { opacity: 0.4 !important; }
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+	font-size: 1em;
+}
+
+.ui-draggable, .ui-droppable {
+	background-position: top;
+}
