@@ -225,7 +225,7 @@ d3.csv("data/2020-04-29_output.csv",
               .attr("height", 19)
               .attr("fill", z);
 
-          legend_txt = ["Positive group", "Neutral group", "Negative group"]
+          // legend_txt = ["Positive group", "Neutral group", "Negative group"]
           legend.append("text")
               .attr("x", width - 24)
               .attr("y", 9.5)
@@ -313,7 +313,7 @@ d3.csv("data/2020-04-29_output.csv",
               .attr("width", 19)
               .attr("height", 19)
               .attr("fill", z);
-          legend_txt = ["Positive tweets", "Neutral tweets", "Negative tweets"]
+          // legend_txt = ["Positive tweets", "Neutral tweets", "Negative tweets"]
           legend.append("text")
               .attr("x", width - 24)
               .attr("y", 9.5)
