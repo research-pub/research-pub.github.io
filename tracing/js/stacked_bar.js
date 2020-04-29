@@ -16,6 +16,7 @@ var svg_acc = d3.select("#acc_sentiment").append("svg").attr("width", svg_width)
 // // create the svg
 // var svg_user = d3.select("#daily_users").append("svg").attr("width", svg_width).attr("height", svg_height),
 //     g_user = svg_user.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+var font_size = "18px times"
 
 // parse the date / time
 // var parseTime = d3.timeParse("%d-%b-%y");
@@ -75,13 +76,13 @@ d3.csv("data/2020-04-28_output.csv",
             .text("Daily number of Twitter users referencing COVID Safe app");
 
         g.append("g")
-            .style("font", "14px times")
+            .style("font", font_size)
               .attr("transform", "translate(0," + height + ")")
               .call(d3.axisBottom(x));
 
         g.append("g")
               // .attr("class", "axis")
-            .style("font", "14px times")
+            .style("font", font_size)
               .call(d3.axisLeft(y).ticks(null, 's'))
               .append("text")
               .attr("x", 2)
@@ -123,7 +124,7 @@ d3.csv("data/2020-04-28_output.csv",
 
           var legend = g.append("g")
               .attr("font-family", "sans-serif")
-              .attr("font-size", 15)
+              .attr("font-size", font_size)
               .attr("text-anchor", "end")
             .selectAll("g")
             .data(keys.slice())
@@ -161,12 +162,12 @@ d3.csv("data/2020-04-28_output.csv",
 
           g_per.append("g")
               // .attr("class", "axis")
-              .style("font", "14px times")
+              .style("font", font_size)
               .attr("transform", "translate(0," + height + ")")
               .call(d3.axisBottom(x));
 
           g_per.append("g")
-              .style("font", "14px times")
+              .style("font", font_size)
               .call(d3.axisLeft(y)
               .tickFormat(d3.format(".0%"))
               .ticks(5)
@@ -210,7 +211,7 @@ d3.csv("data/2020-04-28_output.csv",
 
           var legend = g_per.append("g")
               .attr("font-family", "sans-serif")
-              .attr("font-size", 15)
+              .attr("font-size", font_size)
               .attr("text-anchor", "end")
             .selectAll("g")
             .data(keys.slice())
@@ -251,12 +252,12 @@ d3.csv("data/2020-04-28_output.csv",
 
           g_acc.append("g")
               // .attr("class", "axis")
-              .style("font", "14px times")
+              .style("font", font_size)
               .attr("transform", "translate(0," + height + ")")
               .call(d3.axisBottom(x));
 
           g_acc.append("g")
-              .style("font", "14px times")
+              .style("font", font_size)
               .call(d3.axisLeft(y)
               // .tickFormat(d3.format(".0%"))
               .ticks(5)
@@ -300,7 +301,7 @@ d3.csv("data/2020-04-28_output.csv",
 
           var legend = g_acc.append("g")
               .attr("font-family", "sans-serif")
-              .attr("font-size", 15)
+              .attr("font-size", font_size)
               .attr("text-anchor", "end")
             .selectAll("g")
             .data(keys.slice())
