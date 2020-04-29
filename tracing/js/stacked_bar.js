@@ -234,15 +234,16 @@ d3.csv("data/2020-04-29_output.csv",
         // --------------------To draw Daily percentage of different sentiment groups ----------------- end---
 
         // --------------------To draw Accumulative number of Twitter users referencing COVID Safe app -----------------
-          var keys = data.columns.slice(7,10);
-          console.log(keys)
+        var keys = data.columns.slice(7,10);
           tmp  = keys[1]
           keys[1] = keys[2]
           keys[2] = tmp
           y.domain([0, d3.max(data, function(d) {
               return d[data.columns[7]] + d[data.columns[8]]+d[data.columns[9]]; })]).nice();
           z.domain(keys);
-          svg_acc.append("text")
+
+          // console.log(d3.stack().keys(keys.slice().reverse())(data))
+        svg_acc.append("text")
             .attr("x", (width / 2))
             .attr("y", (margin.top / 2))
             .attr("text-anchor", "middle")
@@ -250,27 +251,24 @@ d3.csv("data/2020-04-29_output.csv",
             // .style("text-decoration", "underline")
             .text("Accumulative number of Twitter users referencing COVID Safe app");
 
-          g_acc.append("g")
-              // .attr("class", "axis")
-              .style("font", font_size)
+        g_acc.append("g")
+            .style("font", font_size)
               .attr("transform", "translate(0," + height + ")")
               .call(d3.axisBottom(x));
 
-          g_acc.append("g")
-              .style("font", font_size)
-              .call(d3.axisLeft(y)
-              // .tickFormat(d3.format(".0%"))
-              .ticks(5)
-              )
-            .append("text")
+        g_acc.append("g")
+              // .attr("class", "axis")
+            .style("font", font_size)
+              .call(d3.axisLeft(y).ticks(null, 's'))
+              .append("text")
               .attr("x", 2)
               .attr("y", y(y.ticks().pop()) + 0.5)
               .attr("dy", "0.32em")
               .attr("fill", "#000")
               .attr("font-weight", "bold")
-              .attr("text-anchor", "start")
+              .attr("text-anchor", "start");
 
-          g_acc.append("g")
+        g_acc.append("g")
                 .attr("class","grid")
                 .style("stroke-dasharray",("3,3"))
                 .call(make_y_gridlines()
@@ -290,13 +288,14 @@ d3.csv("data/2020-04-29_output.csv",
               .attr("y", function(d) { return y(d[1]); })
               .attr("height", function(d) { return y(d[0]) - y(d[1]); })
               .attr("width", x.bandwidth()-5)
-            .on("mouseover", function() { tooltip_acc.style("display", null); })
-            .on("mouseout", function() { tooltip_acc.style("display", "none"); })
+            .on("mouseover", function() { tooltip.style("display", null); })
+            .on("mouseout", function() { tooltip.style("display", "none"); })
             .on("mousemove", function(d) {
+              // console.log(d);
               var xPosition = d3.mouse(this)[0] - 5;
               var yPosition = d3.mouse(this)[1] - 5;
-              tooltip_acc.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
-              tooltip_acc.select("text").text(d[1]-d[0]);
+              tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
+              tooltip.select("text").text(d[1]-d[0]);
             });
 
           var legend = g_acc.append("g")
@@ -314,13 +313,101 @@ d3.csv("data/2020-04-29_output.csv",
               .attr("width", 19)
               .attr("height", 19)
               .attr("fill", z);
-
           legend_txt = ["Support users", "Neutral users", "Against users"]
           legend.append("text")
               .attr("x", width - 24)
               .attr("y", 9.5)
               .attr("dy", "0.32em")
               .text(function(d,i) { return legend_txt[i]; });
+
+        //   var keys = data.columns.slice(7,10);
+        //   console.log(keys)
+        //   tmp  = keys[1]
+        //   keys[1] = keys[2]
+        //   keys[2] = tmp
+        //   y.domain([0, d3.max(data, function(d) {
+        //       return d[data.columns[7]] + d[data.columns[8]]+d[data.columns[9]]; })]).nice();
+        //   z.domain(keys);
+        //   svg_acc.append("text")
+        //     .attr("x", (width / 2))
+        //     .attr("y", (margin.top / 2))
+        //     .attr("text-anchor", "middle")
+        //     .style("font-size", "20px")
+        //     // .style("text-decoration", "underline")
+        //     .text("Accumulative number of Twitter users referencing COVID Safe app");
+        //
+        //   g_acc.append("g")
+        //       // .attr("class", "axis")
+        //       .style("font", font_size)
+        //       .attr("transform", "translate(0," + height + ")")
+        //       .call(d3.axisBottom(x));
+        //
+        //   g_acc.append("g")
+        //       .style("font", font_size)
+        //       .call(d3.axisLeft(y)
+        //               .ticks(null, 's')
+        //           .ticks(5)
+        //       // .tickFormat(d3.format(".0%"))
+        //       )
+        //     .append("text")
+        //       .attr("x", 2)
+        //       .attr("y", y(y.ticks().pop()) + 0.5)
+        //       .attr("dy", "0.32em")
+        //       .attr("fill", "#000")
+        //       .attr("font-weight", "bold")
+        //       .attr("text-anchor", "start")
+        //
+        //   g_acc.append("g")
+        //         .attr("class","grid")
+        //         .style("stroke-dasharray",("3,3"))
+        //         .call(make_y_gridlines()
+        //             .tickSize(-width)
+        //             .tickFormat("")
+        //          )
+        //
+        //   g_acc.append("g")
+        //     .selectAll("g")
+        //     .data(d3.stack().keys(keys.slice().reverse())(data))
+        //     .enter().append("g")
+        //       .attr("fill", function(d) { return z(d.key); })
+        //     .selectAll("rect")
+        //     .data(function(d) { return d; })
+        //     .enter().append("rect")
+        //       .attr("x", function(d) { return x(d.data.date.getDate() +"/"+(d.data.date.getMonth()+1)) + 3; })
+        //       .attr("y", function(d) { return y(d[1]); })
+        //       .attr("height", function(d) { return y(d[0]) - y(d[1]); })
+        //       .attr("width", x.bandwidth()-5)
+        //     .on("mouseover", function() { tooltip_acc.style("display", null); })
+        //     .on("mouseout", function() { tooltip_acc.style("display", "none"); })
+        //     .on("mousemove", function(d) {
+        //       var xPosition = d3.mouse(this)[0] - 5;
+        //       var yPosition = d3.mouse(this)[1] - 5;
+        //       tooltip_acc.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
+        //       tooltip_acc.select("text").text(d[1]-d[0]);
+        //     });
+        //
+        //   var legend = g_acc.append("g")
+        //       .attr("font-family", "sans-serif")
+        //       .attr("font-size", font_size)
+        //       .attr("text-anchor", "end")
+        //     .selectAll("g")
+        //     .data(keys.slice())
+        //      // .data(keys.slice().reverse())
+        //     .enter().append("g")
+        //       .attr("transform", function(d, i) { return "translate(" + (i * 150 - 550) + ",450)"; });
+        //
+        //   legend.append("rect")
+        //       .attr("x", width - 19)
+        //       .attr("width", 19)
+        //       .attr("height", 19)
+        //       .attr("fill", z);
+        //
+        //   legend_txt = ["Support users", "Neutral users", "Against users"]
+        //   legend.append("text")
+        //       .attr("x", width - 24)
+        //       .attr("y", 9.5)
+        //       .attr("dy", "0.32em")
+        //       .text(function(d,i) { return legend_txt[i]; });
           // --------------------To draw Accumulative number of Twitter users referencing COVID Safe app -----------end-
     });
 
