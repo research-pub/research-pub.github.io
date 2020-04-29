@@ -73,7 +73,7 @@ d3.csv("data/2020-04-29_output.csv",
             .attr("text-anchor", "middle")
             .style("font-size", "20px")
             // .style("text-decoration", "underline")
-            .text("Daily number of Twitter users referencing COVID Safe app");
+            .text("Daily number of tweets referencing COVIDSafe app");
 
         g.append("g")
             .style("font", font_size)
@@ -116,8 +116,8 @@ d3.csv("data/2020-04-29_output.csv",
             .on("mouseout", function() { tooltip.style("display", "none"); })
             .on("mousemove", function(d) {
               // console.log(d);
-              var xPosition = d3.mouse(this)[0] - 5;
-              var yPosition = d3.mouse(this)[1] - 5;
+              var xPosition = d3.mouse(this)[0] + 40;
+              var yPosition = d3.mouse(this)[1];
               tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
               tooltip.select("text").text(d[1]-d[0]);
             });
@@ -137,7 +137,7 @@ d3.csv("data/2020-04-29_output.csv",
               .attr("width", 19)
               .attr("height", 19)
               .attr("fill", z);
-          let legend_txt = ["Support users", "Neutral users", "Against users"]
+          let legend_txt = ["Positive tweets", "Neutral tweets", "Negative tweets"]
           legend.append("text")
               .attr("x", width - 24)
               .attr("y", 9.5)
@@ -203,8 +203,8 @@ d3.csv("data/2020-04-29_output.csv",
             .on("mouseover", function() { tooltip_per.style("display", null); })
             .on("mouseout", function() { tooltip_per.style("display", "none"); })
             .on("mousemove", function(d) {
-              var xPosition = d3.mouse(this)[0] - 5;
-              var yPosition = d3.mouse(this)[1] - 5;
+              var xPosition = d3.mouse(this)[0]  + 40;
+              var yPosition = d3.mouse(this)[1];
               tooltip_per.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
               tooltip_per.select("text").text(((d[1]-d[0])*100).toFixed(2)+"%");
             });
@@ -225,7 +225,7 @@ d3.csv("data/2020-04-29_output.csv",
               .attr("height", 19)
               .attr("fill", z);
 
-          legend_txt = ["Support group", "Neutral group", "Against group"]
+          legend_txt = ["Positive group", "Neutral group", "Negative group"]
           legend.append("text")
               .attr("x", width - 24)
               .attr("y", 9.5)
@@ -249,7 +249,7 @@ d3.csv("data/2020-04-29_output.csv",
             .attr("text-anchor", "middle")
             .style("font-size", "20px")
             // .style("text-decoration", "underline")
-            .text("Accumulative number of Twitter users referencing COVID Safe app");
+            .text("Accumulative number of tweets referencing COVIDSafe app");
 
         g_acc.append("g")
             .style("font", font_size)
@@ -288,14 +288,14 @@ d3.csv("data/2020-04-29_output.csv",
               .attr("y", function(d) { return y(d[1]); })
               .attr("height", function(d) { return y(d[0]) - y(d[1]); })
               .attr("width", x.bandwidth()-5)
-            .on("mouseover", function() { tooltip.style("display", null); })
-            .on("mouseout", function() { tooltip.style("display", "none"); })
+            .on("mouseover", function() { tooltip_acc.style("display", null); })
+            .on("mouseout", function() { tooltip_acc.style("display", "none"); })
             .on("mousemove", function(d) {
               // console.log(d);
-              var xPosition = d3.mouse(this)[0] - 5;
-              var yPosition = d3.mouse(this)[1] - 5;
-              tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
-              tooltip.select("text").text(d[1]-d[0]);
+              var xPosition = d3.mouse(this)[0] + 40;
+              var yPosition = d3.mouse(this)[1];
+              tooltip_acc.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
+              tooltip_acc.select("text").text(d[1]-d[0]);
             });
 
           var legend = g_acc.append("g")
@@ -313,7 +313,7 @@ d3.csv("data/2020-04-29_output.csv",
               .attr("width", 19)
               .attr("height", 19)
               .attr("fill", z);
-          legend_txt = ["Support users", "Neutral users", "Against users"]
+          legend_txt = ["Positive tweets", "Neutral tweets", "Negative tweets"]
           legend.append("text")
               .attr("x", width - 24)
               .attr("y", 9.5)
@@ -402,7 +402,7 @@ d3.csv("data/2020-04-29_output.csv",
         //       .attr("height", 19)
         //       .attr("fill", z);
         //
-        //   legend_txt = ["Support users", "Neutral users", "Against users"]
+        //   legend_txt = ["Positive users", "Neutral users", "Negative users"]
         //   legend.append("text")
         //       .attr("x", width - 24)
         //       .attr("y", 9.5)
