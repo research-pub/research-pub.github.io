@@ -31,7 +31,7 @@ var y = d3.scaleLinear().rangeRound([height, 0]);
 
 // set the colors
 var z = d3.scaleOrdinal()
-    .range(["green",  "yellow", "red", "#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"]);
+    .range(["#6baa40" ,"#ffbc00", "#ff0000", "#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"]);
 
 // gridlines in y axis function
 function make_y_gridlines() {
@@ -75,13 +75,14 @@ d3.csv("data/2020-04-28_output.csv",
             .text("Daily number of Twitter users referencing COVID Safe app");
 
         g.append("g")
+            .style("font", "14px times")
               .attr("transform", "translate(0," + height + ")")
               .call(d3.axisBottom(x));
 
         g.append("g")
               // .attr("class", "axis")
-              .call(d3.axisLeft(y).ticks(null, 's')
-              )
+            .style("font", "14px times")
+              .call(d3.axisLeft(y).ticks(null, 's'))
               .append("text")
               .attr("x", 2)
               .attr("y", y(y.ticks().pop()) + 0.5)
@@ -160,10 +161,12 @@ d3.csv("data/2020-04-28_output.csv",
 
           g_per.append("g")
               // .attr("class", "axis")
+              .style("font", "14px times")
               .attr("transform", "translate(0," + height + ")")
               .call(d3.axisBottom(x));
 
           g_per.append("g")
+              .style("font", "14px times")
               .call(d3.axisLeft(y)
               .tickFormat(d3.format(".0%"))
               .ticks(5)
@@ -248,10 +251,12 @@ d3.csv("data/2020-04-28_output.csv",
 
           g_acc.append("g")
               // .attr("class", "axis")
+              .style("font", "14px times")
               .attr("transform", "translate(0," + height + ")")
               .call(d3.axisBottom(x));
 
           g_acc.append("g")
+              .style("font", "14px times")
               .call(d3.axisLeft(y)
               // .tickFormat(d3.format(".0%"))
               .ticks(5)
