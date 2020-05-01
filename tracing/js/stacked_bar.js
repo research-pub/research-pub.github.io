@@ -42,7 +42,8 @@ function make_y_gridlines() {
 // load the csv and create the chart
 // "data/age-groups.csv"
 // "data/output_format.csv",
-d3.csv("data/2020-04-29_output.csv",
+// "data/bar_output_new.csv",
+d3.csv(dataSource,
     function(d, i, columns) {
         // console.log(columns)
         // console.log(d)
