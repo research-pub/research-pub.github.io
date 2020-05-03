@@ -141,7 +141,7 @@ d3.csv(dataSource,
               .attr("fill", z);
           let legend_txt = ["Positive tweets", "Neutral tweets", "Negative tweets"]
           legend.append("text")
-              .attr("x", width - 24)
+              .attr("x", width - 20)
               .attr("y", 9.5)
               .attr("dy", "0.32em")
                .style("font-weight", "bold")
@@ -230,7 +230,7 @@ d3.csv(dataSource,
 
           // legend_txt = ["Positive group", "Neutral group", "Negative group"]
           legend.append("text")
-              .attr("x", width - 24)
+              .attr("x", width - 20)
               .attr("y", 9.5)
               .attr("dy", "0.32em")
                .style("font-weight", "bold")
@@ -320,7 +320,7 @@ d3.csv(dataSource,
               .attr("fill", z);
           // legend_txt = ["Positive tweets", "Neutral tweets", "Negative tweets"]
           legend.append("text")
-              .attr("x", width - 24)
+              .attr("x", width - 20)
               .attr("y", 9.5)
               .attr("dy", "0.32em")
                .style("font-weight", "bold")
