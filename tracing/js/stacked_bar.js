@@ -56,9 +56,9 @@ d3.csv(dataSource,
     function(error, data) {
           if (error) throw error;
           var keys = data.columns.slice(1,4);
-          // let tmp = keys[1]
-          // keys[1] = keys[2]
-          // keys[2] = tmp
+          let tmp = keys[1]
+          keys[1] = keys[2]
+          keys[2] = tmp
 
         // --------------------To draw daily sentiment -----------------
           data.sort(function(a, b) { return a.date - b.date; });
@@ -148,9 +148,9 @@ d3.csv(dataSource,
 
         // --------------------To draw Daily percentage of different sentiment groups -----------------
           var keys = data.columns.slice(4,7);
-          // tmp  = keys[1]
-          // keys[1] = keys[2]
-          // keys[2] = tmp
+          tmp  = keys[1]
+          keys[1] = keys[2]
+          keys[2] = tmp
           y.domain([0, 1]).nice();
           z.domain(keys);
           svg_per.append("text")
@@ -236,9 +236,9 @@ d3.csv(dataSource,
 
         // --------------------To draw Accumulative number of Twitter users referencing COVID Safe app -----------------
         var keys = data.columns.slice(7,10);
-          // tmp  = keys[1]
-          // keys[1] = keys[2]
-          // keys[2] = tmp
+          tmp  = keys[1]
+          keys[1] = keys[2]
+          keys[2] = tmp
           y.domain([0, d3.max(data, function(d) {
               return d[data.columns[7]] + d[data.columns[8]]+d[data.columns[9]]; })]).nice();
           z.domain(keys);

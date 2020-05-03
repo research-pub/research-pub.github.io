@@ -1,25 +1,50 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-    crossorigin="anonymous"/>
 <style>
-   .line {
-      fill: none;
-      stroke: steelblue;
-      stroke-width: 2px;
-    }
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+#main {
+  width: 960px;
+}
+.axis .domain {
+  display: none;
+}
+    .line {
+  fill: none;
+  stroke: MidnightBlue;
+  stroke-width: 2px;
+}
+  .dot {
+    fill: IndianRed;
+  }
+  .area {
+    fill: none;
+  }
+  text.shadow {
+    stroke: white;
+    stroke-width: 4px;
+    opacity: 1
+  }
+  .grid line {
+    stroke: #664a62;
+    stroke-opacity: 1;
+    /*shape-rendering: crispEdges*/
+  }
+  .grid path {
+    stroke-width: 0;
+  }
 </style>
-<script src="//d3js.org/d3.v4.min.js"></script>
-<body>
-
-<div id="daily_snt"></div>
-<div id="accumulated_snt"></div>
-<div id="daily_users"></div>
-<div id="accumulated_users"></div>
-<!--<div class="controls"></div>-->
-</body>
+<div id="main">
+    <div id="daily_sentiment"></div>
+    <br><br>
+    <div id="daily_percentage"></div>
+    <br><br>
+    <div id="acc_sentiment"></div>
+    <br><br>
+    <div id="daily_users"></div>
+</div>
 <script>
-    var data_source = 'data/data2.csv'
+    var dataSource = "data/bar_output_rt_like.csv"
 </script>
-<script src="js/line-chart.js"></script>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="js/stacked_bar.js"></script>
