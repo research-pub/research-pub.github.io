@@ -69,11 +69,12 @@ d3.csv(dataSource,
 
           // console.log(d3.stack().keys(keys.slice().reverse())(data))
         svg.append("text")
-            .attr("x", (width / 2))
+            .attr("x", (width / 2+50))
             .attr("y", (margin.top / 2))
             .attr("text-anchor", "middle")
             .style("font-size", "20px")
             // .style("text-decoration", "underline")
+             .style("font-weight", "bold")
             .text("Daily number of tweets referencing COVIDSafe app");
 
         g.append("g")
@@ -143,6 +144,7 @@ d3.csv(dataSource,
               .attr("x", width - 24)
               .attr("y", 9.5)
               .attr("dy", "0.32em")
+               .style("font-weight", "bold")
               .text(function(d,i) { return legend_txt[i]; });
           // --------------------To draw daily sentiment ----------------- end---
 
@@ -154,11 +156,11 @@ d3.csv(dataSource,
           y.domain([0, 1]).nice();
           z.domain(keys);
           svg_per.append("text")
-            .attr("x", (width / 2))
+            .attr("x", (width / 2+50))
             .attr("y", (margin.top / 2))
             .attr("text-anchor", "middle")
             .style("font-size", "20px")
-            // .style("text-decoration", "underline")
+             .style("font-weight", "bold")
             .text("Daily percentage of different sentiment groups");
 
           g_per.append("g")
@@ -231,6 +233,7 @@ d3.csv(dataSource,
               .attr("x", width - 24)
               .attr("y", 9.5)
               .attr("dy", "0.32em")
+               .style("font-weight", "bold")
               .text(function(d,i) { return legend_txt[i]; });
         // --------------------To draw Daily percentage of different sentiment groups ----------------- end---
 
@@ -245,10 +248,11 @@ d3.csv(dataSource,
 
           // console.log(d3.stack().keys(keys.slice().reverse())(data))
         svg_acc.append("text")
-            .attr("x", (width / 2))
+            .attr("x", (width / 2+50))
             .attr("y", (margin.top / 2))
             .attr("text-anchor", "middle")
             .style("font-size", "20px")
+             .style("font-weight", "bold")
             // .style("text-decoration", "underline")
             .text("Accumulative number of tweets referencing COVIDSafe app");
 
@@ -319,6 +323,7 @@ d3.csv(dataSource,
               .attr("x", width - 24)
               .attr("y", 9.5)
               .attr("dy", "0.32em")
+               .style("font-weight", "bold")
               .text(function(d,i) { return legend_txt[i]; });
 
         //   var keys = data.columns.slice(7,10);
