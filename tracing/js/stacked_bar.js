@@ -132,7 +132,11 @@ d3.csv(dataSource,
             .data(keys.slice())
              // .data(keys.slice().reverse())
             .enter().append("g")
-              .attr("transform", function(d, i) { return "translate(" + (i * 150 - 550) + ",450)"; });
+              .attr("transform", function(d, i) {
+                  let x = i * 150 - 550
+                  if (i==2)
+                      x = -237
+                  return "translate(" + x + ",450)"; });
 
           legend.append("rect")
               .attr("x", width - 19)
@@ -220,7 +224,11 @@ d3.csv(dataSource,
             .data(keys.slice())
              // .data(keys.slice().reverse())
             .enter().append("g")
-              .attr("transform", function(d, i) { return "translate(" + (i * 150 - 550) + ",450)"; });
+              .attr("transform", function(d, i) {
+                  let x = i * 150 - 550
+                  if (i==2)
+                      x = -237
+                  return "translate(" + x + ",450)";});
 
           legend.append("rect")
               .attr("x", width - 19)
@@ -311,7 +319,12 @@ d3.csv(dataSource,
             .data(keys.slice())
              // .data(keys.slice().reverse())
             .enter().append("g")
-              .attr("transform", function(d, i) { return "translate(" + (i * 150 - 550) + ",450)"; });
+              .attr("transform", function(d, i) {
+                  let x = i * 150 - 550
+                  if (i==2)
+                      x = -237
+                  return "translate(" + x + ",450)";
+              });
 
           legend.append("rect")
               .attr("x", width - 19)
