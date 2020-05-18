@@ -75,7 +75,7 @@ d3.csv(dataSource,
             .style("font-size", "20px")
             // .style("text-decoration", "underline")
              .style("font-weight", "bold")
-            .text("Daily number of tweets referencing COVIDSafe app");
+            .text("Daily number of tweets referencing "+panel_title);
 
         g.append("g")
             .style("font", font_size)
@@ -262,7 +262,7 @@ d3.csv(dataSource,
             .style("font-size", "20px")
              .style("font-weight", "bold")
             // .style("text-decoration", "underline")
-            .text("Accumulative number of tweets referencing COVIDSafe app");
+            .text("Accumulative number of tweets referencing "+panel_title);
 
         g_acc.append("g")
             .style("font", font_size)
