@@ -1,8 +1,8 @@
-var svg_width = 960, svg_height = 500;
+var svg_width = 960, svg_height = 510;
 
 // create the svg
 var svg = d3.select("#daily_sentiment").append("svg").attr("width", svg_width).attr("height", svg_height),
-    margin = {top: 30, right: 20, bottom: 50, left: 80},
+    margin = {top: 30, right: 20, bottom: 75, left: 80},
     width = +svg_width - margin.left - margin.right,
     height = +svg_height - margin.top - margin.bottom,
     g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
@@ -23,6 +23,10 @@ var font_size = "18px times"
 var parseTime = d3.timeParse("%Y-%m-%d");
 // set x scale
 var x = d3.scaleBand()
+    .rangeRound([0, width])
+    .paddingInner(0.05)
+    .align(0.1);
+var x_label = d3.scaleBand()
     .rangeRound([0, width])
     .paddingInner(0.05)
     .align(0.1);
@@ -62,10 +66,14 @@ d3.csv(dataSource,
 
         // --------------------To draw daily sentiment -----------------
           data.sort(function(a, b) { return a.date - b.date; });
-          x.domain(data.map(function(d) {return d.date.getDate() +"/"+(d.date.getMonth()+1); }));
+          x.domain(data.map(function(d,i) {return d.date.getDate() +"/"+(d.date.getMonth()+1); }));
+          // x.domain(data.map(function(d,i) {return (i%2==1 ? (d.date.getDate() +"/"+(d.date.getMonth()+1)):''); }));
           y.domain([0, d3.max(data, function(d) {
               return d[data.columns[1]] + d[data.columns[2]]+d[data.columns[3]]; })]).nice();
           z.domain(keys);
+          // x_label.domain(data.map(function(d,i) {return (i%2==1 ? (d.date.getDate() +"/"+(d.date.getMonth()+1)):''); }));
+          // x_label.domain(data.map(function(d,i) {return ('0' +(d.date.getMonth()+1)).slice(-2)+"/"+('0' + d.date.getDate()).slice(-2); }));
+          x_label.domain(data.map(function(d,i) {return ('0' + d.date.getDate()).slice(-2)+"/"+('0' +(d.date.getMonth()+1)).slice(-2); }));
 
           // console.log(d3.stack().keys(keys.slice().reverse())(data))
         svg.append("text")
@@ -80,7 +88,15 @@ d3.csv(dataSource,
         g.append("g")
             .style("font", font_size)
               .attr("transform", "translate(0," + height + ")")
-              .call(d3.axisBottom(x));
+
+              .call(d3.axisBottom(x_label))
+            .selectAll("text")
+                .attr("y", 0)
+                .attr("x", -50)
+                // .attr("x", 9)
+                .attr("dy", ".35em")
+                .attr("transform", "rotate(-90)")
+                .style("text-anchor", "start");
 
         g.append("g")
               // .attr("class", "axis")
@@ -136,7 +152,7 @@ d3.csv(dataSource,
                   let x = i * 150 - 550
                   if (i==2)
                       x = -237
-                  return "translate(" + x + ",450)"; });
+                  return "translate(" + x + ",460)"; });
 
           legend.append("rect")
               .attr("x", width - 19)
@@ -171,7 +187,13 @@ d3.csv(dataSource,
               // .attr("class", "axis")
               .style("font", font_size)
               .attr("transform", "translate(0," + height + ")")
-              .call(d3.axisBottom(x));
+              .call(d3.axisBottom(x_label))
+              .selectAll("text")
+                    .attr("y", 0)
+                     .attr("x", -50)
+                    .attr("dy", ".35em")
+                    .attr("transform", "rotate(-90)")
+                    .style("text-anchor", "start");
 
           g_per.append("g")
               .style("font", font_size)
@@ -228,7 +250,7 @@ d3.csv(dataSource,
                   let x = i * 150 - 550
                   if (i==2)
                       x = -237
-                  return "translate(" + x + ",450)";});
+                  return "translate(" + x + ",460)";});
 
           legend.append("rect")
               .attr("x", width - 19)
@@ -266,8 +288,14 @@ d3.csv(dataSource,
 
         g_acc.append("g")
             .style("font", font_size)
-              .attr("transform", "translate(0," + height + ")")
-              .call(d3.axisBottom(x));
+            .attr("transform", "translate(0," + height + ")")
+            .call(d3.axisBottom(x_label))
+            .selectAll("text")
+                .attr("y", 0)
+                 .attr("x", -50)
+                .attr("dy", ".35em")
+                .attr("transform", "rotate(-90)")
+                .style("text-anchor", "start");
 
         g_acc.append("g")
               // .attr("class", "axis")
@@ -323,7 +351,7 @@ d3.csv(dataSource,
                   let x = i * 150 - 550
                   if (i==2)
                       x = -237
-                  return "translate(" + x + ",450)";
+                  return "translate(" + x + ",460)";
               });
 
           legend.append("rect")
