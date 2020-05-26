@@ -10,7 +10,7 @@ function WordCloud(options) {
               .attr('width', w)
 
   // set the ranges for the scales
-  var xScale = d3.scaleLinear().range([10, 100]);
+  var xScale = d3.scaleLinear().range([30, 100]);
 
   var focus = svg.append('g')
                  .attr("transform", "translate(" + [w_g/2+margin.left, h_g/2+margin.top] + ")")
