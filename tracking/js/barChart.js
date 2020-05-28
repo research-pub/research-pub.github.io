@@ -384,56 +384,56 @@ d3.json(data_source, function(error, data_json){
     console.log(array_ls)
     console.log(array_dates)
 
-
- let ds_list = []
-  for (let i = 0; i < array_dates.length; i++) {
-      let dict = {}
-      const current_value = array_ls[i],
-            current_total = current_value.reduce((a, b) => a + b, 0)
-      if (ds_list.length > 0) {
-          const last_value = ds_list[ i - 1]
-          // dict["date"] = current_value.date
-          dict["date_str"] = array_dates[i]
-          dict["positive"] = current_value[0]
-          dict["negative"] = current_value[1]
-          dict["neutral"] = current_value[2]
-          dict["perc_positive"] = (current_value[0]/current_total).toFixed(4);
-          dict["perc_negative"] = (current_value[1]/current_total).toFixed(4);
-          dict["perc_neutral"] =  (current_value[2]/current_total).toFixed(4);
-          dict["acc_positive"] = current_value[0] + last_value.acc_positive
-          dict["acc_negative"] = current_value[1] + last_value.acc_negative
-          dict["acc_neutral"] = current_value[2] + last_value.acc_neutral
-          ds_list.push(dict)
-      } else {
-          dict["date_str"] = array_dates[i]
-          dict["positive"] = current_value[0]
-          dict["negative"] = current_value[1]
-          dict["neutral"] = current_value[2]
-          dict["perc_positive"] = (current_value[0]/current_total).toFixed(4);
-          dict["perc_negative"] = (current_value[1]/current_total).toFixed(4);
-          dict["perc_neutral"] =  (current_value[2]/current_total).toFixed(4);
-          dict["acc_positive"] = current_value[0]
-          dict["acc_negative"] = current_value[1]
-          dict["acc_neutral"] = current_value[2]
-          ds_list.push(dict)
-      }
-  }
-  console.log(ds_list)
-
-  let csvContent = "data:text/csv;charset=utf-8,"
-  let keys = Object.keys(ds_list[0])
-    csvContent += keys.join() + "\r\n";
-  ds_list.forEach(function(rowArray) {
-      let vals = Object.values(rowArray)
-    let row = vals.join();
-    csvContent += row + "\r\n";
-});
-var encodedUri = encodeURI(csvContent);
-var link = document.createElement("a");
-link.setAttribute("href", encodedUri);
-link.setAttribute("download", "my_data_aus.csv");
-document.body.appendChild(link); // Required for FF
-link.click(); // This will download the data file named "my_data_aus.csv".
+//
+//  let ds_list = []
+//   for (let i = 0; i < array_dates.length; i++) {
+//       let dict = {}
+//       const current_value = array_ls[i],
+//             current_total = current_value.reduce((a, b) => a + b, 0)
+//       if (ds_list.length > 0) {
+//           const last_value = ds_list[ i - 1]
+//           // dict["date"] = current_value.date
+//           dict["date_str"] = array_dates[i]
+//           dict["positive"] = current_value[0]
+//           dict["negative"] = current_value[1]
+//           dict["neutral"] = current_value[2]
+//           dict["perc_positive"] = (current_value[0]/current_total).toFixed(4);
+//           dict["perc_negative"] = (current_value[1]/current_total).toFixed(4);
+//           dict["perc_neutral"] =  (current_value[2]/current_total).toFixed(4);
+//           dict["acc_positive"] = current_value[0] + last_value.acc_positive
+//           dict["acc_negative"] = current_value[1] + last_value.acc_negative
+//           dict["acc_neutral"] = current_value[2] + last_value.acc_neutral
+//           ds_list.push(dict)
+//       } else {
+//           dict["date_str"] = array_dates[i]
+//           dict["positive"] = current_value[0]
+//           dict["negative"] = current_value[1]
+//           dict["neutral"] = current_value[2]
+//           dict["perc_positive"] = (current_value[0]/current_total).toFixed(4);
+//           dict["perc_negative"] = (current_value[1]/current_total).toFixed(4);
+//           dict["perc_neutral"] =  (current_value[2]/current_total).toFixed(4);
+//           dict["acc_positive"] = current_value[0]
+//           dict["acc_negative"] = current_value[1]
+//           dict["acc_neutral"] = current_value[2]
+//           ds_list.push(dict)
+//       }
+//   }
+//   console.log(ds_list)
+//
+//   let csvContent = "data:text/csv;charset=utf-8,"
+//   let keys = Object.keys(ds_list[0])
+//     csvContent += keys.join() + "\r\n";
+//   ds_list.forEach(function(rowArray) {
+//       let vals = Object.values(rowArray)
+//     let row = vals.join();
+//     csvContent += row + "\r\n";
+// });
+// var encodedUri = encodeURI(csvContent);
+// var link = document.createElement("a");
+// link.setAttribute("href", encodedUri);
+// link.setAttribute("download", "my_data_aus.csv");
+// document.body.appendChild(link); // Required for FF
+// link.click(); // This will download the data file named "my_data_aus.csv".
 // Australia Plus All states Dta----------------------------------------------------------------end---------
 
     // only Australia Dta-------------------------------------------------------------------------
